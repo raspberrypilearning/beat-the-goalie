@@ -1,5 +1,5 @@
 --- challenge ---
-## Challenge: Goal!
+## Challenge: goal!
 Can you play a sound and code your goalie to say 'Goal!' when a goal has been scored?
 
 Remember that a goal has been scored if the ball is not touching the goalie.
