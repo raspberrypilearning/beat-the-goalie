@@ -1,5 +1,5 @@
 --- challenge ---
-## Challenge: Manual control
+## Challenge: manual control
 Instead of the ball moving left and right automatically, can you allow your player to control the ball with the `a` and `d` keys?
 
 To do this you'll need to remove the code for moving the ball left and right.

@@ -1,5 +1,5 @@
 --- challenge ---
-## Challenge: Adding a score
+## Challenge: adding a score
 Can you add a `score` variable to your game?
 
 + You should set the score to 0 at the start of the game;
