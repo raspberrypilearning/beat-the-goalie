@@ -2,10 +2,7 @@
 
 In this project you'll learn how to create a football game in which you have to score as many goals as you can in 30 seconds.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/57437924/?autostart=false" frameborder="0"></iframe>
-  <img src="images/goalie-final.png">
-</div>
+![screenshot](images/goalie.gif)
 
 ### Additional information for club leaders
 
