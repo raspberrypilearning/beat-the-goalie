@@ -22,6 +22,7 @@ Remember that a goal has been scored if the ball is not touching the goalie.
 
 You will need these blocks:
 
+```blocks
 broadcast [goal v]
 
 say [Goal!] for (1) secs
@@ -29,6 +30,7 @@ say [Goal!] for (1) secs
 when I receive [goal v]
 
 play sound [cheer v]
+```
 
 --- /hint ---
 
@@ -63,11 +65,3 @@ say [Goal!] for (1) secs
 
 
 --- /task ---
-
-
-Here are some code blocks you'll need:
-
-![screenshot](images/goalie-goal-code.png)
-
-
-
