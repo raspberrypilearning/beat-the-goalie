@@ -2,31 +2,115 @@
 
 Let's code the ball to move across the bottom of the stage.
 
+--- task ---
 
+Open the 'Beat the Goalie' Scratch starter project.
 
-+ Open the 'Beat the Goalie' Scratch project. Your club leader will give you a copy of this project, or you can open it online at <a href="http://jumpto.cc/goalie-resources" target="_blank">jumpto.cc/goalie-resources</a>.
+**Online**: open the starter project at [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){:target="_blank"}.
 
-+ Click on your football sprite. Add this code, so that the football moves along the bottom of the screen until the space bar is pressed.
+**Offline**: open the [starter project](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} in the offline editor.
 
-	![screenshot](images/goalie-football-move-code.png)
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-+ Click the green flag to test your project. Your football should bounce along the bottom of the screen until the space bar is pressed.
+In the starter project, you should see a blank backdrop and a skier sprite.
 
-	![screenshot](images/goalie-football-move-test.png)
+![starter projects](images/goalie-starter.png)
 
-+ Add this code to your football sprite, so that the football moves towards the goal after the space bar has been pressed.
+--- /task ---
 
-	![screenshot](images/goalie-football-ypos-code.png)
+--- task ---
 
-+ Click the green flag to test your code. This time, press the space bar and your football should move towards the goal.
+Click on your football sprite. Add this code, so that the football moves along the bottom of the screen until the space bar is pressed.
 
-	![screenshot](images/goalie-football-ypos-test.png)
+![football sprite](images/football-sprite.png)
 
-+ Click the green flag to test your code. What happens if you click the flag a second time? Can you use this block to fix the problem?
+```blocks
+when green flag clicked
+repeat until <key [space v] pressed?>
+move (10) steps
+if on edge, bounce
+end
+```
+--- /task ---
 
-	```blocks
-		go to x:(-180) y:(-140)
-	```
+--- task ---
 
+Click the green flag to test your project. Your football should bounce along the bottom of the screen until the space bar is pressed.
 
+![screenshot](images/goalie-football-move-test.png)
+
+--- /task ---
+
+--- task ---
+
+Add this code to your football sprite, so that the football moves towards the goal after the space bar has been pressed.
+
+![football sprite](images/football-sprite.png)
+
+```blocks
+when green flag clicked
+repeat until <key [space v] pressed?>
+move (10) steps
+if on edge, bounce
+end
++ repeat (15)
+change y by (10)
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Click the green flag to test your code. This time, press the space bar and your football should move towards the goal.
+
+![screenshot](images/goalie-football-ypos-test.png)
+
+--- /task ---
+
+--- task ---
+
+Click the green flag to test your code. What happens if you click the flag a second time? Can you fix the problem?
+
+--- hints ---
+
+--- hint ---
+
+After the `green flag is clicked`{:class="blockevents"} the sprite will have to `go to`{:class="blockmotion"} back to the start.
+
+--- /hint ---
+
+--- hint ---
+
+You will need this block:
+
+```blocks
+go to x:(-200) y:(-140)
+```
+
+--- /hint ---
+
+--- hint ---
+
+Your code should look like this:
+
+![football sprite](images/football-sprite.png)
+
+```blocks
+when green flag clicked
++ go to x:(-200) y:(-140)
+repeat until <key [space v] pressed?>
+move (10) steps
+if on edge, bounce
+end
+repeat (15)
+change y by (10)
+end
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
 

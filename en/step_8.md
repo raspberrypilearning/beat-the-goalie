@@ -1,19 +1,39 @@
 --- challenge ---
-## Challenge: more controls
-Can you code your goalie to move to the right when the right arrow key is pressed? You can use either of the 2 ways above.
+## Challenge: manual control
+Instead of the ball moving left and right automatically, can you allow your player to control the ball with the `a` and `d` keys?
 
-You could even use this code (in a separate script) to make your goalie jump when the up arrow key is pressed:
+To do this you’ll need to remove the code for moving the ball left and right.
 
 ```blocks
-repeat (10)
-	change y by (10)
-end
-repeat (10)
-	change y by (-10)
+when green flag clicked
+forever
+	go to x:(-200) y:(-140)
+	repeat until <key [space v] pressed?>
+-		move (10) steps
+-		if on edge, bounce
+	end
+	repeat (15)
+		change y by (10)
+	end
+	if <touching [goalie v]> then
+		play sound [rattle v]
+		broadcast [save v]
+	else
+		play sound [cheer v]
+		broadcast [goal v]
+	end
 end
 ```
 
+You can then add code to move the ball when the keys are pressed. Here are some code blocks to help you:
 
+```blocks
+change x by (-5)
 
+if <> then 
+end
+
+<key [a v] pressed>
+```
 
 --- /challenge ---

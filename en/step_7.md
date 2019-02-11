@@ -2,21 +2,64 @@
 
 It's far too easy to score a goal! Let's allow a second player to try and save goals.
 
+--- task ---
 
+Click on your __Goalie__ sprite and add this code to change the goalie's x position when the left arrow is pressed.
 
-+ Click on your __Goalie__ sprite and add this code to change the goalie's x position when the left arrow is pressed.
+![goalie sprite](images/goalie-sprite.png)
 
-	![screenshot](images/goalie-move-left-code.png)
+```blocks
+when [left arrow v] key pressed
+change x by (-10)
+```
 
-+ Press the left arrow to test your new code. Your goalie should move to the left.
+--- /task ---
 
-	![screenshot](images/goalie-move-left-test.png)
+--- task ---
 
-+ Have you noticed that your goalie doesn't move very smoothly? If you want smoother movement, you can use this code __instead of the code you just added__.
+Press the left arrow to test your new code. Your goalie should move to the left.
 
-	![screenshot](images/goalie-move-left-smooth.png)
+![screenshot](images/goalie-move-left-test.png)
 
-+ Test your code again, this time by __clicking the green flag and then holding the left arrow key__. Does your goalie move more smoothly?
+--- /task ---
 
+--- task ---
 
+Use blocks similar to the ones above to make the __Goalie__ move to the right `when the right arrow key is pressed`{:class="blockevents"}.
 
+--- hints ---
+
+--- hint ---
+
+Add blocks to your code so `when the right arrow key is pressed`{:class="block3events"}, the __Goalie__ `y position is changed by 10`{:class="block3motion"}.
+
+--- /hint ---
+
+--- hint ---
+
+You will need these blocks:
+
+```blocks
+change x by (10)
+
+when [right arrow v] key pressed
+```
+
+--- /hint ---
+
+--- hint ---
+
+Your code should look like this:
+
+![goalie sprite](images/goalie-sprite.png)
+
+```blocks
+when [right arrow v] key pressed
+change x by (10)
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
