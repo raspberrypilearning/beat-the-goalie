@@ -41,7 +41,7 @@ Your code should look like this:
 ![football sprite](images/football-sprite.png)
 
 ```blocks3
-if <touching [goalie v]> then
+if <touching (goalie v)> then
 play sound (rattle v)
 broadcast (save v)
 else

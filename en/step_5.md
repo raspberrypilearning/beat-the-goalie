@@ -32,7 +32,7 @@ Next, you'll need to add a `repeat until`{:class="block3control"} block, so that
 ```blocks3
 when green flag clicked
 set [timer v] to [30]
-+repeat until <(timer) = [0]>
++repeat until <(timer :: variables) = [0]>
 end
 ```
 
@@ -47,7 +47,7 @@ Reduce your timer by 1 every second until it reaches 0.
 ```blocks3
 when green flag clicked
 set [timer v] to [30]
-repeat until <(timer) = [0]>
+repeat until <(timer :: variables) = [0]>
 +wait (1) seconds
 +change [timer v] by (-1)
 end
@@ -64,7 +64,7 @@ Once the timer has reached 0, you should play the 'whistle' sound and then stop 
 ```blocks3
 when green flag clicked
 set [timer v] to [30]
-repeat until <(timer) = [0]>
+repeat until <(timer :: variables) = [0]>
 wait (1) seconds
 change [timer v] by (-1)
 end
@@ -101,7 +101,7 @@ when green flag clicked
 	repeat (15)
 		change y by (10)
 	end
-	if <touching [goalie v]> then
+	if <touching (goalie v)> then
 		play sound (rattle v)
 		broadcast (save v)
 	else

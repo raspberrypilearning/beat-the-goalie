@@ -12,7 +12,7 @@ Add this code to the end of your football sprite code, so that you can check whe
 repeat (15)
 change y by (10)
 end
-+if <touching [goalie v]> then
++if <touching (goalie v)> then
 else
 end
 ```
@@ -26,7 +26,7 @@ end
 ![football sprite](images/football-sprite.png)
 
 ```blocks3
-if <touching [goalie v]> then
+if <touching (goalie v)> then
 +play sound (rattle v)
 else
 end
@@ -43,7 +43,7 @@ Broadcast a 'save' message when the ball has been saved.
 ![football sprite](images/football-sprite.png)
 
 ```blocks3
-if <touching [goalie v]> then
+if <touching (goalie v)> then
 play sound (rattle v)
 +broadcast (save v)
 else

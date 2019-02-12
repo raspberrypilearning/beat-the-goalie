@@ -15,7 +15,7 @@ forever
 	repeat (15)
 		change y by (10)
 	end
-	if <touching [goalie v]> then
+	if <touching (goalie v)> then
 		play sound (rattle v)
 		broadcast (save v)
 	else
@@ -33,7 +33,7 @@ change x by (-5)
 if <> then 
 end
 
-<key [a v] pressed>
+<key (a v) pressed>
 ```
 
 --- /challenge ---
