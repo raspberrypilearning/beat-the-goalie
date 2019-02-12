@@ -12,9 +12,9 @@ Remember that a goal has been scored if the ball is not touching the goalie.
 
 --- hint ---
 
-`If the football is not`{:class="blockcontrol"} `touching the goalie`{:class="blocksensing"} your program should `play cheer`{:class="blocksound"} and `broadcast a goal message`{:class="blockevents"}.
+`If the football is not`{:class="block3control"} `touching the goalie`{:class="block3sensing"} your program should `play cheer`{:class="block3sound"} and `broadcast a goal message`{:class="block3events"}.
 
-`When the goalie receives the goal message`{:class="blockevents"} it should `say goal`{:class="blocklooks"}.
+`When the goalie receives the goal message`{:class="block3events"} it should `say goal`{:class="block3looks"}.
 
 --- /hint ---
 
@@ -22,14 +22,14 @@ Remember that a goal has been scored if the ball is not touching the goalie.
 
 You will need these blocks:
 
-```blocks
-broadcast [goal v]
+```blocks3
+broadcast (goal v)
 
-say [Goal!] for (1) secs
+say [Goal!] for (1) seconds
 
 when I receive [goal v]
 
-play sound [cheer v]
+play sound (cheer v)
 ```
 
 --- /hint ---
@@ -40,21 +40,21 @@ Your code should look like this:
 
 ![football sprite](images/football-sprite.png)
 
-```blocks
+```blocks3
 if <touching [goalie v]> then
-play sound [rattle v]
-broadcast [save v]
+play sound (rattle v)
+broadcast (save v)
 else
-+ play sound [cheer v]
-+ broadcast [goal v]
++ play sound (cheer v)
++ broadcast (goal v)
 end
 ```
 
 ![goalie sprite](images/goalie-sprite.png)
 
-```blocks
+```blocks3
 when I receive [goal v]
-say [Goal!] for (1) secs
+say [Goal!] for (1) seconds
 ```
 
 --- /hint ---

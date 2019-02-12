@@ -12,7 +12,7 @@ Open the 'Beat the Goalie' Scratch starter project.
 
 If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a blank backdrop and a skier sprite.
+In the starter project, you should see a blank backdrop, a football and goalie sprite.
 
 ![starter projects](images/goalie-starter.png)
 
@@ -24,9 +24,9 @@ Click on your football sprite. Add this code, so that the football moves along t
 
 ![football sprite](images/football-sprite.png)
 
-```blocks
+```blocks3
 when green flag clicked
-repeat until <key [space v] pressed?>
+repeat until <key (space v) pressed?>
 move (10) steps
 if on edge, bounce
 end
@@ -47,9 +47,9 @@ Add this code to your football sprite, so that the football moves towards the go
 
 ![football sprite](images/football-sprite.png)
 
-```blocks
+```blocks3
 when green flag clicked
-repeat until <key [space v] pressed?>
+repeat until <key (space v) pressed?>
 move (10) steps
 if on edge, bounce
 end
@@ -76,7 +76,7 @@ Click the green flag to test your code. What happens if you click the flag a sec
 
 --- hint ---
 
-After the `green flag is clicked`{:class="blockevents"} the sprite will have to `go to`{:class="blockmotion"} back to the start.
+After the `green flag is clicked`{:class="block3events"} the sprite will have to `go to`{:class="block3motion"} back to the start.
 
 --- /hint ---
 
@@ -84,7 +84,7 @@ After the `green flag is clicked`{:class="blockevents"} the sprite will have to 
 
 You will need this block:
 
-```blocks
+```blocks3
 go to x:(-200) y:(-140)
 ```
 
@@ -96,10 +96,10 @@ Your code should look like this:
 
 ![football sprite](images/football-sprite.png)
 
-```blocks
+```blocks3
 when green flag clicked
 + go to x:(-200) y:(-140)
-repeat until <key [space v] pressed?>
+repeat until <key (space v) pressed?>
 move (10) steps
 if on edge, bounce
 end

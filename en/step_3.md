@@ -8,7 +8,7 @@ Add this code to the end of your football sprite code, so that you can check whe
 
 ![football sprite](images/football-sprite.png)
 
-```blocks
+```blocks3
 repeat (15)
 change y by (10)
 end
@@ -21,13 +21,13 @@ end
 
 --- task ---
 
-`Play the 'rattle' sound`{:class="blocksound"} `if the goalie has saved the ball`{:class="blockcontrol"}.
+`Play the 'rattle' sound`{:class="block3sound"} `if the goalie has saved the ball`{:class="block3control"}.
 
 ![football sprite](images/football-sprite.png)
 
-```blocks
+```blocks3
 if <touching [goalie v]> then
-+play sound [rattle v]
++play sound (rattle v)
 else
 end
 ```
@@ -42,10 +42,10 @@ Broadcast a 'save' message when the ball has been saved.
 
 ![football sprite](images/football-sprite.png)
 
-```blocks
+```blocks3
 if <touching [goalie v]> then
-play sound [rattle v]
-+broadcast [save v]
+play sound (rattle v)
++broadcast (save v)
 else
 end
 ```
@@ -58,9 +58,9 @@ You can now code your goalie to say 'Save!' when they receive the message.
 
 ![goalie sprite](images/goalie-sprite.png)
 
-```blocks
+```blocks3
 when I receive [save v]
-say [Save!] for (1) secs
+say [Save!] for (1) seconds
 ```
 --- /task ---
 

@@ -1,3 +1,9 @@
+--- no-print ---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/beat-the-goalie-scratch2).
+
+--- /no-print ---
+
 ## Introduction
 
 In this project you'll learn how to create a 2 player football game in which you have to score as many goals as you can in 30 seconds.
@@ -33,11 +39,11 @@ title: What you will need
 
 #### Hardware
 
-+ A computer capable of running Scratch 2
++ A computer capable of running Scratch 3
 
 #### Software
 
-+ Scratch 2 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 #### Downloads
 
