@@ -27,7 +27,7 @@ end
 
 ```blocks3
 if <touching (goalie v)> then
-+play sound (rattle v)
++start sound (rattle v)
 else
 end
 ```
@@ -44,7 +44,7 @@ Broadcast a 'save' message when the ball has been saved.
 
 ```blocks3
 if <touching (goalie v)> then
-play sound (rattle v)
+start sound (rattle v)
 +broadcast (save v)
 else
 end

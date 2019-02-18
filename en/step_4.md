@@ -29,7 +29,7 @@ say [Goal!] for (1) seconds
 
 when I receive [goal v]
 
-play sound (cheer v)
+start sound (cheer v)
 ```
 
 --- /hint ---
@@ -42,10 +42,10 @@ Your code should look like this:
 
 ```blocks3
 if <touching (goalie v)> then
-play sound (rattle v)
+start sound (rattle v)
 broadcast (save v)
 else
-+ play sound (cheer v)
++ start sound (cheer v)
 + broadcast (goal v)
 end
 ```

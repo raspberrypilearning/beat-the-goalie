@@ -102,10 +102,10 @@ when green flag clicked
 		change y by (10)
 	end
 	if <touching (goalie v)> then
-		play sound (rattle v)
+		start sound (rattle v)
 		broadcast (save v)
 	else
-		play sound (cheer v)
+		start sound (cheer v)
 		broadcast (goal v)
 	end
 end
