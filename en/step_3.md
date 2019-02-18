@@ -21,7 +21,7 @@ end
 
 --- task ---
 
-`Play the 'rattle' sound`{:class="block3sound"} `if the goalie has saved the ball`{:class="block3control"}.
+`Start the 'rattle' sound`{:class="block3sound"} `if the goalie has saved the ball`{:class="block3control"}.
 
 ![football sprite](images/football-sprite.png)
 

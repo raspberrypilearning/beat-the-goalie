@@ -57,7 +57,7 @@ end
 
 --- task ---
 
-Once the timer has reached 0, you should play the 'whistle' sound and then stop the game.
+Once the timer has reached 0, you should `play the 'whistle' sound`{:class="block3sound"} and then stop the game.
 
 ![stage sprite](images/stage-sprite.png)
 

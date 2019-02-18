@@ -12,7 +12,7 @@ Remember that a goal has been scored if the ball is not touching the goalie.
 
 --- hint ---
 
-`If the football is not`{:class="block3control"} `touching the goalie`{:class="block3sensing"} your program should `play cheer`{:class="block3sound"} and `broadcast a goal message`{:class="block3events"}.
+`If the football is not`{:class="block3control"} `touching the goalie`{:class="block3sensing"} your program should `start the cheer sound`{:class="block3sound"} and `broadcast a goal message`{:class="block3events"}.
 
 `When the goalie receives the goal message`{:class="block3events"} it should `say goal`{:class="block3looks"}.
 
