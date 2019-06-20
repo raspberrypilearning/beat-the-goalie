@@ -62,6 +62,6 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 --- /no-print ---
 
-You can download the completed project at [rpf.io/p/en/beat-the-goalie-get](http://rpf.io/p/en/beat-the-goalie-get).
+You can find the [completed project here](http://rpf.io/p/en/beat-the-goalie-get).
 
 --- /collapse ---
