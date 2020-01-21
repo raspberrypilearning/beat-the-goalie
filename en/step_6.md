@@ -1,4 +1,5 @@
 --- challenge ---
+
 ## Challenge: adding a score
 Can you add a `score`{:class="block3variables"} variable to your game?
 
