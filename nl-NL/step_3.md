@@ -1,74 +1,74 @@
-## Was it a goal?
+## Was het een doelpunt?
 
-Once the ball has reached the goal, there's a decision to make. __If__ the ball is touching the goalie then it has been saved, __else__ it's a goal.
+Zodra de bal het doel heeft bereikt, moet er een beslissing worden genomen. __Als__ de bal de keeper raakt, dan is het een redding, __anders__ is het een doelpunt.
 
 --- task ---
 
-Add this code to the end of your football sprite code, so that you can check whether the ball is touching the goalie.
+Voeg deze code toe aan het einde van je voetbal sprite code, zodat je kunt controleren of de bal de keeper raakt.
 
-![football sprite](images/football-sprite.png)
+![voetbal sprite](images/football-sprite.png)
 
 ```blocks3
-repeat (15)
-change y by (10)
-end
-+if <touching (goalie v)> then
-else
-end
+herhaal (15)
+verander y met (10)
+einde
++ als <raak ik (goalie v) ?> dan
+anders
+einde
 ```
 
 --- /task ---
 
 --- task ---
 
-`Start the 'rattle' sound`{:class="block3sound"} `if the goalie has saved the ball`{:class="block3control"}.
+`Start het 'rammelaar'-geluid`{:class="block3sound"} `als de keeper de bal heeft tegengehouden`{:class="block3control"}.
 
-![football sprite](images/football-sprite.png)
+![voetbal sprite](images/football-sprite.png)
 
 ```blocks3
-if <touching (goalie v)> then
-+start sound (rattle v)
-else
-end
+als <raak ik (goalie) ?> dan
++ start geluid (rattle v)
+anders
+einde
 ```
 
 --- /task ---
 
 --- task ---
 
-You can also broadcast a message to the goalie, so that they can tell you that the ball has been saved.
+Je kunt ook een bericht naar de keeper sturen, zodat deze je kan vertellen dat de bal is tegengehouden.
 
-Broadcast a 'save' message when the ball has been saved.
+Verzend een 'save' bericht wanneer de bal is opgeslagen.
 
-![football sprite](images/football-sprite.png)
+![voetbal sprite](images/football-sprite.png)
 
 ```blocks3
-if <touching (goalie v)> then
-start sound (rattle v)
-+broadcast (save v)
-else
-end
+als <raak ik (goalie v) ?> dan
+start geluid (rattle v)
++ zend signaal (save v)
+anders
+einde
 ```
 
 --- /task ---
 
 --- task ---
 
-You can now code your goalie to say 'Save!' when they receive the message.
+Je kunt nu je keeper programmeren om 'Save!' te zeggen wanneer ze het bericht ontvangen.
 
-![goalie sprite](images/goalie-sprite.png)
+![keeper sprite](images/goalie-sprite.png)
 
 ```blocks3
-when I receive [save v]
-say [Save!] for (1) seconds
+wanneer ik signaal [save v] ontvang
+zeg [Save!] (1) sec.
 ```
 
 --- /task ---
 
 --- task ---
 
-Test your code by trying to score a goal. If your goalie saves the goal they should say 'Save!'.
+Test je code door te proberen te scoren. Als je keeper de bal tegenhoudt, moet hij 'Save!' zeggen.
 
-![screenshot](images/goalie-save-test.png)
+![schermafbeelding](images/goalie-save-test.png)
 
 --- /task ---
