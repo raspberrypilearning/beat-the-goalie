@@ -1,114 +1,114 @@
-## Moving the football
+## De bal verplaatsen
 
-Let's code the ball to move across the bottom of the stage.
+Laten we de bal programmeren om over de onderkant van het speelveld te bewegen.
 
 --- task ---
 
-Open the 'Beat the Goalie' Scratch starter project.
+Open het 'Beat the Goalie' Scratch-startproject.
 
-**Online**: open the starter project at [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){:target="_blank"}.
+**Online**: open het startproject op [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){: target = "_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Als je een Scratch account hebt, kun je een kopie maken door op **Remix** te klikken.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} in the offline editor.
+**Offline**: open het [startproject](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} in de offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a goal backdrop, a football and goalie sprite.
+In het startproject zou je een doelachtergrond, een voetbal en een keeper sprite moeten zien.
 
-![starter projects](images/goalie-starter.png)
+![startprojecten](images/goalie-starter.png)
 
 --- /task ---
 
 --- task ---
 
-Click on your football sprite. Add this code, so that the football moves along the bottom of the screen until the space bar is pressed.
+Klik op je voetbalsprite. Voeg deze code toe, zodat het voetbal langs de onderkant van het scherm beweegt totdat de spatiebalk wordt ingedrukt.
 
-![football sprite](images/football-sprite.png)
+![voetbal sprite](images/football-sprite.png)
 
 ```blocks3
-when green flag clicked
-repeat until <key (space v) pressed?>
-move (10) steps
-if on edge, bounce
-end
+wanneer op de groene vlag wordt geklikt
+herhaal tot < toets (spatiebalk v) ingedrukt?>
+neem (10) stappen
+keer om aan de rand
+einde
 ```
 
 --- /task ---
 
 --- task ---
 
-Click the green flag to test your project. Your football should bounce along the bottom of the screen until the space bar is pressed.
+Klik op de groene vlag om je project te testen. Je voetbal zou langs de onderkant van het scherm moeten stuiteren totdat de spatiebalk wordt ingedrukt.
 
-![screenshot](images/goalie-football-move-test.png)
+![schermafbeelding](images/goalie-football-move-test.png)
 
 --- /task ---
 
 --- task ---
 
-Add this code to your football sprite, so that the football moves towards the goal after the space bar has been pressed.
+Voeg deze code toe aan je voetbalsprite, zodat de voetbal richting het doel beweegt nadat de spatiebalk is ingedrukt.
 
-![football sprite](images/football-sprite.png)
+![voetbal sprite](images/football-sprite.png)
 
 ```blocks3
-when green flag clicked
-repeat until <key (space v) pressed?>
-move (10) steps
-if on edge, bounce
-end
-+ repeat (15)
-change y by (10)
-end
+wanneer op de groene vlag wordt geklikt
+herhaal tot < toets (spatiebalk v) ingedrukt?>
+neem (10) stappen
+keer om aan de rand
+einde
++ herhaal (15)
+verander y met (10)
+einde
 ```
 
 --- /task ---
 
 --- task ---
 
-Click the green flag to test your code. This time, press the space bar and your football should move towards the goal.
+Klik op de groene vlag om je code te testen. Druk deze keer op de spatiebalk en je voetbal zou naar het doel moeten gaan.
 
-![screenshot](images/goalie-football-ypos-test.png)
+![schermafbeelding](images/goalie-football-ypos-test.png)
 
 --- /task ---
 
 --- task ---
 
-Click the green flag to test your code. What happens if you click the flag a second time? Can you fix the problem?
+Klik op de groene vlag om je code te testen. Wat gebeurt er als je een tweede keer op de vlag klikt? Kun jij het probleem oplossen?
 
 --- hints ---
 
 --- hint ---
 
-After the `green flag is clicked`{:class="block3events"} the sprite will have to `go to`{:class="block3motion"} back to the start.
+Nadat op de groene vlag `is geklikt`{:class="block3events"} moet de sprite `teruggaan`{:class="block3motion"} naar het begin.
 
 --- /hint ---
 
 --- hint ---
 
-You will need this block:
+Je hebt dit blok nodig:
 
 ```blocks3
-go to x:(-200) y:(-140)
+ga naar x:(- 200) y:(- 140)
 ```
 
 --- /hint ---
 
 --- hint ---
 
-Your code should look like this:
+Je code zou er als volgt uit moeten zien:
 
-![football sprite](images/football-sprite.png)
+![voetbal sprite](images/football-sprite.png)
 
 ```blocks3
-when green flag clicked
-+ go to x:(-200) y:(-140)
-repeat until <key (space v) pressed?>
-move (10) steps
-if on edge, bounce
-end
-repeat (15)
-change y by (10)
-end
+wanneer op de groene vlag wordt geklikt
++ ga naar x:(- 200) y:(- 140)
+herhaal tot < toets (spatiebalk v) ingedrukt?>
+neem (10) stappen
+keer om aan de rand
+einde
+herhaal (15)
+verander y met (10)
+einde
 ```
 
 --- /hint ---
