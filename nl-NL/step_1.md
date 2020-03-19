@@ -1,18 +1,18 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/beat-the-goalie-scratch2).
+Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie van dit project](https://projects.raspberrypi.org/en/projects/beat-the-goalie-scratch2).
 
 --- /no-print ---
 
-## Introduction
+## Inleiding
 
-In this project you'll learn how to create a 2 player football game in which you have to score as many goals as you can in 30 seconds.
+In dit project leer je hoe je een voetbalspel voor 2 spelers maakt waarin je zoveel mogelijk doelpunten moet maken in 30 seconden.
 
-### What you will make
+### Wat ga je maken
 
 --- no-print ---
 
-Click the green flag to begin. Use the left and right arrow keys to control the goalie and press <kbd>space</kbd> to kick the ball.
+Klik op de groene vlag om te beginnen. Gebruik de linker en rechter pijltjestoetsen om de keeper te besturen en druk op <kbd>spatie</kbd> om de bal te schoppen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/285942132/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -22,51 +22,51 @@ Click the green flag to begin. Use the left and right arrow keys to control the 
 
 --- print-only ---
 
-![game screenshot](images/goalie-final.png)
+![game schermafbeelding](images/goalie-final.png)
 
 --- /print-only ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: Wat ga je leren
 ---
 
-- Recall how to use code to respond to key presses
-- Use sensing blocks to detect when sprites touch each other
-- Use broadcast blocks to communicate between sprites
+- Bedenk hoe je code kunt gebruiken om te reageren op toetsaanslagen
+- Gebruik waarnemingsblokken om te detecteren wanneer sprites elkaar raken
+- Gebruik signaalblokken om te communiceren tussen sprites
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will need
+title: Wat heb je nodig
 ---
 
 #### Hardware
 
-+ A computer capable of running Scratch 3
++ Een computer die Scratch 3 kan uitvoeren
 
 #### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} of [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 #### Downloads
 
-The starter project can be found [here](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"}.
+Het startproject kan [hier](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} gevonden worden.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: Aanvullende informatie voor docenten
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/beat-the-goalie/print){:target="_blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie ](https://projects.raspberrypi.org/en/projects/beat-the-goalie/print){:target="_ blank"}.
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/beat-the-goalie-get){:target="_blank"}.
+Je kunt het [voltooide project hier](http://rpf.io/p/en/beat-the-goalie-get)"{:target="_blank"} vinden.
 
 --- /collapse ---
