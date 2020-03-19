@@ -1,10 +1,10 @@
-## Adding a timer
+## Een timer toevoegen
 
-Let's add a timer, so that the player has to score as many goals as they can in 30 seconds.
+Laten we een timer toevoegen, zodat de speler binnen 30 seconden zoveel mogelijk doelpunten moet maken.
 
 --- task ---
 
-`Make a new variable`{:class="block3variables"} called `timer`{:class="block3variables"}.
+`Maak een nieuwe variabele`{:class="block3variables"} genaamd `timer`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,103 +12,103 @@ Let's add a timer, so that the player has to score as many goals as they can in 
 
 --- task ---
 
-Click on your __stage__, and add this code to set the `timer`{:class="block3variables"} to 30 at the start of the game.
+Klik op je __speelveld__ en voeg deze code toe om de `timer`{:class="block3variables"} in te stellen op 30 aan het begin van het spel.
 
-![stage sprite](images/stage-sprite.png)
+![speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
-when green flag clicked
-set [timer v] to [30]
+wanneer op de groene vlag wordt geklikt
+maak [timer v] [30]
 ```
 
 --- /task ---
 
 --- task ---
 
-Next, you'll need to add a `repeat until`{:class="block3control"} block, so that the timer can run until it gets to 0.
+Vervolgens moet je een `herhaal tot`{:class="block3control"} blok toevoegen, zodat de timer kan aftellen totdat deze op 0 komt.
 
-![stage sprite](images/stage-sprite.png)
+![speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
-when green flag clicked
-set [timer v] to [30]
-+repeat until <(timer :: variables) = [0]>
-end
+wanneer op de groene vlag wordt geklikt
+maak [timer v] [30]
++ herhaal tot <(timer :: variables) = [0]>
+einde
 ```
 
 --- /task ---
 
 --- task ---
 
-Reduce your timer by 1 every second until it reaches 0.
+Laat de timer aftellen 1 seconde totdat deze 0 bereikt.
 
-![stage sprite](images/stage-sprite.png)
+![speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
-when green flag clicked
-set [timer v] to [30]
-repeat until <(timer :: variables) = [0]>
-+wait (1) seconds
-+change [timer v] by (-1)
-end
+wanneer op de groene vlag wordt geklikt
+maak [timer v] [30]
+herhaal tot <(timer :: variables) = [0]>
++ wacht (1) sec.
++ verander [timer v] met (-1)
+einde
 ```
 
 --- /task ---
 
 --- task ---
 
-Once the timer has reached 0, you should `play the 'whistle' sound`{:class="block3sound"} and then stop the game.
+Zodra de timer 0 heeft bereikt, moet je `het 'fluit'-geluid`{:class="block3sound"} laten afspelen en vervolgens het spel stoppen.
 
-![stage sprite](images/stage-sprite.png)
+![speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
-when green flag clicked
-set [timer v] to [30]
-repeat until <(timer :: variables) = [0]>
-wait (1) seconds
-change [timer v] by (-1)
-end
-+play sound (whistle v) until done
-+stop [all v]
+wanneer op de groene vlag wordt geklikt
+maak [timer v] [30]
+herhaal tot <(timer :: variables) = [0]>
+wacht (1) sec.
+verander [timer v] met (-1)
+einde
++ start geluid (fluit v) en wacht
++ stop [alle v]
 ```
 
 --- /task ---
 
 --- task ---
 
-Click the green flag to test your code. Your timer should start at 30, and end at 0.
+Klik op de groene vlag om de code te testen. Je timer moet beginnen op 30 en eindigen op 0.
 
-![screenshot](images/goalie-timer-test.png)
+![schermafbeelding](images/goalie-timer-test.png)
 
-You can change your timer to start at 10 if you don't want to wait for 30 seconds!
+Je kunt je timer instellen om op 10 te starten als je niet 30 seconden wilt wachten!
 
 --- /task ---
 
 --- task ---
 
-You only have the chance to score 1 goal! To have more than 1 chance, add a `forever`{:class="block3control"} block around your __football__ code. You can also add a `wait`{:class="block3control"} block between attempts.
+Je hebt slechts de kans om 1 doelpunt te scoren! Om meer dan 1 kans te hebben, voeg een `herhaal`{:class="block3control"} blok aan de __voetbal__ code toe. Je kunt ook een `wacht`{:class="block3control"} blok tussen doelschoten toevoegen.
 
-![football sprite](images/football-sprite.png)
+![voetbal sprite](images/football-sprite.png)
 
 ```blocks3
-when green flag clicked
-+forever
-    go to x:(-200) y:(-140)
-    repeat until <key (space v) pressed?>
-        move (10) steps
-        if on edge, bounce
-    end
-    repeat (15)
-        change y by (10)
-    end
-    if <touching (goalie v)> then
-        start sound (rattle v)
-        broadcast (save v)
-    else
-        start sound (cheer v)
-        broadcast (goal v)
-    end
-end
+wanneer op de groene vlag wordt geklikt
++ herhaal
+    ga naar x:(- 200) y:(- 140)
+    herhaal tot < toets (spatiebalk v) ingedrukt?>
+        neem (10) stappen
+        keer om aan de rand
+    einde
+    herhaal (15)
+        verander y met ( 10)
+    einde
+    als <raak ik (goalie v) ?> dan
+        start geluid (rattle v)
+        zend signaal (save v)
+    anders
+        start geluid (cheer v)
+        zend signaal (goal v)
+    einde
+einde
 ```
 
 --- /task ---
