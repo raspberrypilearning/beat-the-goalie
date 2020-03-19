@@ -2,59 +2,59 @@
 
 --- task ---
 
-Can you play a sound and code your goalie to say 'Goal!' when a goal has been scored?
+Kun je een geluid laten afspelen en je keeper programmeren om te zeggen 'Goal!' wanneer er gescoord is?
 
-Remember that a goal has been scored if the ball is not touching the goalie.
+Vergeet niet dat er gescoord is als de bal de keeper niet raakt.
 
-![screenshot](images/goalie-goal-test.png)
+![schermafbeelding](images/goalie-goal-test.png)
 
 --- hints ---
 
 --- hint ---
 
-`If the football is not`{:class="block3control"} `touching the goalie`{:class="block3sensing"} your program should `start the cheer sound`{:class="block3sound"} and `broadcast a goal message`{:class="block3events"}.
+`Als de bal niet`{:class="block3control"} `de keeper`{:class="block3sensing"} aanraakt, moet je programma `het gejuich starten`{:class="block3sound"} en `een goal bericht uitzenden`{:class="block3events"}.
 
-`When the goalie receives the goal message`{:class="block3events"} it should `say goal`{:class="block3looks"}.
+`Wanneer de keeper het goal bericht`{:class="block3events"} ontvangt, moet hij `goal zeggen`{:class="block3looks"}.
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+Je hebt deze blokken nodig:
 
 ```blocks3
-broadcast (goal v)
+zend signaal (goal v)
 
-say [Goal!] for (1) seconds
+zeg [goal!] (1) sec.
 
-when I receive [goal v]
+wanneer ik signaal [goal v] ontvang
 
-start sound (cheer v)
+start geluid (cheer v)
 ```
 
 --- /hint ---
 
 --- hint ---
 
-Your code should look like this:
+Je code zou er als volgt uit moeten zien:
 
-![football sprite](images/football-sprite.png)
+![voetbal sprite](images/football-sprite.png)
 
 ```blocks3
-if <touching (goalie v)> then
-start sound (rattle v)
-broadcast (save v)
-else
-+ start sound (cheer v)
-+ broadcast (goal v)
-end
+als <raak ik (goalie v) ?> dan
+start geluid (rattle v)
+zend signaal (save v)
+anders
++ start geluid (cheer v)
++ zend signaal (goal v)
+einde
 ```
 
-![goalie sprite](images/goalie-sprite.png)
+![keeper sprite](images/goalie-sprite.png)
 
 ```blocks3
-when I receive [goal v]
-say [Goal!] for (1) seconds
+wanneer ik signaal [goal v] ontvang
+zeg [Goal!] (1) sec.
 ```
 
 --- /hint ---
