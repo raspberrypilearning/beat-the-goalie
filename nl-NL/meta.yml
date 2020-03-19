@@ -1,29 +1,29 @@
 ---
-title: Beat the goalie
+title: Versla de keeper
 hero_image: images/beat-the-goalie.png
-description: How many goals can you score in 30 seconds?
+description: Hoeveel doelpunten kun je in 30 seconden maken?
 listed: true
 copyedit: false
 version: 4
 last_tested: 2019-02-11
 steps:
   - 
-    title: Introduction
+    title: Inleiding
   - 
-    title: Moving the football
+    title: De bal verplaatsen
   - 
-    title: Was it a goal?
+    title: Was het een doelpunt?
   - 
     title: Goal!
   - 
-    title: Adding a timer
+    title: Een timer toevoegen
   - 
-    title: "Challenge: adding a score"
+    title: "Uitdaging: score toevoegen"
     challenge: true
   - 
-    title: Control the goalie
+    title: Bestuur de keeper
   - 
-    title: "Challenge: manual control"
+    title: "Uitdaging: handmatige bediening"
     challenge: true
   - 
-    title: What next?
+    title: Wat kun je verder nog doen?
