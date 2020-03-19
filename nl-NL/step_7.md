@@ -1,61 +1,61 @@
-## Control the goalie
+## Bestuur de keeper
 
-It's far too easy to score a goal! Let's allow a second player to try and save goals.
+Het is veel te gemakkelijk om een doelpunt te scoren! Laten we een tweede speler toestaan ballen tegen te houden.
 
 --- task ---
 
-Click on your __Goalie__ sprite and add this code to change the goalie's x position when the left arrow is pressed.
+Klik op je __Goalie__ sprite en voeg deze code toe om de x-positie van de keeper te wijzigen wanneer de linkerpijl wordt ingedrukt.
 
-![goalie sprite](images/goalie-sprite.png)
+![keeper sprite](images/goalie-sprite.png)
 
 ```blocks3
-when [left arrow v] key pressed
-change x by (-10)
+wanneer [pijltje links v] is ingedrukt
+verander x met (-10)
 ```
 
 --- /task ---
 
 --- task ---
 
-Press the left arrow to test your new code. Your goalie should move to the left.
+Druk op de pijl naar links om je nieuwe code te testen. Je keeper moet naar links gaan.
 
-![screenshot](images/goalie-move-left-test.png)
+![schermafbeelding](images/goalie-move-left-test.png)
 
 --- /task ---
 
 --- task ---
 
-Use blocks similar to the ones above to make the __Goalie__ move to the right `when the right arrow key is pressed`{:class="block3events"}.
+Gebruik blokken vergelijkbaar met die hierboven om __Goalie__ naar rechts `te laten bewegen wanneer de pijltoets naar rechts wordt ingedrukt`{:class="block3events"}.
 
 --- hints ---
 
 --- hint ---
 
-Add blocks to your code so `when the right arrow key is pressed`{:class="block3events"}, the __Goalie's__ `x position is changed by 10`{:class="block3motion"}.
+Voeg blokken toe aan de code zodat `wanneer de pijltoets naar rechts wordt ingedrukt`{:class="block3events"}, de positie van de __Goalie's__ `x wordt gewijzigd met 10`{:class="block3motion"}.
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+Je hebt deze blokken nodig:
 
 ```blocks3
-change x by (10)
+verander x met (10)
 
-when [right arrow v] key pressed
+wanneer [pijltje rechts v] is ingedrukt
 ```
 
 --- /hint ---
 
 --- hint ---
 
-Your code should look like this:
+Je code zou er als volgt uit moeten zien:
 
-![goalie sprite](images/goalie-sprite.png)
+![keeper sprite](images/goalie-sprite.png)
 
 ```blocks3
-when [right arrow v] key pressed
-change x by (10)
+wanneer [pijltje rechts v] is ingedrukt
+verander x met (10)
 ```
 
 --- /hint ---
