@@ -1,12 +1,12 @@
 --- challenge ---
 
-## Challenge: adding a score
-Can you add a `score`{:class="block3variables"} variable to your game?
+## تحدي: إضافة المزيد من الأهداف
+هل يمكنك استخدام متغير `النتيجة`{:class="block3variables"} لتخصيص اللعبة؟
 
-+ You should set the score to 0 at the start of the game;
-+ You should add 1 to your score every time a goal is scored.
++ يجب عليك ضبط النتيجة على 0 في بداية اللعبة؛
++ يجب عليك إضافة 1 إلى نتيجتك في كل مرة يتم فيها تسجيل هدف.
 
-You will need these blocks:
+ستحتاج إلى هذه الكتل:
 
 ```blocks3
 change [score v] by (1)
