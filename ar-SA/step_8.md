@@ -1,9 +1,9 @@
 --- challenge ---
 
-## Challenge: manual control
-Instead of the ball moving left and right automatically, can you allow your player to control the ball with the `a` and `d` keys?
+## التحدي: التحكم اليدوي
+بدلاً من تحريك الكرة يمينًا ويسارًا تلقائيًا، هل يمكنك السماح الاعب بالتحكم في الكرة باستخدام مفاتيح ` a ` و ` d `؟
 
-To do this you’ll need to remove the code for moving the ball left and right.
+للقيام بذلك، ستحتاج إلى إزالة الكود البرمجي لتحريك الكرة إلى اليسار وإلى اليمين.
 
 ```blocks3
 when green flag clicked
@@ -26,7 +26,7 @@ forever
 end
 ```
 
-You can then add code to move the ball when the keys are pressed. Here are some code blocks to help you:
+يمكنك بعد ذلك إضافة الكود البرمجي لتحريك الكرة عند الضغط على المفاتيح. هنا التعليمات البرمجية التي ستحتاج اليها:
 
 ```blocks3
 change x by (-5)
