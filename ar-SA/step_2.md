@@ -1,30 +1,30 @@
-## Moving the football
+## تحريك كرة القدم
 
-Let's code the ball to move across the bottom of the stage.
+دعونا نقوم ببرمجة الكرة للتحرك عبر أسفل المنصة.
 
 --- task ---
 
-Open the 'Beat the Goalie' Scratch starter project.
+افتح مشروع السكراتش Scratch 'تغلب على حارس المرمى'.
 
-**Online**: open the starter project at [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){:target="_blank"}.
+**متصل بالانترنت**: افتح مشروع البدء من هنا [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} in the offline editor.
+**دون اتصال بالانترنت**: افتح [افتح المشروع](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} عبر المحرر الموجود على جهازك.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+اذا تحتاج الى تنزيل وتنصيب برنامج السكراتش Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a goal backdrop, a football and goalie sprite.
+في بداية المشروع، من المفترض أن ترى خلفية الهدف مع علامة التصويب (+).
 
-![starter projects](images/goalie-starter.png)
+![مشروع البداية](images/goalie-starter.png)
 
 --- /task ---
 
 --- task ---
 
-Click on your football sprite. Add this code, so that the football moves along the bottom of the screen until the space bar is pressed.
+انقر فوق لاعب كرة القدم. أضف هذا الكود البرمجي، بحيث تتحرك كرة القدم على طول أسفل الشاشة حتى يتم الضغط على المفتاح الطويل في مفاتح الحاسوب.
 
-![football sprite](images/football-sprite.png)
+![كائن كرة القدم](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -38,17 +38,17 @@ end
 
 --- task ---
 
-Click the green flag to test your project. Your football should bounce along the bottom of the screen until the space bar is pressed.
+انقر على العلم الأخضر لأختبار لعبتك. يجب أن ترتد كرة القدم على طول أسفل الشاشة حتى يتم الضغط على المفتاح الطويل في مفاتيح الحاسوب.
 
-![screenshot](images/goalie-football-move-test.png)
+![لقطة للشاشة](images/goalie-football-move-test.png)
 
 --- /task ---
 
 --- task ---
 
-Add this code to your football sprite, so that the football moves towards the goal after the space bar has been pressed.
+أضف الكود البرمجي إلى لاعب كرة القدم الخاص بك، بحيث تتحرك كرة القدم نحو الهدف بعد الضغط على المفتاح الطويل في مفاتيح الحاسوب.
 
-![football sprite](images/football-sprite.png)
+![كائن كرة القدم](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -65,27 +65,27 @@ end
 
 --- task ---
 
-Click the green flag to test your code. This time, press the space bar and your football should move towards the goal.
+انقر على العلم الأخضر لأختبار لعبتك. هذه المرة، أضغط على المفتاح الطويل ويجب على الكرة الخاصة بك أن تتحرك نحو الهدف.
 
-![screenshot](images/goalie-football-ypos-test.png)
+![لقطة للشاشة](images/goalie-football-ypos-test.png)
 
 --- /task ---
 
 --- task ---
 
-Click the green flag to test your code. What happens if you click the flag a second time? Can you fix the problem?
+انقر على العلم الأخضر لأختبار اللعبة. ماذا يحدث إذا قمت بالنقر على العلم مرة ثانية؟ هل يمكنك إصلاح هذه المشكلة؟
 
 --- hints ---
 
 --- hint ---
 
-After the `green flag is clicked`{:class="block3events"} the sprite will have to `go to`{:class="block3motion"} back to the start.
+بعد النقر على `العلم الأخضر `{:class="block3events"} سيكون على اللشخصية أن يذهب إلى </code>{:class="block3motion"} العودة إلى البداية.
 
 --- /hint ---
 
 --- hint ---
 
-You will need this block:
+ستحتاج إلى هذه الكتلة:
 
 ```blocks3
 go to x:(-200) y:(-140)
@@ -95,9 +95,9 @@ go to x:(-200) y:(-140)
 
 --- hint ---
 
-Your code should look like this:
+يجب أن يبدو الكود البرمجي خاصتك بالشكل التالي:
 
-![football sprite](images/football-sprite.png)
+![كائن كرة القدم](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
