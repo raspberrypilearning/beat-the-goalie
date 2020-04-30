@@ -1,12 +1,12 @@
-## Was it a goal?
+## هل كان هدفًا؟
 
-Once the ball has reached the goal, there's a decision to make. __If__ the ball is touching the goalie then it has been saved, __else__ it's a goal.
+بمجرد أن تصل الكرة إلى الهدف، هناك قرار لأتخاذه. __ اذا __ لامست الكرة حارس المرمى فقد تم ردها، و __إلا__ فهي هدف.
 
 --- task ---
 
-Add this code to the end of your football sprite code, so that you can check whether the ball is touching the goalie.
+أضف هذا الكود البرمجي إلى نهاية كود لاعب كرة القدم، حتى تتمكن من التحقق مما إذا كانت الكرة حارس المرمى.
 
-![football sprite](images/football-sprite.png)
+![كائن كرة القدم](images/football-sprite.png)
 
 ```blocks3
 repeat (15)
@@ -21,9 +21,9 @@ end
 
 --- task ---
 
-`Start the 'rattle' sound`{:class="block3sound"} `if the goalie has saved the ball`{:class="block3control"}.
+`ابدأ صوت 'المعركة' `{:class="block3sound"} `إذا كان حارس المرمى قد رد الكرة `{:class="block3control"}.
 
-![football sprite](images/football-sprite.png)
+![كائن كرة القدم](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -36,11 +36,11 @@ end
 
 --- task ---
 
-You can also broadcast a message to the goalie, so that they can tell you that the ball has been saved.
+يمكنك أيضا أرسال رسالة إلى حارس المرمى، بحيث يمكنه إخبارك بأن الكرة قد تم ردها.
 
-Broadcast a 'save' message when the ball has been saved.
+أرسل رسالة 'رد' عند رد الكرة.
 
-![football sprite](images/football-sprite.png)
+![كائن كرة القدم](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-You can now code your goalie to say 'Save!' when they receive the message.
+يمكنك الآن برمجة الكود الخاص بك لقول 'رد الكرة!' لحارس المرمى عندما يتلقى الرسالة.
 
-![goalie sprite](images/goalie-sprite.png)
+![كائن حارس المرمى](images/goalie-sprite.png)
 
 ```blocks3
 when I receive [save v]
@@ -67,8 +67,8 @@ say [Save!] for (1) seconds
 
 --- task ---
 
-Test your code by trying to score a goal. If your goalie saves the goal they should say 'Save!'.
+أختبر الكود البرمجي الخاصة بك لمحاولة تسجيل الهدف. إذا رد حارس المرمى الكرة فيجب أن يقولوا 'رد الكرة!'.
 
-![screenshot](images/goalie-save-test.png)
+![لقطة للشاشة](images/goalie-save-test.png)
 
 --- /task ---
