@@ -1,10 +1,10 @@
-## Adding a timer
+## إضافة مؤقت
 
-Let's add a timer, so that the player has to score as many goals as they can in 30 seconds.
+دعونا نضيف مؤقتاً، حتى يتمكن اللاعب من تسجيل أكبر عدد ممكن من الأهداف في 30 ثانية.
 
 --- task ---
 
-`Make a new variable`{:class="block3variables"} called `timer`{:class="block3variables"}.
+`اصنع متغير جديد`{:class="block3variables"} يسمى `مؤقت`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,9 +12,9 @@ Let's add a timer, so that the player has to score as many goals as they can in 
 
 --- task ---
 
-Click on your __stage__, and add this code to set the `timer`{:class="block3variables"} to 30 at the start of the game.
+انقر فوق __المنصة__ الخاصة بك، وأضف هذا الكود البرمجي لتعيين `المؤقت `{:class="block3variables"} إلى 30 في بداية اللعبة.
 
-![stage sprite](images/stage-sprite.png)
+![كائن مسرح العمل](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -25,9 +25,9 @@ set [timer v] to [30]
 
 --- task ---
 
-Next, you'll need to add a `repeat until`{:class="block3control"} block, so that the timer can run until it gets to 0.
+بعد ذلك، ستحتاج إلى إضافة كتلة `كرر حتى`{:class="block3control"}، حتى يمكن تشغيل المؤقت حتى يصل إلى 0.
 
-![stage sprite](images/stage-sprite.png)
+![كائن مسرح العمل](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -40,9 +40,9 @@ end
 
 --- task ---
 
-Reduce your timer by 1 every second until it reaches 0.
+تقليل المؤقت الخاص بك بمقدار 1 في كل ثانية حتى يصل إلى 0.
 
-![stage sprite](images/stage-sprite.png)
+![كائن مسرح العمل](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -57,9 +57,9 @@ end
 
 --- task ---
 
-Once the timer has reached 0, you should `play the 'whistle' sound`{:class="block3sound"} and then stop the game.
+بمجرد وصول المؤقت إلى 0، يجب عليك `تشغيل صوت 'المصفرة'`{:class="block3sound"} ثم إيقاف اللعبة.
 
-![stage sprite](images/stage-sprite.png)
+![كائن مسرح العمل](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -76,19 +76,19 @@ end
 
 --- task ---
 
-Click the green flag to test your code. Your timer should start at 30, and end at 0.
+انقر على العلم الأخضر لأختبار اللعبة. يجب أن يبدأ المؤقت الساعة من 30 وينتهي عند 0.
 
-![screenshot](images/goalie-timer-test.png)
+![لقطة الشاشة](images/goalie-timer-test.png)
 
-You can change your timer to start at 10 if you don't want to wait for 30 seconds!
+يمكنك تغيير المؤقت ليبدأ عند 10 إذا كنت لا تريد الانتظار لمدة 30 ثانية!
 
 --- /task ---
 
 --- task ---
 
-You only have the chance to score 1 goal! To have more than 1 chance, add a `forever`{:class="block3control"} block around your __football__ code. You can also add a `wait`{:class="block3control"} block between attempts.
+لديك الفرصة فقط لتسجيل هدف واحد! للحصول على أكثر من فرصة واحدة، أضف كتلة `للأبد`{:class="block3control"} حول كود __كرة القدم__ الخاص بك. يمكنك أيضًا إضافة كتلة ` انتظر` {: class = "block3control"} بين المحاولات.
 
-![football sprite](images/football-sprite.png)
+![كائن كرة القدم](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
