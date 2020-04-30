@@ -1,26 +1,26 @@
-## Goal!
+## هدف!
 
 --- task ---
 
-Can you play a sound and code your goalie to say 'Goal!' when a goal has been scored?
+هل يمكنك تشغيل الصوت وبرمجة حارس المرمى ليقول 'رد الهدف!' عندما يتم تسجيل الهدف؟
 
-Remember that a goal has been scored if the ball is not touching the goalie.
+تذكر أن الهدف قد تم إحرازه إذا كانت الكرة لا تلامس حارس المرمى.
 
-![screenshot](images/goalie-goal-test.png)
+![لقطة للشاشة](images/goalie-goal-test.png)
 
 --- hints ---
 
 --- hint ---
 
-`If the football is not`{:class="block3control"} `touching the goalie`{:class="block3sensing"} your program should `start the cheer sound`{:class="block3sound"} and `broadcast a goal message`{:class="block3events"}.
+`إذا لم تكن كرة القدم `{:class="block3control"} ` تلامس حارس المرمى`{:class="block3sensing"} يجب على برنامجك `بدء صوت التشجيع `{:class="block3sound"} و `بث رسالة هدف`{:class="block3events"}.
 
-`When the goalie receives the goal message`{:class="block3events"} it should `say goal`{:class="block3looks"}.
+`عندما يتلقى حارس المرمى رسالة الهدف `{:class="block3events"} ينبغي أن `يقول هدف`{:class="block3looks"}.
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+ستحتاج إلى هذه الكتل:
 
 ```blocks3
 broadcast (goal v)
@@ -36,9 +36,9 @@ start sound (cheer v)
 
 --- hint ---
 
-Your code should look like this:
+يجب أن تبدو الكود البرمجي الخاص بك بالشكل التالي:
 
-![football sprite](images/football-sprite.png)
+![كائن كرة القدم](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -50,7 +50,7 @@ else
 end
 ```
 
-![goalie sprite](images/goalie-sprite.png)
+![كائن حارس المرمى](images/goalie-sprite.png)
 
 ```blocks3
 when I receive [goal v]
