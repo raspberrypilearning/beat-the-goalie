@@ -1,12 +1,12 @@
-## Control the goalie
+## تحكم بحارس المرمى
 
-It's far too easy to score a goal! Let's allow a second player to try and save goals.
+من السهل جدًا تسجيل هدف! دعونا نسمح للاعب ثاني بمحاولة رد الأهداف.
 
 --- task ---
 
-Click on your __Goalie__ sprite and add this code to change the goalie's x position when the left arrow is pressed.
+انقر فوق __ حارس المرمى الخاص بك __ واكتب الكود التالي وأضف هذا الرمز لتغيير موضع س لحارس المرمى عند الضغط على السهم الأيسر.
 
-![goalie sprite](images/goalie-sprite.png)
+![كائن حارس المرمى](images/goalie-sprite.png)
 
 ```blocks3
 when [left arrow v] key pressed
@@ -17,27 +17,27 @@ change x by (-10)
 
 --- task ---
 
-Press the left arrow to test your new code. Your goalie should move to the left.
+اضغط على السهم الأيسر لاختبار الكود البرمجي الجديد. يجب أن يتحرك حارس المرمى الخاص بك إلى اليسار.
 
-![screenshot](images/goalie-move-left-test.png)
+![لقطة الشاشة](images/goalie-move-left-test.png)
 
 --- /task ---
 
 --- task ---
 
-Use blocks similar to the ones above to make the __Goalie__ move to the right `when the right arrow key is pressed`{:class="block3events"}.
+استخدم القطع المشابهة لتلك الموجودة أعلاه لجعل __ حارس المرمى __ ينتقل إلى اليمين ` عند الضغط على مفتاح السهم الأيمن ` {: class = "block3events"}.
 
 --- hints ---
 
 --- hint ---
 
-Add blocks to your code so `when the right arrow key is pressed`{:class="block3events"}, the __Goalie's__ `x position is changed by 10`{:class="block3motion"}.
+أضف الكتل إلى الكود البرمجي الخاصة بك حتى ` عند الضغط على مفتاح السهم الأيمن ` {:class="block3events"} فإن __ حارس المرمى __ يتغير موضع ` x بمقدار 10 ` {: class = "block3motion"}.
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+ستحتاج إلى هذه الكتل:
 
 ```blocks3
 change x by (10)
@@ -49,9 +49,9 @@ when [right arrow v] key pressed
 
 --- hint ---
 
-Your code should look like this:
+يجب أن يبدو الكود البرمجي خاصتك بالشكل التالي:
 
-![goalie sprite](images/goalie-sprite.png)
+![كائن حارس المرمى](images/goalie-sprite.png)
 
 ```blocks3
 when [right arrow v] key pressed
