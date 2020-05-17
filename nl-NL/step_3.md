@@ -1,6 +1,6 @@
 ## Was het een doelpunt?
 
-Zodra de bal het doel heeft bereikt, moet er een beslissing worden genomen. __Als__ de bal de keeper raakt, dan is het een redding, __anders__ is het een doelpunt.
+Zodra de bal het doel heeft bereikt, moet er een beslissing worden genomen. __Als__ de bal de keeper raakt, __dan__ is het een redding, <0>anders</0> is het een doelpunt.
 
 --- task ---
 
