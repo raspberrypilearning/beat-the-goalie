@@ -38,7 +38,7 @@ einde
 
 Je kunt ook een bericht naar de keeper sturen, zodat deze je kan vertellen dat de bal is tegengehouden.
 
-Verzend een 'save' bericht wanneer de bal is opgeslagen.
+Verzend een 'save' bericht wanneer de bal is tegengehouden.
 
 ![voetbal sprite](images/football-sprite.png)
 
@@ -54,7 +54,7 @@ einde
 
 --- task ---
 
-Je kunt nu je keeper programmeren om 'Save!' te zeggen wanneer ze het bericht ontvangen.
+Je kunt nu je keeper programmeren om 'Save!' te zeggen wanneer het bericht ontvangen wordt.
 
 ![keeper sprite](images/goalie-sprite.png)
 
