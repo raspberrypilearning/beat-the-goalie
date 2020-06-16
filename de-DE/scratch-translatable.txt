@@ -1,7 +1,7 @@
-goalie
+Torwart
 
-Save!
+Speichern!
 
-timer
+Timer
 
-score
+Punktestand
