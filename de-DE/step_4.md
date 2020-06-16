@@ -1,26 +1,26 @@
-## Goal!
+## Tor!
 
 --- task ---
 
-Can you play a sound and code your goalie to say 'Goal!' when a goal has been scored?
+Kannst du einen Klang abspielen lasen und deinen Torwart so kodieren, dass er "Tor!" ruft wenn ein Tor erzielt wurde?
 
-Remember that a goal has been scored if the ball is not touching the goalie.
+Denke daran, dass ein Tor erzielt wurde, wenn der Ball den Torwart nicht berührt.
 
-![screenshot](images/goalie-goal-test.png)
+![Screenshot](images/goalie-goal-test.png)
 
 --- hints ---
 
 --- hint ---
 
-`If the football is not`{:class="block3control"} `touching the goalie`{:class="block3sensing"} your program should `start the cheer sound`{:class="block3sound"} and `broadcast a goal message`{:class="block3events"}.
+Wenn dein Fußball den Torwart nicht berührt (`falls wird Torwart berührt?, dann`{:class="block3control"} `sonst`), sollte dein Programm `spiele Klang cheer</0{:class="block3sound"} (Jubel) starten und eine <code>sende Tor an alle</0{:class="block3events"} Nachricht versenden.</p>
 
-`When the goalie receives the goal message`{:class="block3events"} it should `say goal`{:class="block3looks"}.
+<p spaces-before="0">Wenn der Torwart die Tor Nachricht empfängt (<code>wenn ich Tor empfange`{:class="block3events"}), soll er `sage Tor!`{:class="block3looks"} rufen.
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+Du wirst diese Blöcke benötigen:
 
 ```blocks3
 broadcast (goal v)
@@ -36,9 +36,9 @@ start sound (cheer v)
 
 --- hint ---
 
-Your code should look like this:
+Dein Code sollte so aussehen:
 
-![football sprite](images/football-sprite.png)
+![Fußball-Sprite](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -50,7 +50,7 @@ else
 end
 ```
 
-![goalie sprite](images/goalie-sprite.png)
+![Torwart-Sprite](images/goalie-sprite.png)
 
 ```blocks3
 when I receive [goal v]
