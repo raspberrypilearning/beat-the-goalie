@@ -1,12 +1,12 @@
-## Control the goalie
+## Controla al arquero
 
-It's far too easy to score a goal! Let's allow a second player to try and save goals.
+¡Es demasiado fácil anotar un gol! Dejemos que un segundo jugador intente y ataje goles.
 
 --- task ---
 
-Click on your __Goalie__ sprite and add this code to change the goalie's x position when the left arrow is pressed.
+Haz clic en tu objeto __Arquero__ y añade este código para cambiar la posición x del arquero cuando la flecha izquierda es presionada.
 
-![goalie sprite](images/goalie-sprite.png)
+![objeto arquero](images/goalie-sprite.png)
 
 ```blocks3
 when [left arrow v] key pressed
@@ -17,27 +17,27 @@ change x by (-10)
 
 --- task ---
 
-Press the left arrow to test your new code. Your goalie should move to the left.
+Presiona la flecha izquierda para probar tu nuevo código. Tu arquero debe moverse hacia la izquierda.
 
-![screenshot](images/goalie-move-left-test.png)
+![captura de pantalla](images/goalie-move-left-test.png)
 
 --- /task ---
 
 --- task ---
 
-Use blocks similar to the ones above to make the __Goalie__ move to the right `when the right arrow key is pressed`{:class="block3events"}.
+Usa bloques similares a los de arriba para hacer que el __Arquero__ se mueva a la derecha `cuando la tecla de flecha derecha es presionada`{:class="block3events"}.
 
 --- hints ---
 
 --- hint ---
 
-Add blocks to your code so `when the right arrow key is pressed`{:class="block3events"}, the __Goalie's__ `x position is changed by 10`{:class="block3motion"}.
+Añade bloques a tu código para que `cuando la tecla de flecha derecha es presionada`{:class="block3events"}, el __Arquero__ `cambia su posición x por 10`{:class="block3motion"}.
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+Necesitarás estos bloques:
 
 ```blocks3
 change x by (10)
@@ -49,9 +49,9 @@ when [right arrow v] key pressed
 
 --- hint ---
 
-Your code should look like this:
+Tu código debería verse así:
 
-![goalie sprite](images/goalie-sprite.png)
+![objeto arquero](images/goalie-sprite.png)
 
 ```blocks3
 when [right arrow v] key pressed
