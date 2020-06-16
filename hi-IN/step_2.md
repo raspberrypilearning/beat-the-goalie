@@ -6,11 +6,11 @@
 
 'बीट द गोअली' Scratch स्टार्टर प्रोजेक्ट खोलें।
 
-**Online**: स्टार्टर प्रोजेक्ट को [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){: target = "_ blank"} पर खोलें।
+**ऑनलाइन**: स्टार्टर प्रोजेक्ट को [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){: target="_blank"} पर खोलें।
 
 यदि आपके पास एक Scratch खाता (account) है तो आप **Remix** पर क्लिक करके कॉपी बना सकते हैं |
 
-** Offline ** : [ starter project ](http://rpf.io/p/en/beat-the-goalie-go) {{ऑफ़लाइन संपादक में लक्ष्य = "_ रिक्त"} को ऑफलाइन एडिटर में खोले I
+**ऑफलाइन**: [स्टार्टर प्रोजेक्ट](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} को ऑफलाइन एडिटर में खोलिये।
 
 यदि आपको Scratch ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करना है, तो आप इसे [rpf.io/scratchoff](http://rpf.io/scratchoff) {:target="_blank"} पर ढूंढ सकते हैं।
 
