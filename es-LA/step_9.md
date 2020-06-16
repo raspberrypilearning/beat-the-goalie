@@ -1,6 +1,6 @@
-## What next?
+## ¿Qué sigue?
 
-Take a look at the [Ada's Poetry Generator](https://projects.raspberrypi.org/en/projects/poetry-generator) Scratch project.
+Echa un vistazo al proyecto de Scratch [Generador de Poesía de Ada](https://projects.raspberrypi.org/en/projects/poetry-generator).
 
 --- no-print ---
 
@@ -13,6 +13,6 @@ Take a look at the [Ada's Poetry Generator](https://projects.raspberrypi.org/en/
 
 --- print-only ---
 
-![game screenshot](images/poetry-final.png)
+![captura de pantalla del juego](images/poetry-final.png)
 
 --- /print-only ---
