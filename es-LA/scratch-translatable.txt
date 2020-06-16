@@ -1,7 +1,7 @@
-goalie
+arquero
 
-Save!
+¡Atajar!
 
-timer
+temporizador
 
-score
+puntaje
