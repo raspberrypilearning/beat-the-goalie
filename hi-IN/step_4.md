@@ -12,9 +12,9 @@
 
 --- hint ---
 
-`If the football is not`{:class="block3control"} `touching the goalie`{:class="block3sensing"} your program should `start the cheer sound`{:class="block3sound"} और `broadcast a goal message`{:class="block3events"}.
+`अगर फुटबॉल`{:class="block3control"} गोलकीपर को नहीं छू रहा है</code>{:class="block3sensing"} आपके प्रोग्राम को `उत्साही ध्वनि शुरू करनी चाहिए`{:class="block3sound"} और उस संदेश को प्रसारित करें जो कहता है कि `गोल पहुंच गया है`{:class="block3events"}.
 
-`When the goalie receives the goal message`{:class="block3events"} it should `say goal`{:class="block3looks"}.
+`जब गोलकीपर को संदेश मिलता है गोल का ` {:class="block3events"} तो उसे `गोल कहना चाहिए`{:class="block3looks"}
 
 --- /hint ---
 
