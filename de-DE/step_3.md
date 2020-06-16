@@ -1,12 +1,12 @@
-## Was it a goal?
+## War das ein Tor?
 
-Once the ball has reached the goal, there's a decision to make. __If__ the ball is touching the goalie then it has been saved, __else__ it's a goal.
+Sobald der Ball das Tor erreicht hat, muss eine Entscheidung getroffen werden. __falls__ der Ball den Torwart berührt, wurde er gehalten, __sonst__ ist es ein Tor.
 
 --- task ---
 
-Add this code to the end of your football sprite code, so that you can check whether the ball is touching the goalie.
+Füge diesen Code am Ende deines Fußball-Sprite-Codes hinzu, damit du überprüfen kannst, ob der Ball den Torwart berührt hat.
 
-![football sprite](images/football-sprite.png)
+![Fußball-Sprite](images/football-sprite.png)
 
 ```blocks3
 repeat (15)
@@ -21,9 +21,9 @@ end
 
 --- task ---
 
-`Start the 'rattle' sound`{:class="block3sound"} `if the goalie has saved the ball`{:class="block3control"}.
+`spiele Klang 'rattle'`{:class="block3sound"} `Falls dein Torwart den Ball hält`{: class = "block3control"}.
 
-![football sprite](images/football-sprite.png)
+![Fußball-Sprite](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -36,11 +36,11 @@ end
 
 --- task ---
 
-You can also broadcast a message to the goalie, so that they can tell you that the ball has been saved.
+Du kannst dem Torwart auch eine Nachricht senden, damit er Dir mitteilt, dass der Ball gehalten wurde.
 
-Broadcast a 'save' message when the ball has been saved.
+Sende eine Nachricht "Gehalten", wenn der Ball gehalten wurde.
 
-![football sprite](images/football-sprite.png)
+![Fußball-Sprite](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-You can now code your goalie to say 'Save!' when they receive the message.
+Du kannst deinen Torwart jetzt programmieren "Gehalten!" zu sagen, wenn er die Nachricht erhält.
 
-![goalie sprite](images/goalie-sprite.png)
+![Torwart-Sprite](images/goalie-sprite.png)
 
 ```blocks3
 when I receive [save v]
@@ -67,8 +67,8 @@ say [Save!] for (1) seconds
 
 --- task ---
 
-Test your code by trying to score a goal. If your goalie saves the goal they should say 'Save!'.
+Teste deinen Code, indem du versuchst, ein Tor zu erzielen. Wenn dein Torwart den Ball gehalten hat, sollte er "Gehalten!" sagen.
 
-![screenshot](images/goalie-save-test.png)
+![Screenshot](images/goalie-save-test.png)
 
 --- /task ---
