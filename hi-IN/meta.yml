@@ -10,8 +10,8 @@ steps:
   - title: परिचय
   - title: फुटबॉल को हिलाना  
   - title: क्या यह एक गोल था?
-  - title: गोल !
-  - title: एक टाइमर जोड़ना
+  - title: गोल!
+  - title: टाइमर (timer) जोड़ना
   - title: "चुनौती: एक अंक जोड़ना"
     challenge: true
   - title: गोलकीपर को नियंत्रित करें
