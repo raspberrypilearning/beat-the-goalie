@@ -1,12 +1,12 @@
-## Was it a goal?
+## ¿Fue un gol?
 
-Once the ball has reached the goal, there's a decision to make. __If__ the ball is touching the goalie then it has been saved, __else__ it's a goal.
+Una vez que la pelota ha alcanzado la portería, hay que tomar una decisión. __Si es que__ la pelota está tocando al arquero entonces ésta ha sido atajada, __de otro modo__ es un gol.
 
 --- task ---
 
-Add this code to the end of your football sprite code, so that you can check whether the ball is touching the goalie.
+Agrega este código al final de tu código del objeto pelota de fútbol, para que así puedas verificar si la pelota está tocando al arquero.
 
-![football sprite](images/football-sprite.png)
+![objeto pelota de fútbol](images/football-sprite.png)
 
 ```blocks3
 repeat (15)
@@ -21,9 +21,9 @@ end
 
 --- task ---
 
-`Start the 'rattle' sound`{:class="block3sound"} `if the goalie has saved the ball`{:class="block3control"}.
+` Comenzar el sonido 'sonajero' ` {: class = "block3sound"} ` si el arquero ha salvado la pelota ` {: class = "block3control"}.
 
-![football sprite](images/football-sprite.png)
+![objeto pelota de fútbol](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -36,11 +36,11 @@ end
 
 --- task ---
 
-You can also broadcast a message to the goalie, so that they can tell you that the ball has been saved.
+También puedes transmitir un mensaje al arquero, para que puedan decirte que la pelota ha sido atajada.
 
-Broadcast a 'save' message when the ball has been saved.
+Transmite un mensaje de "atajar" cuando la pelota ha sido atajada.
 
-![football sprite](images/football-sprite.png)
+![objeto pelota de fútbol](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-You can now code your goalie to say 'Save!' when they receive the message.
+Ahora puedes codificar a tu portero para que diga "¡Atajar!" cuando reciben el mensaje.
 
-![goalie sprite](images/goalie-sprite.png)
+![objeto arquero](images/goalie-sprite.png)
 
 ```blocks3
 when I receive [save v]
@@ -67,8 +67,8 @@ say [Save!] for (1) seconds
 
 --- task ---
 
-Test your code by trying to score a goal. If your goalie saves the goal they should say 'Save!'.
+Prueba tu código tratando de anotar un gol. Si su portero ataja la pelota, debería decir "¡Atajar!".
 
-![screenshot](images/goalie-save-test.png)
+![captura de pantalla](images/goalie-save-test.png)
 
 --- /task ---
