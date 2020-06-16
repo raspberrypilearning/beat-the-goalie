@@ -48,11 +48,11 @@ title: आपको क्या जरुरत होगी
 
 #### सॉफ्टवेयर
 
-+ स्क्रैच 3 (या तो  [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (या तो [ऑनलाइन](http://rpf.io/scratchon){:target="_blank"} या [ऑफलाइन](http://rpf.io/scratchoff){:target="_blank"})
 
 #### डाउनलोड
 
-स्टार्टर प्रोजेक्ट यहां पाया जा सकता है [ ](http://rpf.io/p/en/beat-the-goalie-go) {: लक्ष्य = "_ blank"}।
+स्टार्टर प्रोजेक्ट [यहाँ पाया जा सकता है](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"}|
 
 --- /collapse ---
 
@@ -63,10 +63,10 @@ title: शिक्षकों के लिए अतिरिक्त जा
 
 --- no-print ---
 
-यदि आपको इस प्रोजेक्ट को प्रिंट करने की जरुरत है, तो कृपया [printer-friendly version](https://projects.raspberrypi.org/en/projects/beat-the-goalie/print){:target="_blank"} का उपयोग करें I
+यदि आपको इस प्रोजेक्ट को प्रिंट करने की जरुरत है, तो कृपया [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/beat-the-goalie/print){:target="_blank"} का उपयोग करें I
 
 --- /no-print ---
 
-यहाँ प्रोजेक्ट कम्पलीट करने का कोड  [completed project here](http://rpf.io/p/en/beat-the-goalie-get){:target="_blank"}.
+आप [पूर्ण प्रोजेक्ट यहां से प्राप्त कर सकते हैं](http://rpf.io/p/en/beat-the-goalie-get){: target="_ blank"}.
 
 --- /collapse ---
