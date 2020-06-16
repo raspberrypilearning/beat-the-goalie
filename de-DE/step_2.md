@@ -1,30 +1,30 @@
-## Moving the football
+## Den Fußball bewegen
 
-Let's code the ball to move across the bottom of the stage.
+Lass uns den Ball so kodieren, dass er sich über den unteren Rand der Bühne bewegt.
 
 --- task ---
 
-Open the 'Beat the Goalie' Scratch starter project.
+Öffne das Scratch-Starterprojekt 'Schlag den Torwart'.
 
-**Online**: open the starter project at [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){:target="_blank"}.
+**Online**: Öffne das Basisprojekt [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} in the offline editor.
+**Offline**: Öffne das [Starter-Projekt](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} im Offline-Editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Wenn du Scratch herunterladen und auf deinem Rechner installieren möchtest, dann findest du die Datei unter diesem Link: [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a goal backdrop, a football and goalie sprite.
+Im Starterprojekt sollten du einen Torhintergrund, eine Fußball- und eine Torwart-Figur sehen.
 
-![starter projects](images/goalie-starter.png)
+![Start-Projekt](images/goalie-starter.png)
 
 --- /task ---
 
 --- task ---
 
-Click on your football sprite. Add this code, so that the football moves along the bottom of the screen until the space bar is pressed.
+Klicke auf dein Fußball-Sprite. Füge diesen Code hinzu, sodass sich der Fußball am unteren Bildschirmrand bewegt, bis die Leertaste gedrückt wird.
 
-![football sprite](images/football-sprite.png)
+![Fußball-Sprite](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -38,17 +38,17 @@ end
 
 --- task ---
 
-Click the green flag to test your project. Your football should bounce along the bottom of the screen until the space bar is pressed.
+Klicke auf die grüne Flagge, um dein Projekt zu testen. Dein Fußball sollte am unteren Bildschirmrand springen, bis die Leertaste gedrückt wird.
 
-![screenshot](images/goalie-football-move-test.png)
+![Screenshot](images/goalie-football-move-test.png)
 
 --- /task ---
 
 --- task ---
 
-Add this code to your football sprite, so that the football moves towards the goal after the space bar has been pressed.
+Füge diesen Code zu deiner Fußball-Sprite hinzu, damit sich der Fußball nach dem Drücken der Leertaste auf das Tor zubewegt.
 
-![football sprite](images/football-sprite.png)
+![Fußball-Sprite](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -65,27 +65,27 @@ end
 
 --- task ---
 
-Click the green flag to test your code. This time, press the space bar and your football should move towards the goal.
+Klicke auf die grüne Flagge, um dein Spiel zu testen. Drücke diesmal die Leertaste und dein Fußball sollte sich in Richtung Ziel bewegen.
 
-![screenshot](images/goalie-football-ypos-test.png)
+![Screenshot](images/goalie-football-ypos-test.png)
 
 --- /task ---
 
 --- task ---
 
-Click the green flag to test your code. What happens if you click the flag a second time? Can you fix the problem?
+Klicke auf die grüne Flagge, um dein Spiel zu testen. Was passiert, wenn du ein zweites Mal auf die Flagge klickst? Kannst du das Problem beheben?
 
 --- hints ---
 
 --- hint ---
 
-After the `green flag is clicked`{:class="block3events"} the sprite will have to `go to`{:class="block3motion"} back to the start.
+Nach dem `Wenn die Flagge angeklickt wird`{: class = "block3events"}, muss der Sprite durch `gehe zu`{: class = "block3motion"} zurück zum Start gehen.
 
 --- /hint ---
 
 --- hint ---
 
-You will need this block:
+Du benötigst diesen Block:
 
 ```blocks3
 go to x:(-200) y:(-140)
@@ -95,9 +95,9 @@ go to x:(-200) y:(-140)
 
 --- hint ---
 
-Your code should look like this:
+Dein Code sollte so aussehen:
 
-![football sprite](images/football-sprite.png)
+![Fußball-Sprite](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
