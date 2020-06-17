@@ -1,9 +1,9 @@
 --- challenge ---
 
-## Challenge: manual control
-Instead of the ball moving left and right automatically, can you allow your player to control the ball with the `a` and `d` keys?
+## Défi : contrôle manuel
+Au lieu de déplacer la balle vers la gauche et la droite automatiquement, peux-tu permettre à ton joueur de contrôler la balle avec les touches `q` et `d` ?
 
-To do this you’ll need to remove the code for moving the ball left and right.
+Pour ce faire, tu devras supprimer le code permettant de déplacer la balle vers la gauche et la droite.
 
 ```blocks3
 when green flag clicked
@@ -26,7 +26,7 @@ forever
 end
 ```
 
-You can then add code to move the ball when the keys are pressed. Here are some code blocks to help you:
+Tu peux alors ajouter du code pour déplacer la balle lorsque les touches sont enfoncées. Voici quelques blocs de code pour t'aider :
 
 ```blocks3
 change x by (-5)
