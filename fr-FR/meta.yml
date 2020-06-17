@@ -1,7 +1,7 @@
 ---
-title: Beat the goalie
+title: Battre le gardien de but
 hero_image: images/beat-the-goalie.png
-description: How many goals can you score in 30 seconds?
+description: Combien de buts peux-tu marquer en 30 secondes ?
 listed: true
 copyedit: false
 version: 4
@@ -10,20 +10,20 @@ steps:
   - 
     title: Introduction
   - 
-    title: Moving the football
+    title: Faire bouger la balle de foot
   - 
-    title: Was it a goal?
+    title: C'est but ?
   - 
-    title: Goal!
+    title: But !
   - 
-    title: Adding a timer
+    title: Ajouter un chronomètre
   - 
-    title: "Challenge: adding a score"
+    title: "Défi : ajouter un score"
     challenge: true
   - 
-    title: Control the goalie
+    title: Contrôler le gardien de but
   - 
-    title: "Challenge: manual control"
+    title: "Défi : contrôle manuel"
     challenge: true
   - 
-    title: What next?
+    title: Et ensuite ?
