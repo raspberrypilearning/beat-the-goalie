@@ -1,26 +1,26 @@
-## Goal!
+## But !
 
 --- task ---
 
-Can you play a sound and code your goalie to say 'Goal!' when a goal has been scored?
+Peux-tu jouer un son et coder ton gardien pour dire « But ! » quand un but a été marqué ?
 
-Remember that a goal has been scored if the ball is not touching the goalie.
+Rappelle-toi qu'un but a été marqué si le ballon ne touche pas le gardien.
 
-![screenshot](images/goalie-goal-test.png)
+![capture d'écran](images/goalie-goal-test.png)
 
 --- hints ---
 
 --- hint ---
 
-`If the football is not`{:class="block3control"} `touching the goalie`{:class="block3sensing"} your program should `start the cheer sound`{:class="block3sound"} and `broadcast a goal message`{:class="block3events"}.
+`Si la balle de foot ne`{:class="block3control"} `touche pas le gardien`{:class="block3sensing"} ton programme devrait `commencer le son d'applaudissements`{:class="block3sound"} et `diffuser un message de but`{:class="block3events"}.
 
-`When the goalie receives the goal message`{:class="block3events"} it should `say goal`{:class="block3looks"}.
+`Quand le gardien reçoit le message but`{:class="block3events"} il devrait `dire but`{:class="block3looks"}.
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+Tu auras besoin de ces blocs :
 
 ```blocks3
 broadcast (goal v)
@@ -36,9 +36,9 @@ start sound (cheer v)
 
 --- hint ---
 
-Your code should look like this:
+Ton code devrait ressembler à ceci :
 
-![football sprite](images/football-sprite.png)
+![sprite de ballon de foot](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -50,7 +50,7 @@ else
 end
 ```
 
-![goalie sprite](images/goalie-sprite.png)
+![sprite gardien](images/goalie-sprite.png)
 
 ```blocks3
 when I receive [goal v]
