@@ -1,12 +1,12 @@
-## Was it a goal?
+## C'est but ?
 
-Once the ball has reached the goal, there's a decision to make. __If__ the ball is touching the goalie then it has been saved, __else__ it's a goal.
+Une fois que le ballon a atteint le but, il y a une décision à prendre. __Si__ le ballon touche le gardien de but alors il a été sauvé, __sinon__ c'est but.
 
 --- task ---
 
-Add this code to the end of your football sprite code, so that you can check whether the ball is touching the goalie.
+Ajoute ce code à la fin de ton code de sprite de ballon de foot, afin que tu puisses vérifier si la balle touche le gardien.
 
-![football sprite](images/football-sprite.png)
+![sprite de ballon de foot](images/football-sprite.png)
 
 ```blocks3
 repeat (15)
@@ -21,9 +21,9 @@ end
 
 --- task ---
 
-`Start the 'rattle' sound`{:class="block3sound"} `if the goalie has saved the ball`{:class="block3control"}.
+`Démarre le son « cliquetis » `{:class="block3sound"} `si le gardien a sauvé la balle`{:class="block3control"}.
 
-![football sprite](images/football-sprite.png)
+![sprite de ballon de foot](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -36,11 +36,11 @@ end
 
 --- task ---
 
-You can also broadcast a message to the goalie, so that they can tell you that the ball has been saved.
+Tu peux également diffuser un message au gardien, afin qu'ils puissent te dire que la balle a été sauvée.
 
-Broadcast a 'save' message when the ball has been saved.
+Diffuser un message « sauvé » lorsque la balle a été sauvée.
 
-![football sprite](images/football-sprite.png)
+![sprite de ballon de foot](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-You can now code your goalie to say 'Save!' when they receive the message.
+Tu peux maintenant coder ton gardien de but pour dire « Sauvé ! » quand il reçoit le message.
 
-![goalie sprite](images/goalie-sprite.png)
+![sprite gardien](images/goalie-sprite.png)
 
 ```blocks3
 when I receive [save v]
@@ -67,8 +67,8 @@ say [Save!] for (1) seconds
 
 --- task ---
 
-Test your code by trying to score a goal. If your goalie saves the goal they should say 'Save!'.
+Teste ton code en essayant de marquer un but. Si ton gardien a sauvé son but, il devrait dire « Sauvé ! ».
 
-![screenshot](images/goalie-save-test.png)
+![capture d'écran](images/goalie-save-test.png)
 
 --- /task ---
