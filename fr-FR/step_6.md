@@ -1,12 +1,12 @@
 --- challenge ---
 
-## Challenge: adding a score
-Can you add a `score`{:class="block3variables"} variable to your game?
+## Défi : ajouter un score
+Peux-tu ajouter une variable `score`{:class="block3variables"} à ton jeu ?
 
-+ You should set the score to 0 at the start of the game;
-+ You should add 1 to your score every time a goal is scored.
++ Tu devras définir le score à 0 au début de la partie ;
++ Tu devras ajouter 1 à ton score chaque fois qu'un but est marqué.
 
-You will need these blocks:
+Tu auras besoin de ces blocs :
 
 ```blocks3
 change [score v] by (1)
