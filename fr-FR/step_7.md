@@ -1,12 +1,12 @@
-## Control the goalie
+## Contrôler le gardien de but
 
-It's far too easy to score a goal! Let's allow a second player to try and save goals.
+C'est beaucoup trop facile de marquer un but ! Laissons un deuxième joueur essayer de sauver des buts.
 
 --- task ---
 
-Click on your __Goalie__ sprite and add this code to change the goalie's x position when the left arrow is pressed.
+Clique sur ton sprite __Gardien__ et ajoute ce code pour changer la position x du gardien lorsque tu appuies sur la flèche de gauche.
 
-![goalie sprite](images/goalie-sprite.png)
+![sprite gardien](images/goalie-sprite.png)
 
 ```blocks3
 when [left arrow v] key pressed
@@ -17,27 +17,27 @@ change x by (-10)
 
 --- task ---
 
-Press the left arrow to test your new code. Your goalie should move to the left.
+Appuie sur la flèche de gauche pour tester ton nouveau code. Ton gardien devrait se déplacer vers la gauche.
 
-![screenshot](images/goalie-move-left-test.png)
+![capture d'écran](images/goalie-move-left-test.png)
 
 --- /task ---
 
 --- task ---
 
-Use blocks similar to the ones above to make the __Goalie__ move to the right `when the right arrow key is pressed`{:class="block3events"}.
+Utilise des blocs similaires à ceux ci-dessus pour que le __Gardien__ se déplace vers la droite `lorsque la touche fléchée droite est enfoncée`{:class="block3events"}.
 
 --- hints ---
 
 --- hint ---
 
-Add blocks to your code so `when the right arrow key is pressed`{:class="block3events"}, the __Goalie's__ `x position is changed by 10`{:class="block3motion"}.
+Ajoute des blocs à ton code de sorte que `lorsque la touche fléchée droite est enfoncée`{:class="block3events"}, la position x du __Gardien__ ` est modifiée de 10 `{:class="block3motion"}.
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+Tu auras besoin de ces blocs :
 
 ```blocks3
 change x by (10)
@@ -49,9 +49,9 @@ when [right arrow v] key pressed
 
 --- hint ---
 
-Your code should look like this:
+Ton code devrait ressembler à ceci :
 
-![goalie sprite](images/goalie-sprite.png)
+![sprite gardien](images/goalie-sprite.png)
 
 ```blocks3
 when [right arrow v] key pressed
