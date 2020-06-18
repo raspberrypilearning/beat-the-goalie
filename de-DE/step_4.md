@@ -13,7 +13,7 @@ Denke daran, dass ein Tor erzielt wurde, wenn der Ball den Torwart nicht berühr
 
 --- hint ---
 
-Wenn dein Fußball den Torwart nicht berührt (`falls wird Torwart berührt?, dann`{:class="block3control"} `sonst`), sollte dein Programm `spiele Klang cheer`{:class="block3sound"} (Jubel) starten und eine `sende Tor an alle`{:class="block3events"} Nachricht versenden.
+Wenn dein Fußball den Torwart nicht berührt (`falls wird Torwart berührt?, dann`{:class="block3control"} `sonst`{:class="block3sound"}), sollte dein Programm `spiele Klang cheer`{:class="block3sound"} (Jubel) starten und eine `sende Tor an alle`{:class="block3events"} Nachricht versenden.
 
 Wenn der Torwart die Tor Nachricht empfängt (`wenn ich Tor empfange`{:class="block3events"}), soll er `sage Tor!`{:class="block3looks"} rufen.
 
