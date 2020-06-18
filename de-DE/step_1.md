@@ -15,7 +15,7 @@ In diesem Projekt lernst du, wie du ein Fußballspiel für 2 Spieler erstellst, 
 Klicke auf die grüne Flagge, um zu beginnen. Verwende die linke und rechte Pfeiltaste, um den Torwart zu steuern, und drücke die <kbd>Leertaste</kbd>, um den Ball zu treten.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/285942132/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/405905115/?autostart=false" frameborder="0" scrolling="no"></iframe>
 </div>
 
 --- /no-print ---

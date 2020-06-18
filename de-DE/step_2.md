@@ -6,7 +6,7 @@ Lass uns den Ball so kodieren, dass er sich über den unteren Rand der Bühne be
 
 Öffne das Scratch-Starterprojekt 'Schlag den Torwart'.
 
-**Online**: Öffne das Basisprojekt [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){:target="_blank"}.
+**Online**: Öffne das Basisprojekt [scratch.mit.edu/projects/405905723](https://scratch.mit.edu/projects/405905723){:target="_blank"}.
 
 Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
