@@ -1,12 +1,12 @@
-## Was it a goal?
+## Foi gol?
 
-Once the ball has reached the goal, there's a decision to make. __If__ the ball is touching the goalie then it has been saved, __else__ it's a goal.
+Quando a bola atinge o gol, há uma decisão a tomar. __Se__ a bola está tocando o goleiro então foi uma defesa, __senão__ é gol.
 
 --- task ---
 
-Add this code to the end of your football sprite code, so that you can check whether the ball is touching the goalie.
+Adicione este código ao final do seu código ator bola, para que você possa verificar se a bola está tocando o goleiro.
 
-![football sprite](images/football-sprite.png)
+![ator bola](images/football-sprite.png)
 
 ```blocks3
 repeat (15)
@@ -21,9 +21,9 @@ end
 
 --- task ---
 
-`Start the 'rattle' sound`{:class="block3sound"} `if the goalie has saved the ball`{:class="block3control"}.
+` Iniciar o som de 'rattle' (chocalho) `{:class="block3sound"} `se o goleiro defendeu a bola `{:class="block3control"}.
 
-![football sprite](images/football-sprite.png)
+![ator bola](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -36,11 +36,11 @@ end
 
 --- task ---
 
-You can also broadcast a message to the goalie, so that they can tell you that the ball has been saved.
+Você também pode transmitir uma mensagem para o goleiro, para que ele possa dizer que a bola foi defendida.
 
-Broadcast a 'save' message when the ball has been saved.
+Transmita uma mensagem 'defesa' quando a bola for defendida.
 
-![football sprite](images/football-sprite.png)
+![ator bola](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-You can now code your goalie to say 'Save!' when they receive the message.
+Agora você pode programar o seu goleiro para dizer 'Defesa!' quando ele receber a mensagem.
 
-![goalie sprite](images/goalie-sprite.png)
+![ator goleiro](images/goalie-sprite.png)
 
 ```blocks3
 when I receive [save v]
@@ -67,8 +67,8 @@ say [Save!] for (1) seconds
 
 --- task ---
 
-Test your code by trying to score a goal. If your goalie saves the goal they should say 'Save!'.
+Teste seu código tentando marcar um gol. Se o seu goleiro defender a bola, ele deve dizer 'Defesa!'.
 
-![screenshot](images/goalie-save-test.png)
+![captura de tela](images/goalie-save-test.png)
 
 --- /task ---
