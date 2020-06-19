@@ -1,12 +1,12 @@
 --- challenge ---
 
-## Challenge: adding a score
-Can you add a `score`{:class="block3variables"} variable to your game?
+## Πρόκληση: Προσθήκη βαθμολογίας
+Μπορείς να προσθέσεις μια μεταβλητή `βαθμολογία`{:class="block3variables"} στο παιχνίδι σου;
 
-+ You should set the score to 0 at the start of the game;
-+ You should add 1 to your score every time a goal is scored.
++ Πρέπει να μηδενίζεις τη βαθμολογία στην αρχή του παιχνιδιού.
++ Θα πρέπει να προσθέτεις 1 στη βαθμολογία κάθε φορά που θα μπαίνει ένα γκολ.
 
-You will need these blocks:
+Θα χρειαστείς αυτά τα μπλοκ:
 
 ```blocks3
 change [score v] by (1)
