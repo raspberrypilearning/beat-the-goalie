@@ -1,26 +1,26 @@
-## Goal!
+## Γκολ!
 
 --- task ---
 
-Can you play a sound and code your goalie to say 'Goal!' when a goal has been scored?
+Μπορείς να παίξεις έναν ήχο και να προγραμματίσεις τον τερματοφύλακα να λέει "Γκολ!" όταν έχει σημειωθεί ένα γκολ;
 
-Remember that a goal has been scored if the ball is not touching the goalie.
+Θυμήσου ότι ένα γκολ μετριέται εάν η μπάλα δεν αγγίζει τον τερματοφύλακα.
 
-![screenshot](images/goalie-goal-test.png)
+![στιγμιότυπο οθόνης](images/goalie-goal-test.png)
 
 --- hints ---
 
 --- hint ---
 
-`If the football is not`{:class="block3control"} `touching the goalie`{:class="block3sensing"} your program should `start the cheer sound`{:class="block3sound"} and `broadcast a goal message`{:class="block3events"}.
+`Εάν η μπάλα δεν`{:class="block3control"}`αγγίζει τον τερματοφύλακα`{:class="block3sensing"} το πρόγραμμά σου θα πρέπει να `παίξει τον ήχο 'cheer'`{:class="block3sound"} και να `μεταδώσει το μήνυμα 'γκολ'`{:class="block3events"}.
 
-`When the goalie receives the goal message`{:class="block3events"} it should `say goal`{:class="block3looks"}.
+`Όταν ο τερματοφύλακας λάβει το μήνυμα 'γκολ'`{:class="block3events"} θα πρέπει να `πει 'Γκολ!'`{:class="block3looks"}.
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+Θα χρειαστείς αυτά τα μπλοκ:
 
 ```blocks3
 broadcast (goal v)
@@ -36,9 +36,9 @@ start sound (cheer v)
 
 --- hint ---
 
-Your code should look like this:
+Ο κώδικάς σου θα πρέπει να μοιάζει κάπως έτσι:
 
-![football sprite](images/football-sprite.png)
+![αντικείμενο μπάλας](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -50,7 +50,7 @@ else
 end
 ```
 
-![goalie sprite](images/goalie-sprite.png)
+![αντικείμενο τερματοφύλακα](images/goalie-sprite.png)
 
 ```blocks3
 when I receive [goal v]
