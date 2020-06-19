@@ -2,7 +2,7 @@
 
 --- task ---
 
-Kannst du einen Klang abspielen lasen und deinen Torwart so kodieren, dass er "Tor!" ruft wenn ein Tor erzielt wurde?
+Kannst du einen Klang abspielen lassen und deinen Torwart so programmieren, dass er "Tor!" ruft wenn ein Tor erzielt wurde?
 
 Denke daran, dass ein Tor erzielt wurde, wenn der Ball den Torwart nicht berührt.
 
@@ -12,7 +12,7 @@ Denke daran, dass ein Tor erzielt wurde, wenn der Ball den Torwart nicht berühr
 
 --- hint ---
 
-Wenn dein Fußball den Torwart nicht berührt (`falls wird Torwart berührt?, dann`{:class="block3control"} `sonst`), sollte dein Programm `spiele Klang cheer</0{:class="block3sound"} (Jubel) starten und eine <code>sende Tor an alle</0{:class="block3events"} Nachricht versenden.</p>
+Wenn dein Fußball den Torwart nicht berührt (`falls wird Torwart berührt?, dann ... sonst`{:class="block3control"} ), sollte dein Programm `Klang cheer</0{:class="block3sound"} (Jubel) starten und eine <code>sende Tor an alle</0{:class="block3events"} Nachricht versenden.</p>
 
 <p spaces-before="0">Wenn der Torwart die Tor Nachricht empfängt (<code>wenn ich Tor empfange`{:class="block3events"}), soll er `sage Tor!`{:class="block3looks"} rufen.
 
