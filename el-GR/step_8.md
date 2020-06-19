@@ -1,9 +1,9 @@
 --- challenge ---
 
-## Challenge: manual control
-Instead of the ball moving left and right automatically, can you allow your player to control the ball with the `a` and `d` keys?
+## Πρόκληση: χειροκίνητος έλεγχος
+Αντί η μπάλα να κινείται αυτόματα αριστερά και δεξιά, μπορείς να κάνεις τον παίκτη σου να ελέγχει την μπάλα με τα πλήκτρα `a` και `d`;
 
-To do this you’ll need to remove the code for moving the ball left and right.
+Για να το κάνεις αυτό, θα πρέπει να αφαιρέσεις τον κώδικα για την κίνηση της μπάλας αριστερά και δεξιά.
 
 ```blocks3
 when green flag clicked
@@ -26,7 +26,7 @@ forever
 end
 ```
 
-You can then add code to move the ball when the keys are pressed. Here are some code blocks to help you:
+Στη συνέχεια, μπορείς να προσθέσεις κώδικα για να μετακινείς την μπάλα όταν πατάς τα πλήκτρα. Ακολουθούν ορισμένα χρήσιμα μπλοκ κώδικα για να σε βοηθήσουν:
 
 ```blocks3
 change x by (-5)
