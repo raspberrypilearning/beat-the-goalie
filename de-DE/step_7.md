@@ -4,7 +4,7 @@ Es ist viel zu einfach, ein Tor zu erzielen! Lass einen zweiten Spieler versuche
 
 --- task ---
 
-Klicke auf dein __Torwart__-Sprite und füge diesen Code hinzu, um die x-Position des Torwarts zu ändern, wenn der linke Pfeiltaste gedrückt wird.
+Klicke auf dein __Torwart__-Sprite und füge diesen Code hinzu, um die x-Position des Torwarts zu ändern, wenn die linke Pfeiltaste gedrückt wird.
 
 ![Torwart-Sprite](images/goalie-sprite.png)
 
@@ -31,7 +31,7 @@ Verwende Blöcke, ähnlich wie die oben genannten, um den __Torwart__ nach recht
 
 --- hint ---
 
-Füge deinem Code Blöcke hinzu, sodass sich `Wenn Taste Pfeil nach rechts gedrückt wird`{:class="block3events"}, der __Torwart__ `ändere x um 10`{:class="block3motion"} bewegt.
+Füge deinem Code Blöcke hinzu, sodass sich `Wenn Taste Pfeil nach rechts gedrückt wird`{:class="block3events"}, der __Torwart__ seine x Position `um 10 ändert`{:class="block3motion"}.
 
 --- /hint ---
 
