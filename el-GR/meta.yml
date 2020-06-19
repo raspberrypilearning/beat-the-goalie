@@ -1,29 +1,29 @@
 ---
-title: Beat the goalie
+title: Νίκησε τον τερματοφύλακα
 hero_image: images/beat-the-goalie.png
-description: How many goals can you score in 30 seconds?
+description: Πόσα γκολ μπορείς να βάλεις σε 30 δευτερόλεπτα;
 listed: true
 copyedit: false
 version: 4
 last_tested: 2019-02-11
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
-    title: Moving the football
+    title: Μετακίνηση ποδοσφαιριστή
   - 
-    title: Was it a goal?
+    title: Τι είναι το γκολ;
   - 
-    title: Goal!
+    title: Γκολ!
   - 
-    title: Adding a timer
+    title: Προσθήκη χρονομέτρου
   - 
-    title: "Challenge: adding a score"
+    title: "Πρόκληση: Προσθήκη βαθμολογίας"
     challenge: true
   - 
-    title: Control the goalie
+    title: Έλεγξε τον τερματοφύλακα
   - 
-    title: "Challenge: manual control"
+    title: "Πρόκληση: χειροκίνητος έλεγχος"
     challenge: true
   - 
-    title: What next?
+    title: Τι υπάρχει στη συνέχεια;
