@@ -1,6 +1,6 @@
 ## Den Fußball bewegen
 
-Lass uns den Ball so kodieren, dass er sich über den unteren Rand der Bühne bewegt.
+Lass uns den Ball so programmieren, dass er sich über den unteren Rand der Bühne bewegt.
 
 --- task ---
 
@@ -46,7 +46,7 @@ Klicke auf die grüne Flagge, um dein Projekt zu testen. Dein Fußball sollte am
 
 --- task ---
 
-Füge diesen Code zu deiner Fußball-Sprite hinzu, damit sich der Fußball nach dem Drücken der Leertaste auf das Tor zubewegt.
+Füge diesen Code zu deiner Fußball-Figur hinzu, damit sich der Fußball nach dem Drücken der Leertaste auf das Tor zubewegt.
 
 ![Fußball-Sprite](images/football-sprite.png)
 
@@ -65,7 +65,7 @@ end
 
 --- task ---
 
-Klicke auf die grüne Flagge, um dein Spiel zu testen. Drücke diesmal die Leertaste und dein Fußball sollte sich in Richtung Ziel bewegen.
+Klicke auf die grüne Flagge, um dein Spiel zu testen. Drücke diesmal die Leertaste und dein Fußball sollte sich in Richtung Tor bewegen.
 
 ![Screenshot](images/goalie-football-ypos-test.png)
 
@@ -79,7 +79,7 @@ Klicke auf die grüne Flagge, um dein Spiel zu testen. Was passiert, wenn du ein
 
 --- hint ---
 
-Nach dem `Wenn die Flagge angeklickt wird`{: class = "block3events"}, muss der Sprite durch `gehe zu`{: class = "block3motion"} zurück zum Start gehen.
+Nach dem `die Flagge angeklickt wird`{: class = "block3events"}, muss die Figur durch `gehe zu`{: class = "block3motion"} zurück zum Start gehen.
 
 --- /hint ---
 
