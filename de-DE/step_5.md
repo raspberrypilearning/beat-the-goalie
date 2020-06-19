@@ -25,7 +25,7 @@ set [timer v] to [30]
 
 --- task ---
 
-Als nächstes musst du einen `wiederhole bis`{:class="block3control"}-Block hinzufügen, damit der Timer ausgeführt werden kann, bis er abgelaufen ist.
+Als nächstes musst du einen `wiederhole bis`{:class="block3control"}-Block hinzufügen, damit der Timer ausgeführt werden kann, bis er auf 0 steht.
 
 ![Bühnenbild-Sprite](images/stage-sprite.png)
 
