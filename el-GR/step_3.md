@@ -1,12 +1,12 @@
-## Was it a goal?
+## Ήταν γκολ;
 
-Once the ball has reached the goal, there's a decision to make. __If__ the ball is touching the goalie then it has been saved, __else__ it's a goal.
+Μόλις η μπάλα φτάσει στο τέρμα, πρέπει να ληφθεί μια απόφαση. __Εάν__ η μπάλα αγγίζει τον τερματοφύλακα τότε έχουμε απόκρουση, __αλλιώς__ έχουμε γκολ.
 
 --- task ---
 
-Add this code to the end of your football sprite code, so that you can check whether the ball is touching the goalie.
+Πρόσθεσε αυτές τις εντολές στον κώδικα της μπάλας ποδοσφαίρου, ώστε να μπορείς να ελέγχεις αν η μπάλα αγγίζει τον τερματοφύλακα.
 
-![football sprite](images/football-sprite.png)
+![αντικείμενο μπάλας](images/football-sprite.png)
 
 ```blocks3
 repeat (15)
@@ -21,9 +21,9 @@ end
 
 --- task ---
 
-`Start the 'rattle' sound`{:class="block3sound"} `if the goalie has saved the ball`{:class="block3control"}.
+`Παίξε τον ήχο «rattle»`{:class="block3sound"}` εάν ο τερματοφύλακας έχει αποκρούσει την μπάλα`{:class="block3control"}.
 
-![football sprite](images/football-sprite.png)
+![αντικείμενο μπάλας](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -36,11 +36,11 @@ end
 
 --- task ---
 
-You can also broadcast a message to the goalie, so that they can tell you that the ball has been saved.
+Μπορείς επίσης να μεταδίδεις ένα μήνυμα στον τερματοφύλακα, ώστε να μπορεί να πει 'Απόκρουση'.
 
-Broadcast a 'save' message when the ball has been saved.
+Μετάδωσε ένα μήνυμα «απόκρουση» όταν η μπάλα έχει αποκρουστεί.
 
-![football sprite](images/football-sprite.png)
+![αντικείμενο μπάλας](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-You can now code your goalie to say 'Save!' when they receive the message.
+Τώρα μπορείς να προγραμματίσεις τον τερματοφύλακα να λέει "Απόκρουση!" όταν λάβει το μήνυμα.
 
-![goalie sprite](images/goalie-sprite.png)
+![αντικείμενο τερματοφύλακα](images/goalie-sprite.png)
 
 ```blocks3
 when I receive [save v]
@@ -67,8 +67,8 @@ say [Save!] for (1) seconds
 
 --- task ---
 
-Test your code by trying to score a goal. If your goalie saves the goal they should say 'Save!'.
+Δοκίμασε το πρόγραμμά σου προσπαθώντας να σκοράρεις. Εάν ο τερματοφύλακας σου αποκρούσει την μπάλα, θα πρέπει να πει «Απόκρουση!».
 
-![screenshot](images/goalie-save-test.png)
+![στιγμιότυπο οθόνης](images/goalie-save-test.png)
 
 --- /task ---
