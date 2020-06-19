@@ -1,6 +1,6 @@
-## What next?
+## Τι υπάρχει στη συνέχεια;
 
-Take a look at the [Ada's Poetry Generator](https://projects.raspberrypi.org/en/projects/poetry-generator) Scratch project.
+Ρίξε μια ματιά στο Scratch έργο [Ada's Poetry Generator](https://projects.raspberrypi.org/en/projects/poetry-generator).
 
 --- no-print ---
 
@@ -13,6 +13,6 @@ Take a look at the [Ada's Poetry Generator](https://projects.raspberrypi.org/en/
 
 --- print-only ---
 
-![game screenshot](images/poetry-final.png)
+![στιγμιότυπο οθόνης παιχνιδιού](images/poetry-final.png)
 
 --- /print-only ---
