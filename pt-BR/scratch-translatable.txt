@@ -1,7 +1,7 @@
-goalie
+goleiro
 
-Save!
+Defesa!
 
-timer
+tempo
 
-score
+placar
