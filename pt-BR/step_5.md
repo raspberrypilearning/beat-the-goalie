@@ -1,10 +1,10 @@
-## Adding a timer
+## Adicionando um temporizador
 
-Let's add a timer, so that the player has to score as many goals as they can in 30 seconds.
+Vamos adicionar um temporizador, para que o jogador tenha que marcar o máximo de gols que puder em 30 segundos.
 
 --- task ---
 
-`Make a new variable`{:class="block3variables"} called `timer`{:class="block3variables"}.
+`Crie uma nova variável`{:class="block3variables"} chamada `tempo`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,9 +12,9 @@ Let's add a timer, so that the player has to score as many goals as they can in 
 
 --- task ---
 
-Click on your __stage__, and add this code to set the `timer`{:class="block3variables"} to 30 at the start of the game.
+Clique no seu __palco__ e adicione este código para definir o `tempo`{:class="block3variables"} a 30 no início do jogo.
 
-![stage sprite](images/stage-sprite.png)
+![ator palco](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -25,9 +25,9 @@ set [timer v] to [30]
 
 --- task ---
 
-Next, you'll need to add a `repeat until`{:class="block3control"} block, so that the timer can run until it gets to 0.
+Em seguida, você precisará adicionar um bloco `repita até que`{:class="block3control"}, para que o temporizador possa ser executado até chegar a 0.
 
-![stage sprite](images/stage-sprite.png)
+![ator palco](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -40,9 +40,9 @@ end
 
 --- task ---
 
-Reduce your timer by 1 every second until it reaches 0.
+Reduza seu tempo em 1 a cada segundo até que atinja 0.
 
-![stage sprite](images/stage-sprite.png)
+![ator palco](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -57,9 +57,9 @@ end
 
 --- task ---
 
-Once the timer has reached 0, you should `play the 'whistle' sound`{:class="block3sound"} and then stop the game.
+Uma vez que o tempo atinja o 0, você deve `tocar o som 'whistle' (apito)`{:class="block3sound"} e então parar o jogo.
 
-![stage sprite](images/stage-sprite.png)
+![ator palco](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -76,19 +76,19 @@ end
 
 --- task ---
 
-Click the green flag to test your code. Your timer should start at 30, and end at 0.
+Clique na bandeira verde para testar seu código. Seu tempo deve começar em 30 e terminar em 0.
 
-![screenshot](images/goalie-timer-test.png)
+![captura de tela](images/goalie-timer-test.png)
 
-You can change your timer to start at 10 if you don't want to wait for 30 seconds!
+Você pode alterar seu tempo para começar com 10 se não quiser esperar 30 segundos!
 
 --- /task ---
 
 --- task ---
 
-You only have the chance to score 1 goal! To have more than 1 chance, add a `forever`{:class="block3control"} block around your __football__ code. You can also add a `wait`{:class="block3control"} block between attempts.
+Você só tem a chance de marcar 1 gol! Para ter mais de 1 chance, adicione um bloco `sempre`{:class="block3control"} ao redor do seu código da __bola__. Você também pode adicionar um bloco `espere`{:class="block3control"} entre as tentativas.
 
-![football sprite](images/football-sprite.png)
+![ator bola](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
