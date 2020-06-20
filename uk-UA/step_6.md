@@ -1,12 +1,12 @@
 --- challenge ---
 
-## Challenge: adding a score
-Can you add a `score`{:class="block3variables"} variable to your game?
+## Завдання: додавання рахунку
+Чи можеш ти додати змінну `рахунок`{:class="block3variables"} до своєї гри?
 
-+ You should set the score to 0 at the start of the game;
-+ You should add 1 to your score every time a goal is scored.
++ Напочатку гри тобі треба встановити рахунок в 0;
++ Тобі треба додавати 1 до свого рахунку кожного разу, коли забивають гол.
 
-You will need these blocks:
+Тобі знадобляться такі блоки:
 
 ```blocks3
 change [score v] by (1)
