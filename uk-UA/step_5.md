@@ -1,10 +1,10 @@
-## Adding a timer
+## Додавання таймера
 
-Let's add a timer, so that the player has to score as many goals as they can in 30 seconds.
+Давай додамо відлік часу, щоб гравець мав забити якомога більше голів за 30 секунд.
 
 --- task ---
 
-`Make a new variable`{:class="block3variables"} called `timer`{:class="block3variables"}.
+`Створи нову змінну`{:class="block3variables"} з назвою `час`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,9 +12,9 @@ Let's add a timer, so that the player has to score as many goals as they can in 
 
 --- task ---
 
-Click on your __stage__, and add this code to set the `timer`{:class="block3variables"} to 30 at the start of the game.
+Клацни на __сцену__ і додай наступний код, щоб встановити `час`{:class="block3variables"} на 30 перед початком гри.
 
-![stage sprite](images/stage-sprite.png)
+![спрайт сцени](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -25,9 +25,9 @@ set [timer v] to [30]
 
 --- task ---
 
-Next, you'll need to add a `repeat until`{:class="block3control"} block, so that the timer can run until it gets to 0.
+Далі тобі треба додати блок `повторити до`{:class="block3control"}, щоб час ішов, поки не досягне 0.
 
-![stage sprite](images/stage-sprite.png)
+![спрайт сцени](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -40,9 +40,9 @@ end
 
 --- task ---
 
-Reduce your timer by 1 every second until it reaches 0.
+Зменшуй час на 1 кожну секунду, поки не дійдеш до 0.
 
-![stage sprite](images/stage-sprite.png)
+![спрайт сцени](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -57,9 +57,9 @@ end
 
 --- task ---
 
-Once the timer has reached 0, you should `play the 'whistle' sound`{:class="block3sound"} and then stop the game.
+Як тільки таймер доходить до 0, тобі треба `відтворити звук "свисток"`{:class="block3sound"}, а далі — зупинити гру.
 
-![stage sprite](images/stage-sprite.png)
+![спрайт сцени](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -76,19 +76,19 @@ end
 
 --- task ---
 
-Click the green flag to test your code. Your timer should start at 30, and end at 0.
+Клацни на зелений прапор, щоб перевірити свій код. Твій таймер повинен починатись із 30 і закінчуватись, коли досягне 0.
 
-![screenshot](images/goalie-timer-test.png)
+![знімок екрана](images/goalie-timer-test.png)
 
-You can change your timer to start at 10 if you don't want to wait for 30 seconds!
+Ти можеш виставити свій таймер на 10 секунд, якщо не хочеш чекати 30!
 
 --- /task ---
 
 --- task ---
 
-You only have the chance to score 1 goal! To have more than 1 chance, add a `forever`{:class="block3control"} block around your __football__ code. You can also add a `wait`{:class="block3control"} block between attempts.
+Зараз в тебе є шанс забити лише 1 гол! Щоб мати більше шансів, додай блок `завжди`{:class="block3control"} навколо свого коду для __м’яча__. Ти також можеш додати блок `чекати`{:class="block3control"} між спробами.
 
-![football sprite](images/football-sprite.png)
+![спрайт футбольного м’яча](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
