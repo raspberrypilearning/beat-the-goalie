@@ -1,18 +1,18 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/beat-the-goalie-scratch2).
+Це — версія проєкту для **Скретч 3**. Також існує [версія проєкту для Скретч 2](https://projects.raspberrypi.org/en/projects/beat-the-goalie-scratch2).
 
 --- /no-print ---
 
-## Introduction
+## Вступ
 
-In this project you'll learn how to create a 2 player football game in which you have to score as many goals as you can in 30 seconds.
+У цьому проєкті ти дізнаєшся як створити футбольну гру з 2 гравцями, в якій треба забити якомога більше голів за 30 секунд.
 
-### What you will make
+### Що ти зробиш
 
 --- no-print ---
 
-Click the green flag to begin. Use the left and right arrow keys to control the goalie and press <kbd>space</kbd> to kick the ball.
+Натисни на зелений прапор для запуску. Використовуй клавіші зі стрілками вліво та вправо, щоб керувати воротарем, натисни <kbd>пропуск</kbd>, щоб вдарити м’яч.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/285942132/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -22,7 +22,7 @@ Click the green flag to begin. Use the left and right arrow keys to control the 
 
 --- print-only ---
 
-![game screenshot](images/goalie-final.png)
+![знімок екрана гри](images/goalie-final.png)
 
 --- /print-only ---
 
@@ -31,42 +31,42 @@ Click the green flag to begin. Use the left and right arrow keys to control the 
 title: What you will learn
 ---
 
-- Recall how to use code to respond to key presses
-- Use sensing blocks to detect when sprites touch each other
-- Use broadcast blocks to communicate between sprites
+- Згадаєш, як обробляти натискання клавіш в програмах
+- Використовувати блоки датчиків, щоб виявляти коли спрайти дотикаються один до одного
+- Використовувати блоки оповіщень для зв’язку між спрайтами
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will need
+title: Що тобі знадобиться
 ---
 
-#### Hardware
+#### Обладнання
 
-+ A computer capable of running Scratch 3
++ Комп'ютер, що підтримує Скретч 3
 
-#### Software
+#### Програмне забезпечення
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Скретч 3 (або [онлайн](http://rpf.io/scratchon){:target="_ blank"}, або [офлайн](http://rpf.io/scratchoff){:target="_ blank"})
 
-#### Downloads
+#### Завантаження
 
-The starter project can be found [here](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"}.
+Початковий проєкт можна знайти [тут](http://rpf.io/p/en/beat-the-goalie-go){:target="_ blank"}.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: Додаткова інформація для викладачів
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/beat-the-goalie/print){:target="_blank"}.
+Якщо вам потрібно роздрукувати цей проєкт, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/en/projects/beat-the-goalie/print){:target="_blank"}.
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/beat-the-goalie-get){:target="_blank"}.
+Ви можете знайти [завершений проєкт тут](http://rpf.io/p/en/beat-the-goalie-get){:target="_ blank"}.
 
 --- /collapse ---
