@@ -1,12 +1,12 @@
-## Control the goalie
+## Керування воротарем
 
-It's far too easy to score a goal! Let's allow a second player to try and save goals.
+Забити год - занадто легко! Давай додамо ще одного гравця, який намагатиметься захистити ворота.
 
 --- task ---
 
-Click on your __Goalie__ sprite and add this code to change the goalie's x position when the left arrow is pressed.
+Клацни на спрайт __Воротар__ і додай такий код, щоб змінювати позицію x воротаря, коли натиснуто клавішу зі стрілкою вліво.
 
-![goalie sprite](images/goalie-sprite.png)
+![спрайт воротаря](images/goalie-sprite.png)
 
 ```blocks3
 when [left arrow v] key pressed
@@ -17,27 +17,27 @@ change x by (-10)
 
 --- task ---
 
-Press the left arrow to test your new code. Your goalie should move to the left.
+Натисти клавішу зі стрілкою вліво, щоб перевірити свій код. Твій воротар має рухатися вліво.
 
-![screenshot](images/goalie-move-left-test.png)
+![знімок екрана](images/goalie-move-left-test.png)
 
 --- /task ---
 
 --- task ---
 
-Use blocks similar to the ones above to make the __Goalie__ move to the right `when the right arrow key is pressed`{:class="block3events"}.
+Використовуй блоки, подібні до вищенаведених, щоб __Воротар__ рухався вправо `коли клавішу "стрілка праворуч" натиснуто`{:class="block3events"}.
 
 --- hints ---
 
 --- hint ---
 
-Add blocks to your code so `when the right arrow key is pressed`{:class="block3events"}, the __Goalie's__ `x position is changed by 10`{:class="block3motion"}.
+Додай блоки до свого коду, щоб `коли клавішу "стрілка праворуч" натиснуто`{:class="block3events"}, __Воротар__ `змінював x на 10`{:class="block3motion"}.
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+Тобі знадобляться такі блоки:
 
 ```blocks3
 change x by (10)
@@ -49,9 +49,9 @@ when [right arrow v] key pressed
 
 --- hint ---
 
-Your code should look like this:
+Твій код повинен виглядати так:
 
-![goalie sprite](images/goalie-sprite.png)
+![спрайт воротаря](images/goalie-sprite.png)
 
 ```blocks3
 when [right arrow v] key pressed
