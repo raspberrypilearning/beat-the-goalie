@@ -1,9 +1,9 @@
 --- challenge ---
 
-## Challenge: manual control
-Instead of the ball moving left and right automatically, can you allow your player to control the ball with the `a` and `d` keys?
+## Завдання: ручне керування
+Замість автоматичного переміщення м’яча вліво-вправо, чи можеш ти дати можливіть гравцеві керувати ним за допомогою клавіш `a` та `d`?
 
-To do this you’ll need to remove the code for moving the ball left and right.
+Щоб це зробити, тобі треба видалити код для руху м’яча вліво-вправо.
 
 ```blocks3
 when green flag clicked
@@ -26,7 +26,7 @@ forever
 end
 ```
 
-You can then add code to move the ball when the keys are pressed. Here are some code blocks to help you:
+Далі ти можеш додати код, щоб рухати м’яч, коли натиснуто відповідні клавіші. Ось деякі блоки коду, які стануть тобі в пригоді:
 
 ```blocks3
 change x by (-5)
