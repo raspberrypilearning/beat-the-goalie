@@ -1,12 +1,12 @@
-## Was it a goal?
+## Що таке гол?
 
-Once the ball has reached the goal, there's a decision to make. __If__ the ball is touching the goalie then it has been saved, __else__ it's a goal.
+Як тільки м’яч досягне воріт, треба прийняти рішення. __Якщо__ м’яч торкається воротаря, тоді він його ловить (робить сейв), __інакше__ — це гол.
 
 --- task ---
 
-Add this code to the end of your football sprite code, so that you can check whether the ball is touching the goalie.
+Додай такий код в кінець свого спрайта м’яча, щоб ти міг (могла) перевіряти чи він торкається воротаря.
 
-![football sprite](images/football-sprite.png)
+![спрайт футбольного м’яча](images/football-sprite.png)
 
 ```blocks3
 repeat (15)
@@ -21,9 +21,9 @@ end
 
 --- task ---
 
-`Start the 'rattle' sound`{:class="block3sound"} `if the goalie has saved the ball`{:class="block3control"}.
+`Відтвори звук "брязкальце"`{:class="block3sound"} `якщо воротар впіймав м’яч`{:class="block3control"}.
 
-![football sprite](images/football-sprite.png)
+![спрайт футбольного м’яча](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -36,11 +36,11 @@ end
 
 --- task ---
 
-You can also broadcast a message to the goalie, so that they can tell you that the ball has been saved.
+Також ти можеш оповістити воротаря, щоб він сказав, що здійснив сейв.
 
-Broadcast a 'save' message when the ball has been saved.
+Надішли повідомлення "сейв", коли м’яч упіймано.
 
-![football sprite](images/football-sprite.png)
+![спрайт футбольного м’яча](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-You can now code your goalie to say 'Save!' when they receive the message.
+Тепер ти можеш запрограмувати воротаря, щоб той казав "Сейв!", коли отримує це повідомлення.
 
-![goalie sprite](images/goalie-sprite.png)
+![спрайт воротаря](images/goalie-sprite.png)
 
 ```blocks3
 when I receive [save v]
@@ -67,8 +67,8 @@ say [Save!] for (1) seconds
 
 --- task ---
 
-Test your code by trying to score a goal. If your goalie saves the goal they should say 'Save!'.
+Протестуй свій код, спробувавши забити гол. Якщо твій воротар ловить м’яч, то він має сказати "Сейв!".
 
-![screenshot](images/goalie-save-test.png)
+![знімок екрана](images/goalie-save-test.png)
 
 --- /task ---
