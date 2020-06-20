@@ -1,30 +1,30 @@
-## Moving the football
+## Рух м’яча
 
-Let's code the ball to move across the bottom of the stage.
+Давай запрограмуємо м’яч, щоб він рухався вздовж низу сцени.
 
 --- task ---
 
-Open the 'Beat the Goalie' Scratch starter project.
+Відкрий початковий проєкт "Серія пенальті" у Скретч.
 
-**Online**: open the starter project at [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){:target="_blank"}.
+**Онлайн**: відкрий початковий проєкт на [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Якщо у тебе є обліковий запис Скретч, то ти можеш зробити копію проєкту, натиснувши **Ремікс**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} in the offline editor.
+**Офлайн**: відкрий [початковий проєкт](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} в офлайн-редакторі.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Якщо тобі треба завантажити та встановити офлайн-редактор Скретч, то ти можеш його знайти на [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a goal backdrop, a football and goalie sprite.
+У початковому проєкті ти маєш бачити тло із воротами, а також спрайти воротаря та футбольного м’яча.
 
-![starter projects](images/goalie-starter.png)
+![початкові проєкти](images/goalie-starter.png)
 
 --- /task ---
 
 --- task ---
 
-Click on your football sprite. Add this code, so that the football moves along the bottom of the screen until the space bar is pressed.
+Клацни на спрайт м’яча. Додай такий код, щоб м’яч рухався вздовж низу сцени, доки не натиснуто клавішу "пропуск".
 
-![football sprite](images/football-sprite.png)
+![спрайт футбольного м’яча](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -38,17 +38,17 @@ end
 
 --- task ---
 
-Click the green flag to test your project. Your football should bounce along the bottom of the screen until the space bar is pressed.
+Натисни на зелений прапор, щоб перевірити свій проєкт. Твій м’яч має підстрибувати вздовж низу сцени, доки не натиснуто клавішу "пропуск".
 
-![screenshot](images/goalie-football-move-test.png)
+![знімок екрана](images/goalie-football-move-test.png)
 
 --- /task ---
 
 --- task ---
 
-Add this code to your football sprite, so that the football moves towards the goal after the space bar has been pressed.
+Додай такий код, щоб спрайт м’яча летів до воріт після того, як натиснуто клавішу "пропуск".
 
-![football sprite](images/football-sprite.png)
+![спрайт футбольного м’яча](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -65,27 +65,27 @@ end
 
 --- task ---
 
-Click the green flag to test your code. This time, press the space bar and your football should move towards the goal.
+Click the green flag to test your code. Цього разу натисни клавішу "пропуск", і твій м’яч має полетіти до воріт.
 
-![screenshot](images/goalie-football-ypos-test.png)
+![знімок екрана](images/goalie-football-ypos-test.png)
 
 --- /task ---
 
 --- task ---
 
-Click the green flag to test your code. What happens if you click the flag a second time? Can you fix the problem?
+Натисни на зелений прапор, щоб перевірити свій код. Що трапиться, якщо ти клацнеш на прапор удруге? Чи можеш ти вирішити проблему?
 
 --- hints ---
 
 --- hint ---
 
-After the `green flag is clicked`{:class="block3events"} the sprite will have to `go to`{:class="block3motion"} back to the start.
+Після `натискання зеленого прапора`{:class="block3events"} спрайт має `переміститися`{:class="block3motion"} назад на початок.
 
 --- /hint ---
 
 --- hint ---
 
-You will need this block:
+Тобі знадобиться такий блок:
 
 ```blocks3
 go to x:(-200) y:(-140)
@@ -95,9 +95,9 @@ go to x:(-200) y:(-140)
 
 --- hint ---
 
-Your code should look like this:
+Твій код повинен виглядати так:
 
-![football sprite](images/football-sprite.png)
+![спрайт футбольного м’яча](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
