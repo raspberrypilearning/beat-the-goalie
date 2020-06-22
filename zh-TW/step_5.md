@@ -12,9 +12,9 @@
 
 --- task ---
 
-Click on your __stage__, and add this code to set the `timer`{:class="block3variables"} to 30 at the start of the game.
+點擊您的__階段__ ，並加入此程式以設置在遊戲開始時，` 計時器 ` {：class =“ block3variables”}為30。
 
-![stage sprite](images/stage-sprite.png)
+![舞台角色](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -25,9 +25,9 @@ set [timer v] to [30]
 
 --- task ---
 
-Next, you'll need to add a `repeat until`{:class="block3control"} block, so that the timer can run until it gets to 0.
+接下來，您需要添加`重複直到` {：class =“ block3control”}的積木，讓計時器可以倒數直到變為0。
 
-![stage sprite](images/stage-sprite.png)
+![舞台角色](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -40,9 +40,9 @@ end
 
 --- task ---
 
-Reduce your timer by 1 every second until it reaches 0.
+將您的計時器以每秒減少1，直到它到達0。
 
-![stage sprite](images/stage-sprite.png)
+![舞台角色](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -57,9 +57,9 @@ end
 
 --- task ---
 
-Once the timer has reached 0, you should `play the 'whistle' sound`{:class="block3sound"} and then stop the game.
+一旦計時器達到0，您應該`播放“嘯叫”聲` {：class =“ block3sound”}，然後停止遊戲。
 
-![stage sprite](images/stage-sprite.png)
+![舞台角色](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -76,19 +76,19 @@ end
 
 --- task ---
 
-Click the green flag to test your code. Your timer should start at 30, and end at 0.
+現在，點擊綠色旗標來測試您的程式。 您的計時器應從30開始，0結束。
 
-![screenshot](images/goalie-timer-test.png)
+![截圖](images/goalie-timer-test.png)
 
-You can change your timer to start at 10 if you don't want to wait for 30 seconds!
+如果不想等待30秒，你可以將計時器更改為從10秒開始倒數！
 
 --- /task ---
 
 --- task ---
 
-You only have the chance to score 1 goal! To have more than 1 chance, add a `forever`{:class="block3control"} block around your __football__ code. You can also add a `wait`{:class="block3control"} block between attempts.
+你只有可能進1顆球！ 要獲得1次以上的機會，請添加`永久 ` {：class =“ block3control”}積木在您的__足球__程式周圍。 您還可以在兩次的嘗試中添加`等待` {：class =“ block3control”}積木。
 
-![football sprite](images/football-sprite.png)
+![足球角色](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
