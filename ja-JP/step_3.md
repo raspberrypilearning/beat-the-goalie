@@ -1,12 +1,12 @@
-## Was it a goal?
+## ゴールできたでしょうか？
 
-Once the ball has reached the goal, there's a decision to make. __If__ the ball is touching the goalie then it has been saved, __else__ it's a goal.
+ボールがゴールにとうたつしたら、この2つの内、どちらか決めなければなりません。 __もし__ボールがゴールキーパーに当たっていたなら、ゴールキーパーがシュートをふせいだことになります。__でなければ__、ゴールになります。
 
 --- task ---
 
-Add this code to the end of your football sprite code, so that you can check whether the ball is touching the goalie.
+このコードをボールのコードのおわりに追加して、ボールがゴールキーパーにふれたかどうかをたしかめられるようにします。
 
-![football sprite](images/football-sprite.png)
+![ボールのスプライト](images/football-sprite.png)
 
 ```blocks3
 repeat (15)
@@ -21,9 +21,9 @@ end
 
 --- task ---
 
-`Start the 'rattle' sound`{:class="block3sound"} `if the goalie has saved the ball`{:class="block3control"}.
+`ゴールキーパーがシュートをふせいだら、`{:class="block3control"}`「ガラガラ」の音を鳴らします`{:class="block3sound"} 。
 
-![football sprite](images/football-sprite.png)
+![ボールのスプライト](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -36,11 +36,11 @@ end
 
 --- task ---
 
-You can also broadcast a message to the goalie, so that they can tell you that the ball has been saved.
+ゴールキーパーにメッセージを送って、キーパーがシュートをふせいだことを知らせることもできます。
 
-Broadcast a 'save' message when the ball has been saved.
+シュートがふせがれたら、「キャッチ」メッセージを送ります。
 
-![football sprite](images/football-sprite.png)
+![ボールのスプライト](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-You can now code your goalie to say 'Save!' when they receive the message.
+これで、ゴールキーパーがメッセージを受け取ったときに「キャッチ！」と言うようにコードを入れることができます。
 
-![goalie sprite](images/goalie-sprite.png)
+![ゴールキーパーのスプライト](images/goalie-sprite.png)
 
 ```blocks3
 when I receive [save v]
@@ -67,8 +67,8 @@ say [Save!] for (1) seconds
 
 --- task ---
 
-Test your code by trying to score a goal. If your goalie saves the goal they should say 'Save!'.
+ボールをシュートしてコードをテストします。 ゴールキーパーがシュートをふせいだ場合、「キャッチ！」と言うはずです。
 
-![screenshot](images/goalie-save-test.png)
+![スクリーンショット](images/goalie-save-test.png)
 
 --- /task ---
