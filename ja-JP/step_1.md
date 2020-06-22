@@ -1,18 +1,18 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/beat-the-goalie-scratch2).
+これはプロジェクトの**Scratch 3**バージョンです。 [Scratch 2バージョンのプロジェクト](https://projects.raspberrypi.org/en/projects/beat-the-goalie-scratch2)もあります。
 
 --- /no-print ---
 
-## Introduction
+## はじめに
 
-In this project you'll learn how to create a 2 player football game in which you have to score as many goals as you can in 30 seconds.
+このプロジェクトでは、30秒でできるだけたくさんゴールを決める2人用のサッカーゲームの作り方を学びます。
 
-### What you will make
+### 作るもの
 
 --- no-print ---
 
-Click the green flag to begin. Use the left and right arrow keys to control the goalie and press <kbd>space</kbd> to kick the ball.
+緑の旗 (はた) をクリックしてスタートします。 左右の矢印 (やじるし) キーを使ってゴールキーパーを動かし、<kbd>スペースキー</kbd>を押して (おして) ボールをけります。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/285942132/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -22,16 +22,16 @@ Click the green flag to begin. Use the left and right arrow keys to control the 
 
 --- print-only ---
 
-![game screenshot](images/goalie-final.png)
+![ゲームのスクリーンショット](images/goalie-final.png)
 
 --- /print-only ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: 学ぶこと
 ---
 
-- Recall how to use code to respond to key presses
+- キーを押したときに反応 (はんのう) するコードの使い方をおぼえる
 - Use sensing blocks to detect when sprites touch each other
 - Use broadcast blocks to communicate between sprites
 
