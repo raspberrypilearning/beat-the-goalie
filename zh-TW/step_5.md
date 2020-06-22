@@ -1,10 +1,10 @@
-## Adding a timer
+## 添加計時器
 
-Let's add a timer, so that the player has to score as many goals as they can in 30 seconds.
+讓我們添加一個計時器，讓玩家盡可能在30秒內進越多球越好。
 
 --- task ---
 
-`Make a new variable`{:class="block3variables"} called `timer`{:class="block3variables"}.
+`建立一個新變量`{:class="block3variables"} 稱為 `計時器`{:class="block3variables"}。
 
 [[[generic-scratch3-add-variable]]]
 
