@@ -1,26 +1,26 @@
-## Goal!
+## ゴール！
 
 --- task ---
 
-Can you play a sound and code your goalie to say 'Goal!' when a goal has been scored?
+ゴールしたときに、音を鳴らしてゴールキーパーに「ゴール！」と言わせることができますか？
 
-Remember that a goal has been scored if the ball is not touching the goalie.
+ボールがゴールキーパーにふれていない場合は、ゴールしたことになることをおぼえておきましょう。
 
-![screenshot](images/goalie-goal-test.png)
+![スクリーンショット](images/goalie-goal-test.png)
 
 --- hints ---
 
 --- hint ---
 
-`If the football is not`{:class="block3control"} `touching the goalie`{:class="block3sensing"} your program should `start the cheer sound`{:class="block3sound"} and `broadcast a goal message`{:class="block3events"}.
+`ボールが`{:class="block3control"} `ゴールキーパーにふれて`{:class="block3sensing"}`いなければ、`{:class="block3control"} プログラムは`歓声 (かんせい) の音を鳴らし、 `{:class="block3sound"}<0>「ゴール」メッセージを送る</0>{:class="block3events"}必要があります。
 
-`When the goalie receives the goal message`{:class="block3events"} it should `say goal`{:class="block3looks"}.
+`ゴールキーパーが「ゴール」メッセージを受け取ったら、`{:class="block3events"}`「ゴール！」`{:class="block3looks"}と言います。
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+使うのはこのブロックです。
 
 ```blocks3
 broadcast (goal v)
@@ -36,9 +36,9 @@ start sound (cheer v)
 
 --- hint ---
 
-Your code should look like this:
+コードは次のようになります。
 
-![football sprite](images/football-sprite.png)
+![ボールのスプライト](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -50,7 +50,7 @@ else
 end
 ```
 
-![goalie sprite](images/goalie-sprite.png)
+![ゴールキーパーのスプライト](images/goalie-sprite.png)
 
 ```blocks3
 when I receive [goal v]
