@@ -1,29 +1,29 @@
 ---
-title: Beat the goalie
+title: 打敗守門員
 hero_image: images/beat-the-goalie.png
-description: How many goals can you score in 30 seconds?
+description: 您在30秒內可以進多少球？
 listed: true
 copyedit: false
 version: 4
 last_tested: 2019-02-11
 steps:
   - 
-    title: Introduction
+    title: 介紹
   - 
-    title: Moving the football
+    title: 讓足球動起來
   - 
-    title: Was it a goal?
+    title: 會進球嗎？
   - 
-    title: Goal!
+    title: 進球！
   - 
-    title: Adding a timer
+    title: 添加計時器
   - 
-    title: "Challenge: adding a score"
+    title: "挑戰：加上分數"
     challenge: true
   - 
-    title: Control the goalie
+    title: 控制守門員
   - 
-    title: "Challenge: manual control"
+    title: "挑戰：手動控制"
     challenge: true
   - 
-    title: What next?
+    title: 然後呢？
