@@ -1,29 +1,29 @@
 ---
-title: Beat the goalie
+title: ゴールを決めろ
 hero_image: images/beat-the-goalie.png
-description: How many goals can you score in 30 seconds?
+description: 30秒間に何回ゴールできるでしょうか？
 listed: true
 copyedit: false
 version: 4
 last_tested: 2019-02-11
 steps:
   - 
-    title: Introduction
+    title: はじめに
   - 
-    title: Moving the football
+    title: ボールを動かす
   - 
-    title: Was it a goal?
+    title: ゴールできたでしょうか？
   - 
-    title: Goal!
+    title: ゴール！
   - 
-    title: Adding a timer
+    title: タイマーを追加 (ついか) する
   - 
-    title: "Challenge: adding a score"
+    title: "チャレンジ: スコアをつける"
     challenge: true
   - 
-    title: Control the goalie
+    title: ゴールキーパーを動かす
   - 
-    title: "Challenge: manual control"
+    title: "チャレンジ: 自分で動かす"
     challenge: true
   - 
-    title: What next?
+    title: 次は何をしましょうか？
