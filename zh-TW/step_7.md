@@ -1,12 +1,12 @@
-## Control the goalie
+## 控制守門員
 
-It's far too easy to score a goal! Let's allow a second player to try and save goals.
+進球太容易了！ 我們讓第二個玩家嘗試並守下足球。
 
 --- task ---
 
-Click on your __Goalie__ sprite and add this code to change the goalie's x position when the left arrow is pressed.
+點擊您的__ 守門員 __ 角色並添加此程式，讓玩家在按下左箭頭時可以更改守門員的x位置。
 
-![goalie sprite](images/goalie-sprite.png)
+![守門員角色](images/goalie-sprite.png)
 
 ```blocks3
 when [left arrow v] key pressed
@@ -17,27 +17,27 @@ change x by (-10)
 
 --- task ---
 
-Press the left arrow to test your new code. Your goalie should move to the left.
+按左方向鍵來測試您的新程式。 您的守門員應該向左移動。
 
-![screenshot](images/goalie-move-left-test.png)
+![截圖](images/goalie-move-left-test.png)
 
 --- /task ---
 
 --- task ---
 
-Use blocks similar to the ones above to make the __Goalie__ move to the right `when the right arrow key is pressed`{:class="block3events"}.
+使用與上述相似的積木讓__守門員__往右移動`當玩家按下右方向鍵` {：class =“ block3events”}。
 
 --- hints ---
 
 --- hint ---
 
-Add blocks to your code so `when the right arrow key is pressed`{:class="block3events"}, the __Goalie's__ `x position is changed by 10`{:class="block3motion"}.
+將積木添加到您的程式中，以便在` 玩家按下右方向鍵時` {：class =“ block3events”}，__ 守門員的__ ` x位置以10改變 ` {：class =“ block3motion”}。
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+你會需要這些積木：
 
 ```blocks3
 change x by (10)
@@ -49,9 +49,9 @@ when [right arrow v] key pressed
 
 --- hint ---
 
-Your code should look like this:
+你的程式應該會像這樣：
 
-![goalie sprite](images/goalie-sprite.png)
+![守門員角色](images/goalie-sprite.png)
 
 ```blocks3
 when [right arrow v] key pressed
