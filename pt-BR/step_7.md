@@ -32,7 +32,7 @@ Use blocos similares aos acima para fazer o __Goleiro__ se mover para a direita 
 
 --- hint ---
 
-Adicione blocos ao seu código para que ` quando a tecla seta para a direita for pressionada`{:class="block3events"}, a posição do __Goleiro__ `posição x é alterada por 10`{:class="block3motion"}.
+Adicione blocos ao seu código para que `quando a tecla seta para a direita for pressionada`{:class="block3events"}, a posição do __Goleiro__ `posição x é alterada por 10`{:class="block3motion"}.
 
 --- /hint ---
 
