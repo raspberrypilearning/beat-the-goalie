@@ -1,12 +1,12 @@
-## Was it a goal?
+## 有進球嗎？
 
-Once the ball has reached the goal, there's a decision to make. __If__ the ball is touching the goalie then it has been saved, __else__ it's a goal.
+一旦球到達球門，就必須被做出判定。 __如果__球碰到守門員，那就是防守成功，__否則__是一個進球。
 
 --- task ---
 
-Add this code to the end of your football sprite code, so that you can check whether the ball is touching the goalie.
+將這個程式添加到足球角色程式的末尾，讓您可以檢查足球是否觸碰到守門員。
 
-![football sprite](images/football-sprite.png)
+![足球角色](images/football-sprite.png)
 
 ```blocks3
 repeat (15)
@@ -21,9 +21,9 @@ end
 
 --- task ---
 
-`Start the 'rattle' sound`{:class="block3sound"} `if the goalie has saved the ball`{:class="block3control"}.
+`發出“嘎嘎”聲` {:class="block3sound"}`如果守門員防守成功` {:class="block3control"}。
 
-![football sprite](images/football-sprite.png)
+![足球角色](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -36,11 +36,11 @@ end
 
 --- task ---
 
-You can also broadcast a message to the goalie, so that they can tell you that the ball has been saved.
+您還可以向守門員廣播一則消息，讓他們可以告訴您足球已被守下。
 
-Broadcast a 'save' message when the ball has been saved.
+守下足球後廣播“防守成功”消息。
 
-![football sprite](images/football-sprite.png)
+![足球角色](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-You can now code your goalie to say 'Save!' when they receive the message.
+現在，您可以編碼守門員說“防守成功！”當他們收到消息時。
 
-![goalie sprite](images/goalie-sprite.png)
+![守門員角色](images/goalie-sprite.png)
 
 ```blocks3
 when I receive [save v]
@@ -67,8 +67,8 @@ say [Save!] for (1) seconds
 
 --- task ---
 
-Test your code by trying to score a goal. If your goalie saves the goal they should say 'Save!'.
+透過嘗試射門得分來測試您的程式。 如果您的守門員守下了足球，他們應該說“防守成功！”。
 
-![screenshot](images/goalie-save-test.png)
+![截圖](images/goalie-save-test.png)
 
 --- /task ---
