@@ -1,9 +1,9 @@
 --- challenge ---
 
-## Challenge: manual control
-Instead of the ball moving left and right automatically, can you allow your player to control the ball with the `a` and `d` keys?
+## 挑戰：手動控制
+除了讓足球左右自動移動之外，你能用 `a` 和`d` 按鍵讓你的球員控制足球嗎？
 
-To do this you’ll need to remove the code for moving the ball left and right.
+為此，你需要刪除讓足球左右移動的程式。
 
 ```blocks3
 when green flag clicked
@@ -26,7 +26,7 @@ forever
 end
 ```
 
-You can then add code to move the ball when the keys are pressed. Here are some code blocks to help you:
+然後，您可以加入程式讓玩家在按下按鍵時移動足球。 這些程式積木可以幫助你：
 
 ```blocks3
 change x by (-5)
