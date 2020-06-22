@@ -1,12 +1,12 @@
 --- challenge ---
 
-## Challenge: adding a score
-Can you add a `score`{:class="block3variables"} variable to your game?
+## チャレンジ: スコアをつける
+`スコア`{:class="block3variables"}変数をゲームに追加できますか？
 
-+ You should set the score to 0 at the start of the game;
-+ You should add 1 to your score every time a goal is scored.
++ ゲーム開始時にスコアを0にしましょう。
++ ゴールを決めるたびに、スコアに1を追加する必要があります。
 
-You will need these blocks:
+使うのはこのブロックです。
 
 ```blocks3
 change [score v] by (1)
