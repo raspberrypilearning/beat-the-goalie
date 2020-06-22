@@ -1,9 +1,9 @@
 --- challenge ---
 
-## Challenge: manual control
-Instead of the ball moving left and right automatically, can you allow your player to control the ball with the `a` and `d` keys?
+## チャレンジ: 自分で動かす
+ボールが自動で左右に動くのではなく、プレーヤーが `a` と `d` キーでボールをコントロールできるようにすることはできますか？
 
-To do this you’ll need to remove the code for moving the ball left and right.
+そのためには、ボールを左右に動かすコードを削除 (さくじょ) する必要があります。
 
 ```blocks3
 when green flag clicked
@@ -26,7 +26,7 @@ forever
 end
 ```
 
-You can then add code to move the ball when the keys are pressed. Here are some code blocks to help you:
+その後、キーが押されたときにボールを動かすコードを追加することができます。 役に立つコードブロックをいくつかしょうかいします。
 
 ```blocks3
 change x by (-5)
