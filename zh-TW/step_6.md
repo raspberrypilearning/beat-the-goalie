@@ -1,12 +1,12 @@
 --- challenge ---
 
-## Challenge: adding a score
-Can you add a `score`{:class="block3variables"} variable to your game?
+## 挑戰：加上分數
+您能添加`分數` {：class =“ block3variables”}變量在你的遊戲中嗎？
 
-+ You should set the score to 0 at the start of the game;
-+ You should add 1 to your score every time a goal is scored.
++ 您應該在遊戲開始時將分數設置為0；
++ 每次進球時，您應在分數上加1。
 
-You will need these blocks:
+你會需要這些積木：
 
 ```blocks3
 change [score v] by (1)
