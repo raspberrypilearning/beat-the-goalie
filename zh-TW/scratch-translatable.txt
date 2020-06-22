@@ -1,7 +1,7 @@
-goalie
+守門員
 
-Save!
+防守成功！
 
-timer
+計時器
 
-score
+得分
