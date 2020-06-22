@@ -1,6 +1,6 @@
-## What next?
+## 然後呢？
 
-Take a look at the [Ada's Poetry Generator](https://projects.raspberrypi.org/en/projects/poetry-generator) Scratch project.
+看看[艾妲的詩歌產生器](https://projects.raspberrypi.org/en/projects/poetry-generator)Scratch專案。
 
 --- no-print ---
 
@@ -13,6 +13,6 @@ Take a look at the [Ada's Poetry Generator](https://projects.raspberrypi.org/en/
 
 --- print-only ---
 
-![game screenshot](images/poetry-final.png)
+![遊戲截圖](images/poetry-final.png)
 
 --- /print-only ---
