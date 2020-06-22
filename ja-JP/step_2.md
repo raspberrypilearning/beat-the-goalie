@@ -1,30 +1,30 @@
-## Moving the football
+## ボールを動かす
 
-Let's code the ball to move across the bottom of the stage.
+ボールにコードを入れて、ステージの下を動くようにしましょう。
 
 --- task ---
 
-Open the 'Beat the Goalie' Scratch starter project.
+「ゴールを決めろ」の基本 (きほん) の Scratch プロジェクトを開きます。
 
-**Online**: open the starter project at [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){:target="_blank"}.
+**オンライン**: [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){:target="_blank"}から基本のプロジェクトを開きます。
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Scratch アカウントを持っている場合は、 **リミックス**ボタンをクリックしてプロジェクトをコピーできます。
 
-**Offline**: open the [starter project](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} in the offline editor.
+**オフライン**: オフラインエディターで[基本のプロジェクト](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"}を開きます。
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+[rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}から Scratch オフラインエディターをダウンロードしてインストールできます。
 
-In the starter project, you should see a goal backdrop, a football and goalie sprite.
+基本のプロジェクトには、ゴールの背景 (はいけい) 、ボール、ゴールキーパーのスプライトがあります。
 
-![starter projects](images/goalie-starter.png)
+![基本のプロジェクト](images/goalie-starter.png)
 
 --- /task ---
 
 --- task ---
 
-Click on your football sprite. Add this code, so that the football moves along the bottom of the screen until the space bar is pressed.
+ボールのスプライトをクリックします。 このコードを追加 (ついか) して、スペースキーが押されるまで、ボールが画面の下にそって移動 (いどう) するようにします。
 
-![football sprite](images/football-sprite.png)
+![ボールのスプライト](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -38,17 +38,17 @@ end
 
 --- task ---
 
-Click the green flag to test your project. Your football should bounce along the bottom of the screen until the space bar is pressed.
+緑の旗をクリックしてゲームをテストします。 スペースキーが押されるまで、ボールが画面の下を左右に動き、端まで行ったらはね返ります。
 
-![screenshot](images/goalie-football-move-test.png)
+![スクリーンショット](images/goalie-football-move-test.png)
 
 --- /task ---
 
 --- task ---
 
-Add this code to your football sprite, so that the football moves towards the goal after the space bar has been pressed.
+このコードをボールのスプライトに追加して、スペースキーが押されたあとにボールがゴールに向かって移動するようにします。
 
-![football sprite](images/football-sprite.png)
+![ボールのスプライト](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -65,27 +65,27 @@ end
 
 --- task ---
 
-Click the green flag to test your code. This time, press the space bar and your football should move towards the goal.
+緑の旗をクリックしてゲームをテストします。 今回はスペースキーを押すと、ボールがゴールに向かって移動します。
 
-![screenshot](images/goalie-football-ypos-test.png)
+![スクリーンショット](images/goalie-football-ypos-test.png)
 
 --- /task ---
 
 --- task ---
 
-Click the green flag to test your code. What happens if you click the flag a second time? Can you fix the problem?
+緑の旗をクリックしてゲームをテストしましょう。 旗をもう一度クリックするとどうなりますか？ この問題をなおすことはできますか？
 
 --- hints ---
 
 --- hint ---
 
-After the `green flag is clicked`{:class="block3events"} the sprite will have to `go to`{:class="block3motion"} back to the start.
+`緑の旗が押されたとき`{:class="block3events"}、スプライトは始めの位置 (いち) に `移動`{:class="block3motion"}する必要があります。
 
 --- /hint ---
 
 --- hint ---
 
-You will need this block:
+使うのはこのブロックです。
 
 ```blocks3
 go to x:(-200) y:(-140)
@@ -95,9 +95,9 @@ go to x:(-200) y:(-140)
 
 --- hint ---
 
-Your code should look like this:
+コードは次のようになります。
 
-![football sprite](images/football-sprite.png)
+![ボールのスプライト](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
