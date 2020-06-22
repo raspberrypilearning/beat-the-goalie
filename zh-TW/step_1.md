@@ -1,18 +1,18 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/beat-the-goalie-scratch2).
+這個專案是 **Scratch 3** 版本。 另外還有 [Scratch 2](https://projects.raspberrypi.org/en/projects/beat-the-goalie-scratch2) 版本。
 
 --- /no-print ---
 
-## Introduction
+## 介紹
 
-In this project you'll learn how to create a 2 player football game in which you have to score as many goals as you can in 30 seconds.
+在這個項目中，您將學習如何建立一個2人制足球比賽，其中您必須盡可能的在30秒內進越多球越好。
 
-### What you will make
+### 你將會做出
 
 --- no-print ---
 
-Click the green flag to begin. Use the left and right arrow keys to control the goalie and press <kbd>space</kbd> to kick the ball.
+點擊綠旗開始。 使用左右方向鍵控制守門員。按<kbd>空白鍵</kbd> 來射門。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/285942132/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -22,51 +22,51 @@ Click the green flag to begin. Use the left and right arrow keys to control the 
 
 --- print-only ---
 
-![game screenshot](images/goalie-final.png)
+![遊戲截圖](images/goalie-final.png)
 
 --- /print-only ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: 你會學到
 ---
 
-- Recall how to use code to respond to key presses
-- Use sensing blocks to detect when sprites touch each other
-- Use broadcast blocks to communicate between sprites
+- 回顧如何使用程式來回應按鍵
+- 使用感應積木檢測角色何時相互接觸
+- 使用廣播積木在角色之間進行溝通
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will need
+title: 你會用到
 ---
 
-#### Hardware
+#### 硬體
 
-+ A computer capable of running Scratch 3
++ 可運行 Scratch 3 的電腦
 
-#### Software
+#### 軟體
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3([線上版](http://rpf.io/scratchon){:target="_blank"} 或 [離線版](http://rpf.io/scratchoff){:target="_blank"})
 
-#### Downloads
+#### 下載
 
-The starter project can be found [here](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"}.
+入門項目可在[這裡 ](http://rpf.io/p/en/beat-the-goalie-go) {：target =“ _ blank”}找到。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: 給教師的其它資訊
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/beat-the-goalie/print){:target="_blank"}.
+如果您需要列印此專案內容，請下載 [列印版本](https://projects.raspberrypi.org/en/projects/beat-the-goalie/print){:target =“_ blank”}。
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/beat-the-goalie-get){:target="_blank"}.
+你可以在這裡找到[已經完成的專案](http://rpf.io/p/en/beat-the-goalie-get){:target="_blank"}。
 
 --- /collapse ---
