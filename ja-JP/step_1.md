@@ -32,41 +32,41 @@ title: 学ぶこと
 ---
 
 - キーを押したときに反応 (はんのう) するコードの使い方をおぼえる
-- Use sensing blocks to detect when sprites touch each other
-- Use broadcast blocks to communicate between sprites
+- 「調べる」ブロックを使って、スプライト同士がふれたことを検出 (けんしゅつ) する
+- 「メッセージ」ブロックを使ったスプライト間の通信の行い方
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will need
+title: 必要（ひつよう）なもの
 ---
 
-#### Hardware
+#### ハードウェア
 
-+ A computer capable of running Scratch 3
++ Scratch 3を実行できるコンピュータ
 
-#### Software
+#### ソフトウェア
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([オンライン](http://rpf.io/scratchon){:target="_blank"}または[オフライン](http://rpf.io/scratchoff){:target="_blank"})
 
-#### Downloads
+#### ダウンロード
 
-The starter project can be found [here](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"}.
+基本 (きほん) のプロジェクトは [こちら](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"}にあります。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title：教育者向けの追加情報
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/beat-the-goalie/print){:target="_blank"}.
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/beat-the-goalie/print){:target="_ blank"}を使用してください。
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/beat-the-goalie-get){:target="_blank"}.
+[完成したプロジェクトはこちら](http://rpf.io/p/en/beat-the-goalie-get){:target="_blank"}にあります。
 
 --- /collapse ---
