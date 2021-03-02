@@ -4,7 +4,7 @@ Laten we een timer toevoegen, zodat de speler binnen 30 seconden zoveel mogelijk
 
 --- task ---
 
-`Maak een nieuwe variabele`{:class="block3variables"} genaamd `timer`{:class="block3variables"}.
+`Maak een nieuwe variabele`{:class="block3variables"} genaamd `tijd`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,13 +12,13 @@ Laten we een timer toevoegen, zodat de speler binnen 30 seconden zoveel mogelijk
 
 --- task ---
 
-Klik op je __speelveld__ en voeg deze code toe om de `timer`{:class="block3variables"} in te stellen op 30 aan het begin van het spel.
+Klik op je __speelveld__ en voeg deze code toe om de `tijd`{:class="block3variables"} in te stellen op 30 aan het begin van het spel.
 
 ![speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
-set [timer v] to [30]
+set [tijd v] to [30]
 ```
 
 --- /task ---
@@ -31,8 +31,8 @@ Vervolgens moet je een `herhaal tot`{:class="block3control"} blok toevoegen, zod
 
 ```blocks3
 when green flag clicked
-set [timer v] to [30]
-+repeat until <(timer :: variables) = [0]>
+set [tijd v] to [30]
++repeat until <(tijd :: variables) = [0]>
 end
 ```
 
@@ -46,10 +46,10 @@ Laat de timer aftellen 1 seconde totdat deze 0 bereikt.
 
 ```blocks3
 when green flag clicked
-set [timer v] to [30]
-repeat until <(timer :: variables) = [0]>
+set [tijd v] to [30]
+repeat until <(tijd :: variables) = [0]>
 +wait (1) seconds
-+change [timer v] by (-1)
++change [tijd v] by (-1)
 end
 ```
 
@@ -63,10 +63,10 @@ Zodra de timer 0 heeft bereikt, moet je `het 'fluit'-geluid`{:class="block3sound
 
 ```blocks3
 when green flag clicked
-set [timer v] to [30]
-repeat until <(timer :: variables) = [0]>
+set [tijd v] to [30]
+repeat until <(tijd :: variables) = [0]>
 wait (1) seconds
-change [timer v] by (-1)
+change [tijd v] by (-1)
 end
 +play sound (whistle v) until done
 +stop [all v]
