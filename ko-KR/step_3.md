@@ -1,12 +1,12 @@
-## Was it a goal?
+## 골 이었나요?
 
-Once the ball has reached the goal, there's a decision to make. __If__ the ball is touching the goalie then it has been saved, __else__ it's a goal.
+공이 골대에 도착하면, 결정을 내려야 합니다. __만약__ 공이 골키퍼에 닿으면 세이브가 되고, __아니면__ 골입니다.
 
 --- task ---
 
-Add this code to the end of your football sprite code, so that you can check whether the ball is touching the goalie.
+이 코드를 축구공 스프라이트 코드의 끝에 추가하면 공이 골키퍼에 닿는지 확인할 수 있습니다.
 
-![football sprite](images/football-sprite.png)
+![축구공 스프라이트](images/football-sprite.png)
 
 ```blocks3
 repeat (15)
@@ -21,9 +21,9 @@ end
 
 --- task ---
 
-`Start the 'rattle' sound`{:class="block3sound"} `if the goalie has saved the ball`{:class="block3control"}.
+`만약 골키퍼가 공을 세이브 한 경우`{:class="block3control"}, `'rattle' 소리 재생하기`{:class="block3sound"}
 
-![football sprite](images/football-sprite.png)
+![축구공 스프라이트](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -36,11 +36,11 @@ end
 
 --- task ---
 
-You can also broadcast a message to the goalie, so that they can tell you that the ball has been saved.
+또한 골키퍼에게 메시지를 방송하여 볼이 세이브되었음을 알릴 수 있습니다.
 
-Broadcast a 'save' message when the ball has been saved.
+공이 세이브 되면 '세이브' 메시지를 방송합니다.
 
-![football sprite](images/football-sprite.png)
+![축구공 스프라이트](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-You can now code your goalie to say 'Save!' when they receive the message.
+이제 메시지를 받은 골키퍼가 '세이브!' 라고 말하도록 코딩할 수 있습니다.
 
-![goalie sprite](images/goalie-sprite.png)
+![골키퍼 스프라이트](images/goalie-sprite.png)
 
 ```blocks3
 when I receive [save v]
@@ -67,8 +67,8 @@ say [Save!] for (1) seconds
 
 --- task ---
 
-Test your code by trying to score a goal. If your goalie saves the goal they should say 'Save!'.
+골을 넣어 코드를 테스트합니다. 골키퍼가 골을 막으면 '세이브!' 라고 말해야 합니다.
 
-![screenshot](images/goalie-save-test.png)
+![스크린샷](images/goalie-save-test.png)
 
 --- /task ---
