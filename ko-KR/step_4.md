@@ -1,26 +1,26 @@
-## Goal!
+## 골!
 
 --- task ---
 
-Can you play a sound and code your goalie to say 'Goal!' when a goal has been scored?
+골을 넣었을 때 골키퍼가 '골!'이라고 소리내어 말하도록 코드를 작성할 수 있나요?
 
-Remember that a goal has been scored if the ball is not touching the goalie.
+공이 골키퍼에 닿지 않으면 골을 넣어서 득점했다는 것을 기억하세요.
 
-![screenshot](images/goalie-goal-test.png)
+![스크린샷](images/goalie-goal-test.png)
 
 --- hints ---
 
 --- hint ---
 
-`If the football is not`{:class="block3control"} `touching the goalie`{:class="block3sensing"} your program should `start the cheer sound`{:class="block3sound"} and `broadcast a goal message`{:class="block3events"}.
+`만약 축구공이`{:class="block3control"} `골키퍼에 닿지 않았다면`{:class="block3sensing"} 프로그램은 `응원 소리 재생`{:class="block3sound"} 과 `골 메시지 방송`{:class="block3events"} 을 할 것입니다.
 
-`When the goalie receives the goal message`{:class="block3events"} it should `say goal`{:class="block3looks"}.
+`골키퍼가 골 메시지를 받으면`{:class="block3events"} `골`{:class="block3looks"} 을 말할 것입니다.
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+이 블럭들이 필요할겁니다.
 
 ```blocks3
 broadcast (goal v)
@@ -36,9 +36,9 @@ start sound (cheer v)
 
 --- hint ---
 
-Your code should look like this:
+다음과 같은 코드가 될 것입니다.:
 
-![football sprite](images/football-sprite.png)
+![축구공 스프라이트](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -50,7 +50,7 @@ else
 end
 ```
 
-![goalie sprite](images/goalie-sprite.png)
+![골키퍼 스프라이트](images/goalie-sprite.png)
 
 ```blocks3
 when I receive [goal v]
