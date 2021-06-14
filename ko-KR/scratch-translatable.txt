@@ -1,7 +1,7 @@
-goalie
+골키퍼
 
-Save!
+세이브
 
-timer
+타이머
 
-score
+점수
