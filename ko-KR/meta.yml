@@ -1,29 +1,29 @@
 ---
-title: Beat the goalie
+title: 골키퍼를 이겨라
 hero_image: images/beat-the-goalie.png
-description: How many goals can you score in 30 seconds?
+description: 30초 안에 몇 골을 넣을 수 있나요?
 listed: true
 copyedit: false
 version: 4
 last_tested: 2019-02-11
 steps:
   - 
-    title: Introduction
+    title: 소개
   - 
-    title: Moving the football
+    title: 축구공 움직이기
   - 
-    title: Was it a goal?
+    title: 골 이었나요?
   - 
-    title: Goal!
+    title: 골!
   - 
-    title: Adding a timer
+    title: 타이머 추가하기
   - 
-    title: "Challenge: adding a score"
+    title: "도전과제: 점수 추가하기"
     challenge: true
   - 
-    title: Control the goalie
+    title: 골키퍼 조종하기
   - 
-    title: "Challenge: manual control"
+    title: "도전과제: 수동으로 제어하기"
     challenge: true
   - 
-    title: What next?
+    title: 더 나아가기
