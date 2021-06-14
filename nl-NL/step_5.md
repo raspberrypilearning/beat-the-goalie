@@ -4,7 +4,7 @@ Laten we een timer toevoegen, zodat de speler binnen 30 seconden zoveel mogelijk
 
 --- task ---
 
-`Maak een nieuwe variabele`{:class="block3variables"} genaamd `timer`{:class="block3variables"}.
+`Maak een nieuwe variabele`{:class="block3variables"} genaamd `tijd`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,7 +12,7 @@ Laten we een timer toevoegen, zodat de speler binnen 30 seconden zoveel mogelijk
 
 --- task ---
 
-Klik op je __speelveld__ en voeg deze code toe om de `timer`{:class="block3variables"} in te stellen op 30 aan het begin van het spel.
+Klik op je __speelveld__ en voeg deze code toe om de `tijd`{:class="block3variables"} in te stellen op 30 aan het begin van het spel.
 
 ![speelveld sprite](images/stage-sprite.png)
 
