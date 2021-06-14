@@ -1,6 +1,6 @@
-## What next?
+## 더 나아가기
 
-Take a look at the [Ada's Poetry Generator](https://projects.raspberrypi.org/en/projects/poetry-generator) Scratch project.
+[Ada's Poetry Generator](https://projects.raspberrypi.org/en/projects/poetry-generator) 스크래치 프로젝트를 보세요.
 
 --- no-print ---
 
@@ -13,6 +13,6 @@ Take a look at the [Ada's Poetry Generator](https://projects.raspberrypi.org/en/
 
 --- print-only ---
 
-![game screenshot](images/poetry-final.png)
+![게임 스크린샷](images/poetry-final.png)
 
 --- /print-only ---
