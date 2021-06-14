@@ -22,7 +22,7 @@ In het startproject zou je een doelachtergrond, een voetbal en een keeper sprite
 
 --- task ---
 
-Klik op je voetbalsprite. Voeg deze code toe, zodat het voetbal langs de onderkant van het scherm beweegt totdat de spatiebalk wordt ingedrukt.
+Klik op je voetbalsprite. Voeg deze code toe, zodat de voetbal langs de onderkant van het scherm beweegt totdat de spatiebalk wordt ingedrukt.
 
 ![voetbal sprite](images/football-sprite.png)
 
