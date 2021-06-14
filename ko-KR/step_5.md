@@ -1,10 +1,10 @@
-## Adding a timer
+## 타이머 추가하기
 
-Let's add a timer, so that the player has to score as many goals as they can in 30 seconds.
+30초 안에 최대한 많은 골을 넣도록 타이머를 추가해 보겠습니다.
 
 --- task ---
 
-`Make a new variable`{:class="block3variables"} called `timer`{:class="block3variables"}.
+새로운 `변수`{:class="block3variables"}를 생성하고, `타이머`{:class="block3variables"}라는 이름을 붙이세요.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,9 +12,9 @@ Let's add a timer, so that the player has to score as many goals as they can in 
 
 --- task ---
 
-Click on your __stage__, and add this code to set the `timer`{:class="block3variables"} to 30 at the start of the game.
+__무대__를 클릭하고, 이 코드를 추가해, `타이머`{:class="block3variables"}를 게임 시작할 때 30으로 설정합니다.
 
-![stage sprite](images/stage-sprite.png)
+![무대 스프라이트](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -25,9 +25,9 @@ set [timer v] to [30]
 
 --- task ---
 
-Next, you'll need to add a `repeat until`{:class="block3control"} block, so that the timer can run until it gets to 0.
+그런 다음 타이머가 0이 될 때 까지 실행할 수 있도록 `까지 반복`{:class="block3control"} 블록을 추가해야 합니다.
 
-![stage sprite](images/stage-sprite.png)
+![무대 스프라이트](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -40,9 +40,9 @@ end
 
 --- task ---
 
-Reduce your timer by 1 every second until it reaches 0.
+타이머가 0이 될 때까지 매초마다 1씩 줄입니다.
 
-![stage sprite](images/stage-sprite.png)
+![무대 스프라이트](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -57,9 +57,9 @@ end
 
 --- task ---
 
-Once the timer has reached 0, you should `play the 'whistle' sound`{:class="block3sound"} and then stop the game.
+타이머가 0에 도달하면, `'휘파람' 소리내기`{:class="block3sound"} 를 실행하고 게임을 중지합니다.
 
-![stage sprite](images/stage-sprite.png)
+![무대 스프라이트](images/stage-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -76,19 +76,19 @@ end
 
 --- task ---
 
-Click the green flag to test your code. Your timer should start at 30, and end at 0.
+녹색 깃발을 눌러 코드를 테스트합니다. 타이머는 30에 시작해서 0에 끝나야 합니다.
 
-![screenshot](images/goalie-timer-test.png)
+![스크린샷](images/goalie-timer-test.png)
 
-You can change your timer to start at 10 if you don't want to wait for 30 seconds!
+30초 동안 기다리지 않으려면 10초로 시작하도록 타이머를 변경할 수 있습니다!
 
 --- /task ---
 
 --- task ---
 
-You only have the chance to score 1 goal! To have more than 1 chance, add a `forever`{:class="block3control"} block around your __football__ code. You can also add a `wait`{:class="block3control"} block between attempts.
+1골을 넣을 단 한번의 기회가 있습니다! 두 번 이상의 기회를 갖기 위해, `무한 반복`{:class="block3control"} 블록을 __축구공__ 코드 근처에 추가하세요. 또한 `기다리기`{:class="block3control"} 블록을 시도 사이에 추가할 수 있습니다.
 
-![football sprite](images/football-sprite.png)
+![축구공 스프라이트](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
