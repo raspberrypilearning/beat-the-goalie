@@ -1,9 +1,9 @@
 --- challenge ---
 
-## Challenge: manual control
-Instead of the ball moving left and right automatically, can you allow your player to control the ball with the `a` and `d` keys?
+## 도전과제: 수동으로 제어하기
+공이 자동으로 좌우로 움직이는 대신, 플레이어가 `a`와 `d`키로 공을 제어하도록 할 수 있나요?
 
-To do this you’ll need to remove the code for moving the ball left and right.
+이렇게 하려면 공이 좌우로 움직이는 코드를 제거해야 합니다.
 
 ```blocks3
 when green flag clicked
@@ -26,7 +26,7 @@ forever
 end
 ```
 
-You can then add code to move the ball when the keys are pressed. Here are some code blocks to help you:
+그런 다음 키를 눌렀을 때 공이 움직이는 코드를 추가할 수 있습니다. 다음은 도움이 될 코드 블록입니다.
 
 ```blocks3
 change x by (-5)
