@@ -1,6 +1,6 @@
 ## Τι υπάρχει στη συνέχεια;
 
-Ρίξε μια ματιά στο Scratch έργο [Ada's Poetry Generator](https://projects.raspberrypi.org/en/projects/poetry-generator).
+Ρίξε μια ματιά στο Scratch έργο [Η γεννήτρια ποίησης της Ada](https://projects.raspberrypi.org/en/projects/poetry-generator).
 
 --- no-print ---
 
