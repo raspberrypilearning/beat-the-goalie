@@ -22,7 +22,7 @@ In het startproject zou je een doelachtergrond, een voetbal en een keeper sprite
 
 --- task ---
 
-Klik op je voetbalsprite. Voeg deze code toe, zodat het voetbal langs de onderkant van het scherm beweegt totdat de spatiebalk wordt ingedrukt.
+Klik op je voetbalsprite. Voeg deze code toe, zodat de voetbal langs de onderkant van het scherm beweegt totdat de spatiebalk wordt ingedrukt.
 
 ![voetbal sprite](images/football-sprite.png)
 
@@ -76,6 +76,7 @@ Klik op de groene vlag om je code te testen. Druk deze keer op de spatiebalk en 
 Klik op de groene vlag om je code te testen. Wat gebeurt er als je een tweede keer op de vlag klikt? Kun jij het probleem oplossen?
 
 --- hints ---
+
 
 --- hint ---
 

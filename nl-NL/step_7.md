@@ -29,6 +29,7 @@ Gebruik blokken vergelijkbaar met die hierboven om __Goalie__ naar rechts `te la
 
 --- hints ---
 
+
 --- hint ---
 
 Voeg blokken toe aan de code zodat `wanneer de pijltoets naar rechts wordt ingedrukt`{:class="block3events"}, de positie van de __Goalie's__ `x wordt gewijzigd met 10`{:class="block3motion"}.

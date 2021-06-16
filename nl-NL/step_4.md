@@ -10,6 +10,7 @@ Vergeet niet dat er gescoord is als de bal de keeper niet raakt.
 
 --- hints ---
 
+
 --- hint ---
 
 `Als de bal niet`{:class="block3control"} `de keeper`{:class="block3sensing"} aanraakt, moet je programma `het gejuich starten`{:class="block3sound"} en `een goal bericht uitzenden`{:class="block3events"}.
