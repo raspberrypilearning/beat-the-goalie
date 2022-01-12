@@ -1,20 +1,22 @@
 ---
 title: Gánale al arquero
 hero_image: images/beat-the-goalie.png
-description: '¿Cuántos goles puedes marcar en 30 segundos?'
+description: "¿Cuántos goles puedes marcar en 30 segundos?"
 listed: true
 copyedit: false
 version: 4
 last_tested: 2019-02-11
 steps:
-  - title: Introducción
-  - title: Moviendo la pelota de fútbol
-  - title: '¿Fue un gol?'
-  - title: '¡Gol!'
-  - title: Añadiendo un temporizador
-  - title: "Desafío: agregando un puntaje"
-    challenge: true
-  - title: Controla al arquero
-  - title: "Desafío: control manual"
-    challenge: true
-  - title: '¿Qué sigue?'
+- title: Introducción
+  completion: engaged
+- title: Moviendo la pelota de fútbol
+- title: "¿Fue un gol?"
+- title: "¡Gol!"
+- title: Añadiendo un temporizador
+- title: 'Desafío: agregando un puntaje'
+  challenge: true
+  completion: internal
+- title: Controla al arquero
+- title: 'Desafío: control manual'
+  challenge: true
+- title: "¿Qué sigue?"
