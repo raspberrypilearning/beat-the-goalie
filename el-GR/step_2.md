@@ -10,9 +10,9 @@
 
 Αν έχεις λογαριασμό Scratch μπορείς να κάνεις ένα αντίγραφο, κάνοντας κλικ στο κουμπί **Ανάμειξη**.
 
-**Offline**: άνοιξε το [αρχικό έργο](http://rpf.io/p/el-GR/beat-the-goalie-go){:target="_blank"} στον επεξεργαστή εκτός σύνδεσης.
+**Offline**: άνοιξε το [αρχικό έργο](https://rpf.io/p/el-GR/beat-the-goalie-go){:target="_blank"} στον επεξεργαστή εκτός σύνδεσης.
 
-Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 Στο αρχικό έργο, θα πρέπει να δεις ένα τέρμα στο υπόβαθρο, μια μπάλα και έναν τερματοφύλακα.
 

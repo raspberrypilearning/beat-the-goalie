@@ -48,11 +48,11 @@ title: ما الذي سوف تحتاجه إليه
 
 #### البرمجيات
 
-+ يعمل برنامج Scratch 3 (سواء أكان [عبر الإنترنت](http://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](http://rpf.io/scratchoff){:target="_blank"})
++ يعمل برنامج Scratch 3 (سواء أكان [عبر الإنترنت](https://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](https://rpf.io/scratchoff){:target="_blank"})
 
 #### للتحميل
 
-مشغل البرنامج ستجدة [هنا ](http://rpf.io/p/ar-SA/beat-the-goalie-go){:target="_blank"}.
+مشغل البرنامج ستجدة [هنا ](https://rpf.io/p/ar-SA/beat-the-goalie-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -67,6 +67,6 @@ title: معلومات إضافية للمعلمين
 
 --- /no-print ---
 
-يمكنك الحصول على [المشروع كاملاً من هنا](http://rpf.io/p/ar-SA/beat-the-goalie-get){:target="_blank"}.
+يمكنك الحصول على [المشروع كاملاً من هنا](https://rpf.io/p/ar-SA/beat-the-goalie-get){:target="_blank"}.
 
 --- /collapse ---
