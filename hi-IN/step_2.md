@@ -6,13 +6,13 @@
 
 'बीट द गोअली' Scratch स्टार्टर प्रोजेक्ट खोलें।
 
-**ऑनलाइन**: स्टार्टर प्रोजेक्ट को [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){:target="_blank"} पर खोलें।
+**ऑनलाइन**: स्टार्टर प्रोजेक्ट को [rpf.io/beat-the-goalie-on](https://rpf.io/beat-the-goalie-on){:target="_blank"} पर खोलें।
 
 यदि आपके पास एक Scratch खाता (account) है तो आप **Remix** पर क्लिक करके कॉपी बना सकते हैं ।
 
-**ऑफलाइन**: [स्टार्टर प्रोजेक्ट](http://rpf.io/p/hi-IN/beat-the-goalie-go){:target="_blank"} को ऑफलाइन एडिटर में खोलिये।
+**ऑफलाइन**: [स्टार्टर प्रोजेक्ट](https://rpf.io/p/hi-IN/beat-the-goalie-go){:target="_blank"} को ऑफलाइन एडिटर में खोलिये।
 
-यदि आपको Scratch ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करना है, तो आप इसे [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"} पर ढूंढ सकते हैं।
+यदि आपको Scratch ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करना है, तो आप इसे [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} पर ढूंढ सकते हैं।
 
 स्टार्टर प्रोजेक्ट में, आपको एक गोल बैकड्रॉप, एक फुटबॉल और गोलकीपर स्प्राइट दिखना चाहिए।
 
