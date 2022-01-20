@@ -10,9 +10,9 @@
 
 اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**دون اتصال بالانترنت**: افتح [افتح المشروع](http://rpf.io/p/ar-SA/beat-the-goalie-go){:target="_blank"} عبر المحرر الموجود على جهازك.
+**دون اتصال بالانترنت**: افتح [افتح المشروع](https://rpf.io/p/ar-SA/beat-the-goalie-go){:target="_blank"} عبر المحرر الموجود على جهازك.
 
-اذا تحتاج الى تنزيل وتنصيب برنامج السكراتش Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+اذا تحتاج الى تنزيل وتنصيب برنامج السكراتش Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 في بداية المشروع، من المفترض أن ترى خلفية الهدف مع علامة التصويب (+).
 

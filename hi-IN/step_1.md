@@ -48,11 +48,11 @@ title: आपको क्या जरुरत होगी
 
 #### सॉफ्टवेयर
 
-+ स्क्रैच 3 (या तो [ऑनलाइन](http://rpf.io/scratchon){:target="_blank"} या [ऑफलाइन](http://rpf.io/scratchoff){:target="_blank"})
++ स्क्रैच 3 (या तो [ऑनलाइन](https://rpf.io/scratchon){:target="_blank"} या [ऑफलाइन](https://rpf.io/scratchoff){:target="_blank"})
 
 #### डाउनलोड
 
-स्टार्टर प्रोजेक्ट [यहाँ पाया जा सकता है](http://rpf.io/p/hi-IN/beat-the-goalie-go){:target="_blank"}।
+स्टार्टर प्रोजेक्ट [यहाँ पाया जा सकता है](https://rpf.io/p/hi-IN/beat-the-goalie-go){:target="_blank"}।
 
 --- /collapse ---
 
@@ -67,6 +67,6 @@ title: शिक्षकों के लिए अतिरिक्त जा
 
 --- /no-print ---
 
-आप [पूर्ण प्रोजेक्ट यहां से प्राप्त कर सकते हैं](http://rpf.io/p/hi-IN/beat-the-goalie-get){:target="_blank"}.
+आप [पूर्ण प्रोजेक्ट यहां से प्राप्त कर सकते हैं](https://rpf.io/p/hi-IN/beat-the-goalie-get){:target="_blank"}.
 
 --- /collapse ---

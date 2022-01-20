@@ -7,14 +7,16 @@ copyedit: false
 version: 4
 last_tested: 2019-02-11
 steps:
-  - title: المقدمة
-  - title: تحريك كرة القدم
-  - title: هل كان هدفًا؟
-  - title: هدف!
-  - title: إضافة مؤقت
-  - title: "تحدي: إضافة المزيد من الأهداف"
-    challenge: true
-  - title: تحكم بحارس المرمى
-  - title: "التحدي: التحكم اليدوي"
-    challenge: true
-  - title: ما التالي؟
+- title: المقدمة
+  completion: engaged
+- title: تحريك كرة القدم
+- title: هل كان هدفًا؟
+- title: هدف!
+- title: إضافة مؤقت
+- title: 'تحدي: إضافة المزيد من الأهداف'
+  challenge: true
+  completion: internal
+- title: تحكم بحارس المرمى
+- title: 'التحدي: التحكم اليدوي'
+  challenge: true
+- title: ما التالي؟

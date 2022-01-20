@@ -7,14 +7,16 @@ copyedit: false
 version: 4
 last_tested: 2019-02-11
 steps:
-  - title: Вступ
-  - title: Рух м’яча
-  - title: Що таке гол?
-  - title: Гол!
-  - title: Додавання таймера
-  - title: "Завдання: додавання рахунку"
-    challenge: true
-  - title: Керування воротарем
-  - title: "Завдання: ручне керування"
-    challenge: true
-  - title: Що далі?
+- title: Вступ
+  completion: engaged
+- title: Рух м’яча
+- title: Що таке гол?
+- title: Гол!
+- title: Додавання таймера
+- title: 'Завдання: додавання рахунку'
+  challenge: true
+  completion: internal
+- title: Керування воротарем
+- title: 'Завдання: ручне керування'
+  challenge: true
+- title: Що далі?
