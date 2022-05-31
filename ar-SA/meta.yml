@@ -8,15 +8,17 @@ version: 4
 last_tested: 2019-02-11
 steps:
 - title: المقدمة
-  completion: engaged
 - title: تحريك كرة القدم
 - title: هل كان هدفًا؟
+  completion:
+  - engaged
 - title: هدف!
 - title: إضافة مؤقت
 - title: 'تحدي: إضافة المزيد من الأهداف'
   challenge: true
-  completion: internal
 - title: تحكم بحارس المرمى
+  completion:
+  - internal
 - title: 'التحدي: التحكم اليدوي'
   challenge: true
 - title: ما التالي؟
