@@ -8,15 +8,17 @@ version: 4
 last_tested: 2019-02-11
 steps:
 - title: Introduction
-  completion: engaged
 - title: Faire bouger la balle de foot
 - title: C'est but ?
+  completion:
+  - engaged
 - title: But !
 - title: Ajouter un chronomètre
 - title: 'Défi : ajouter un score'
   challenge: true
-  completion: internal
 - title: Contrôler le gardien de but
+  completion:
+  - internal
 - title: 'Défi : contrôle manuel'
   challenge: true
 - title: Et ensuite ?

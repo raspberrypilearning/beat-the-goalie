@@ -8,15 +8,17 @@ version: 4
 last_tested: 2019-02-11
 steps:
 - title: Introdução
-  completion: engaged
 - title: Movendo a bola
 - title: Foi gol?
+  completion:
+  - engaged
 - title: Gol!
 - title: Adicionando um temporizador
 - title: 'Desafio: adicionando um placar'
   challenge: true
-  completion: internal
 - title: Controle o goleiro
+  completion:
+  - internal
 - title: 'Desafio: controle manual'
   challenge: true
 - title: E agora?
