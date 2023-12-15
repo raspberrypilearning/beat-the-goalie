@@ -13,17 +13,21 @@ steps:
     title: تحريك كرة القدم
   - 
     title: هل كان هدفًا؟
+    completion:
+      - engaged
   - 
     title: هدف!
   - 
     title: إضافة مؤقت
   - 
-    title: "تحدي: إضافة المزيد من الأهداف"
+    title: 'تحدي: إضافة المزيد من الأهداف'
     challenge: true
   - 
     title: تحكم بحارس المرمى
+    completion:
+      - internal
   - 
-    title: "التحدي: التحكم اليدوي"
+    title: 'التحدي: التحكم اليدوي'
     challenge: true
   - 
     title: ما التالي؟
