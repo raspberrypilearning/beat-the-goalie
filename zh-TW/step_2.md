@@ -6,13 +6,13 @@
 
 打開“打敗守門員” Scratch入門專案。
 
-**線上版** ：通過[ rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on) {：target =“ _ blank”}打開入門專案。
+**Online**: open the starter project at [rpf.io/beat-the-goalie-on](https://rpf.io/beat-the-goalie-on){:target="_blank"}.
 
 如果你有 Scratch 帳戶，你就可以直接**改編**專案。
 
-**離線版**：在離線編輯器裡開啟[入門專案](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"}。
+**Offline**: open the [starter project](https://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} in the offline editor.
 
-如果你需要 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}。
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 在入門專案中，你應該可以看到球門背景, 一顆足球以及守門員角色。
 
