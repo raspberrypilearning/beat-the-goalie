@@ -48,11 +48,11 @@ title: Що тобі знадобиться
 
 #### Програмне забезпечення
 
-+ Скретч 3 (або [онлайн](http://rpf.io/scratchon){:target="_ blank"}, або [офлайн](http://rpf.io/scratchoff){:target="_ blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 #### Завантаження
 
-Початковий проєкт можна знайти [тут](http://rpf.io/p/en/beat-the-goalie-go){:target="_ blank"}.
+The starter project can be found [here](https://rpf.io/p/en/beat-the-goalie-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -67,6 +67,6 @@ title: Додаткова інформація для викладачів
 
 --- /no-print ---
 
-Ви можете знайти [завершений проєкт тут](http://rpf.io/p/en/beat-the-goalie-get){:target="_ blank"}.
+You can find the [completed project here](https://rpf.io/p/en/beat-the-goalie-get){:target="_blank"}.
 
 --- /collapse ---
