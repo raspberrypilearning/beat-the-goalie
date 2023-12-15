@@ -13,17 +13,21 @@ steps:
     title: Рух м’яча
   - 
     title: Що таке гол?
+    completion:
+      - engaged
   - 
     title: Гол!
   - 
     title: Додавання таймера
   - 
-    title: "Завдання: додавання рахунку"
+    title: 'Завдання: додавання рахунку'
     challenge: true
   - 
     title: Керування воротарем
+    completion:
+      - internal
   - 
-    title: "Завдання: ручне керування"
+    title: 'Завдання: ручне керування'
     challenge: true
   - 
     title: Що далі?
