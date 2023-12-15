@@ -13,17 +13,21 @@ steps:
     title: Movendo a bola
   - 
     title: Foi gol?
+    completion:
+      - engaged
   - 
     title: Gol!
   - 
     title: Adicionando um temporizador
   - 
-    title: "Desafio: adicionando um placar"
+    title: 'Desafio: adicionando um placar'
     challenge: true
   - 
     title: Controle o goleiro
+    completion:
+      - internal
   - 
-    title: "Desafio: controle manual"
+    title: 'Desafio: controle manual'
     challenge: true
   - 
     title: E agora?
