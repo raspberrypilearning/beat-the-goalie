@@ -6,13 +6,13 @@ Lass uns den Ball so programmieren, dass er sich über den unteren Rand der Büh
 
 Öffne das Scratch-Starterprojekt 'Schlag den Torwart'.
 
-**Online**: Öffne das Basisprojekt [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){:target="_blank"}.
+**Online**: open the starter project at [rpf.io/beat-the-goalie-on](https://rpf.io/beat-the-goalie-on){:target="_blank"}.
 
 Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
-**Offline**: Öffne das [Starter-Projekt](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} im Offline-Editor.
+**Offline**: open the [starter project](https://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} in the offline editor.
 
-Wenn du Scratch herunterladen und auf deinem Rechner installieren möchtest, dann findest du die Datei unter diesem Link: [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 Im Starterprojekt sollten du einen Torhintergrund, eine Fußball- und eine Torwart-Figur sehen.
 
