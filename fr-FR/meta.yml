@@ -13,17 +13,21 @@ steps:
     title: Faire bouger la balle de foot
   - 
     title: C'est but ?
+    completion:
+      - engaged
   - 
     title: But !
   - 
     title: Ajouter un chronomètre
   - 
-    title: "Défi : ajouter un score"
+    title: 'Défi : ajouter un score'
     challenge: true
   - 
     title: Contrôler le gardien de but
+    completion:
+      - internal
   - 
-    title: "Défi : contrôle manuel"
+    title: 'Défi : contrôle manuel'
     challenge: true
   - 
     title: Et ensuite ?
