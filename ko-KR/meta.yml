@@ -13,17 +13,21 @@ steps:
     title: 축구공 움직이기
   - 
     title: 골 이었나요?
+    completion:
+      - engaged
   - 
     title: 골!
   - 
     title: 타이머 추가하기
   - 
-    title: "도전과제: 점수 추가하기"
+    title: '도전과제: 점수 추가하기'
     challenge: true
   - 
     title: 골키퍼 조종하기
+    completion:
+      - internal
   - 
-    title: "도전과제: 수동으로 제어하기"
+    title: '도전과제: 수동으로 제어하기'
     challenge: true
   - 
     title: 더 나아가기
