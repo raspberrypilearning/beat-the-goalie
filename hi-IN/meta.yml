@@ -13,17 +13,21 @@ steps:
     title: फुटबॉल को हिलाना  
   - 
     title: क्या यह एक गोल था?
+    completion:
+      - engaged
   - 
     title: गोल !
   - 
     title: एक टाइमर जोड़ना
   - 
-    title: "चुनौती: एक अंक जोड़ना"
+    title: 'चुनौती: एक अंक जोड़ना'
     challenge: true
   - 
     title: गोलकीपर को नियंत्रित करें
+    completion:
+      - internal
   - 
-    title: "चुनौती: मैनुअल नियंत्रण"
+    title: 'चुनौती: मैनुअल नियंत्रण'
     challenge: true
   - 
     title: आगे क्या है?
