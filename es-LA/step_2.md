@@ -6,13 +6,13 @@ Hagamos un código para que la pelota se mueva a través de la parte inferior de
 
 Abre el proyecto de iniciación de Scratch 'Gánale al Arquero'.
 
-**En línea**: abre el proyecto de iniciación en [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){:target="_blank"}.
+**Online**: open the starter project at [rpf.io/beat-the-goalie-on](https://rpf.io/beat-the-goalie-on){:target="_blank"}.
 
 Si tienes una cuenta Scratch puedes hacer una copia al hacer clic en **Remix**.
 
-**Sin conexión**: abre el [proyecto de iniciación](http://rpf.io/p/en/beat-the-goalie-go){:target=_blank"} en el editor sin conexión.
+**Offline**: open the [starter project](https://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} in the offline editor.
 
-Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 En el proyecto de iniciación, deberías ver un escenario de portería, un objeto pelota de fútbol y uno de arquero.
 
