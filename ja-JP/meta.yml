@@ -13,17 +13,21 @@ steps:
     title: ボールを動かす
   - 
     title: ゴールできたでしょうか？
+    completion:
+      - engaged
   - 
     title: ゴール！
   - 
     title: タイマーを追加 (ついか) する
   - 
-    title: "チャレンジ: スコアをつける"
+    title: 'チャレンジ: スコアをつける'
     challenge: true
   - 
     title: ゴールキーパーを動かす
+    completion:
+      - internal
   - 
-    title: "チャレンジ: 自分で動かす"
+    title: 'チャレンジ: 自分で動かす'
     challenge: true
   - 
     title: 次は何をしましょうか？
