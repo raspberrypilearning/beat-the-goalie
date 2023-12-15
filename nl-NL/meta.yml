@@ -13,17 +13,21 @@ steps:
     title: De bal verplaatsen
   - 
     title: Was het een doelpunt?
+    completion:
+      - engaged
   - 
     title: Goal!
   - 
     title: Een timer toevoegen
   - 
-    title: "Uitdaging: score toevoegen"
+    title: 'Uitdaging: score toevoegen'
     challenge: true
   - 
     title: Bestuur de keeper
+    completion:
+      - internal
   - 
-    title: "Uitdaging: handmatige bediening"
+    title: 'Uitdaging: handmatige bediening'
     challenge: true
   - 
     title: Wat kun je verder nog doen?
