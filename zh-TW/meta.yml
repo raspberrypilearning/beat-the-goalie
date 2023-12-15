@@ -13,17 +13,21 @@ steps:
     title: 讓足球動起來
   - 
     title: 會進球嗎？
+    completion:
+      - engaged
   - 
     title: 進球！
   - 
     title: 添加計時器
   - 
-    title: "挑戰：加上分數"
+    title: '挑戰：加上分數'
     challenge: true
   - 
     title: 控制守門員
+    completion:
+      - internal
   - 
-    title: "挑戰：手動控制"
+    title: '挑戰：手動控制'
     challenge: true
   - 
     title: 然後呢？
