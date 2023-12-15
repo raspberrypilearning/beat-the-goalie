@@ -6,13 +6,13 @@
 
 افتح مشروع السكراتش Scratch 'تغلب على حارس المرمى'.
 
-**متصل بالانترنت**: افتح مشروع البدء من هنا [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){:target="_blank"}.
+**Online**: open the starter project at [rpf.io/beat-the-goalie-on](https://rpf.io/beat-the-goalie-on){:target="_blank"}.
 
 اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**دون اتصال بالانترنت**: افتح [افتح المشروع](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} عبر المحرر الموجود على جهازك.
+**Offline**: open the [starter project](https://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} in the offline editor.
 
-اذا تحتاج الى تنزيل وتنصيب برنامج السكراتش Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 في بداية المشروع، من المفترض أن ترى خلفية الهدف مع علامة التصويب (+).
 
