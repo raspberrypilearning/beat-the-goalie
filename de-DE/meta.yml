@@ -13,17 +13,21 @@ steps:
     title: Den Fußball bewegen
   - 
     title: War das ein Tor?
+    completion:
+      - engaged
   - 
     title: Tor!
   - 
     title: Hinzufügen eines Timers
   - 
-    title: "Herausforderung: Hinzufügen eines Punktestands"
+    title: 'Herausforderung: Hinzufügen eines Punktestands'
     challenge: true
   - 
     title: Steuere den Torwart
+    completion:
+      - internal
   - 
-    title: "Herausforderung: manuelle Steuerung"
+    title: 'Herausforderung: manuelle Steuerung'
     challenge: true
   - 
     title: Wie geht es weiter?
