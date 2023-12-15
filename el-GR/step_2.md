@@ -6,13 +6,13 @@
 
 Άνοιξε το αρχικό έργο Scratch 'Νίκησε τον τερματοφύλακα'.
 
-**Online:** άνοιξε το αρχικό έργο στο [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){:target="_blank"}.
+**Online**: open the starter project at [rpf.io/beat-the-goalie-on](https://rpf.io/beat-the-goalie-on){:target="_blank"}.
 
 Αν έχεις λογαριασμό Scratch μπορείς να κάνεις ένα αντίγραφο, κάνοντας κλικ στο κουμπί **Ανάμειξη**.
 
-**Offline**: άνοιξε το [αρχικό έργο](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} στον επεξεργαστή εκτός σύνδεσης.
+**Offline**: open the [starter project](https://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} in the offline editor.
 
-Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 Στο αρχικό έργο, θα πρέπει να δεις ένα τέρμα στο υπόβαθρο, μια μπάλα και έναν τερματοφύλακα.
 
