@@ -13,17 +13,21 @@ steps:
     title: Moving the football
   - 
     title: Was it a goal?
+    completion:
+      - engaged
   - 
     title: Goal!
   - 
     title: Adding a timer
   - 
-    title: "Challenge: adding a score"
+    title: 'Challenge: adding a score'
     challenge: true
   - 
     title: Control the goalie
+    completion:
+      - internal
   - 
-    title: "Challenge: manual control"
+    title: 'Challenge: manual control'
     challenge: true
   - 
     title: What next?
