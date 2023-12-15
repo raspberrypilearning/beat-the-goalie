@@ -6,13 +6,13 @@ Vamos programar a bola para percorrer a parte inferior do palco.
 
 Abra o projeto inicial Scratch 'Vença o goleiro'.
 
-**Online**: abra o projeto inicial em [rpf.io/beat-the-goalie-on](http://rpf.io/beat-the-goalie-on){:target="_blank"}.
+**Online**: open the starter project at [rpf.io/beat-the-goalie-on](https://rpf.io/beat-the-goalie-on){:target="_blank"}.
 
 Se você tiver uma conta do Scratch, você pode fazer uma cópia clicando em **Remix**.
 
-**Offline**: abra o [projeto inicial](http://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} no editor offline.
+**Offline**: open the [starter project](https://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} in the offline editor.
 
-Se você precisar baixar e instalar o editor offline do Scratch, você pode encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 No projeto inicial, você deve ver um cenário de gol, uma bola e o goleiro.
 
