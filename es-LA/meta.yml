@@ -13,17 +13,21 @@ steps:
     title: Moviendo la pelota de fútbol
   - 
     title: '¿Fue un gol?'
+    completion:
+      - engaged
   - 
     title: '¡Gol!'
   - 
     title: Añadiendo un temporizador
   - 
-    title: "Desafío: agregando un puntaje"
+    title: 'Desafío: agregando un puntaje'
     challenge: true
   - 
     title: Controla al arquero
+    completion:
+      - internal
   - 
-    title: "Desafío: control manual"
+    title: 'Desafío: control manual'
     challenge: true
   - 
     title: '¿Qué sigue?'
