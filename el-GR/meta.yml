@@ -13,17 +13,21 @@ steps:
     title: Μετακίνηση ποδοσφαιριστή
   - 
     title: Ήταν γκολ;
+    completion:
+      - engaged
   - 
     title: Γκολ!
   - 
     title: Προσθήκη χρονομέτρου
   - 
-    title: "Πρόκληση: Προσθήκη βαθμολογίας"
+    title: 'Πρόκληση: Προσθήκη βαθμολογίας'
     challenge: true
   - 
     title: Έλεγξε τον τερματοφύλακα
+    completion:
+      - internal
   - 
-    title: "Πρόκληση: χειροκίνητος έλεγχος"
+    title: 'Πρόκληση: χειροκίνητος έλεγχος'
     challenge: true
   - 
     title: Τι υπάρχει στη συνέχεια;
