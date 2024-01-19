@@ -1,12 +1,12 @@
-## Was it a goal?
+## Czy to był gol?
 
-Once the ball has reached the goal, there's a decision to make. __If__ the ball is touching the goalie then it has been saved, __else__ it's a goal.
+Gdy piłka osiągnie cel, należy podjąć decyzję. __Jeśli__ piłka dotyka bramkarza, to znaczy że bramka została obroniona, __inaczej__ to jest gol.
 
 --- task ---
 
-Add this code to the end of your football sprite code, so that you can check whether the ball is touching the goalie.
+Dodaj ten kod na końcu kodu duszka to Twojego bramkarza, abyś mógł sprawdzić, czy piłka go dotyka.
 
-![football sprite](images/football-sprite.png)
+![duszek piłki](images/football-sprite.png)
 
 ```blocks3
 repeat (15)
@@ -21,9 +21,9 @@ end
 
 --- task ---
 
-`Start the 'rattle' sound`{:class="block3sound"} `if the goalie has saved the ball`{:class="block3control"}.
+`Zagraj dźwięk 'grzechotki'`{:class="block3sound"} `jeśli bramkarz obronił strzał`{:class="block3control"}.
 
-![football sprite](images/football-sprite.png)
+![duszek piłki](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -36,11 +36,11 @@ end
 
 --- task ---
 
-You can also broadcast a message to the goalie, so that they can tell you that the ball has been saved.
+Możesz także nadawać wiadomość do bramkarza, aby mógł powiedzieć ci, że piłka została obroniona.
 
-Broadcast a 'save' message when the ball has been saved.
+Nadaj komunikat 'obronił', gdy piłka zostanie obroniona.
 
-![football sprite](images/football-sprite.png)
+![duszek piłki](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-You can now code your goalie to say 'Save!' when they receive the message.
+Możesz teraz zakodować swojego bramkarza, aby powiedział 'Obronione!' kiedy otrzyma wiadomość.
 
-![goalie sprite](images/goalie-sprite.png)
+![duszek bramkarza](images/goalie-sprite.png)
 
 ```blocks3
 when I receive [save v]
@@ -67,8 +67,8 @@ say [Save!] for (1) seconds
 
 --- task ---
 
-Test your code by trying to score a goal. If your goalie saves the goal they should say 'Save!'.
+Przetestuj swój kod, próbując strzelić gola. Jeśli Twój bramkarz obronił strzał, powinien powiedzieć 'Obronione!'.
 
-![screenshot](images/goalie-save-test.png)
+![zrzut ekranu](images/goalie-save-test.png)
 
 --- /task ---
