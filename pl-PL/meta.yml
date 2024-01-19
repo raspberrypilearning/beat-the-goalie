@@ -1,33 +1,33 @@
 ---
-title: Beat the goalie
+title: Pokonaj bramkarza
 hero_image: images/beat-the-goalie.png
-description: How many goals can you score in 30 seconds?
+description: Ile goli możesz zdobyć w 30 sekund?
 listed: true
 copyedit: false
 version: 4
 last_tested: 2019-02-11
 steps:
   - 
-    title: Introduction
+    title: Wprowadzenie
   - 
-    title: Moving the football
+    title: Przenoszenie piłki
   - 
-    title: Was it a goal?
+    title: Czy to był gol?
     completion:
       - engaged
   - 
-    title: Goal!
+    title: Gol!
   - 
-    title: Adding a timer
+    title: Dodawanie stopera
   - 
-    title: 'Challenge: adding a score'
+    title: 'Wyzwanie: Dodawanie wyniku'
     challenge: true
   - 
-    title: Control the goalie
+    title: Kontroluj bramkarza
     completion:
       - internal
   - 
-    title: 'Challenge: manual control'
+    title: 'Wyzwanie: sterowanie ręczne'
     challenge: true
   - 
-    title: What next?
+    title: Co dalej?
