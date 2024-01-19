@@ -1,26 +1,26 @@
-## Goal!
+## Gol!
 
 --- task ---
 
-Can you play a sound and code your goalie to say 'Goal!' when a goal has been scored?
+Czy potrafisz odtwarzać dźwięk i zaprogramować bramkarza, aby powiedzieć "Gol!", gdy piłka wpadnie do bramki?
 
-Remember that a goal has been scored if the ball is not touching the goalie.
+Pamiętaj, że bramka została zdobyta, jeśli piłka nie dotyka bramkarza.
 
-![screenshot](images/goalie-goal-test.png)
+![zrzut ekranu](images/goalie-goal-test.png)
 
 --- hints ---
 
 --- hint ---
 
-`If the football is not`{:class="block3control"} `touching the goalie`{:class="block3sensing"} your program should `start the cheer sound`{:class="block3sound"} and `broadcast a goal message`{:class="block3events"}.
+`Jeśli piłka nie`{:class="block3control"} `dotykają bramkarza`{:class="block3sensing"} Twój program powinien `zagrać dźwięk radości`{:class="block3sound"} i `nadać komunikat o golu`{:class="block3events"}.
 
-`When the goalie receives the goal message`{:class="block3events"} it should `say goal`{:class="block3looks"}.
+`Kiedy bramkarz otrzyma komunikat o golu`{:class="block3events"} powinien `powiedzieć gol` {:class="block3looks"}.
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+Będziesz potrzebował tych bloków:
 
 ```blocks3
 broadcast (goal v)
@@ -36,9 +36,9 @@ start sound (cheer v)
 
 --- hint ---
 
-Your code should look like this:
+Twój kod powinien wyglądać tak:
 
-![football sprite](images/football-sprite.png)
+![duszek piłki](images/football-sprite.png)
 
 ```blocks3
 if <touching (goalie v)> then
@@ -50,7 +50,7 @@ else
 end
 ```
 
-![goalie sprite](images/goalie-sprite.png)
+![duszek bramkarza](images/goalie-sprite.png)
 
 ```blocks3
 when I receive [goal v]
