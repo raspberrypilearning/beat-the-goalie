@@ -1,12 +1,12 @@
-## Control the goalie
+## Kontroluj bramkarza
 
-It's far too easy to score a goal! Let's allow a second player to try and save goals.
+Zdecydowanie zbyt łatwo jest strzelić gola! Pozwólmy, aby drugi gracz próbował obronić strzał.
 
 --- task ---
 
-Click on your __Goalie__ sprite and add this code to change the goalie's x position when the left arrow is pressed.
+Kliknij duszka swojego __bramkarza__ i dodaj ten kod, aby zmienić pozycję x bramkarza po naciśnięciu strzałki w lewo.
 
-![goalie sprite](images/goalie-sprite.png)
+![duszek bramkarza](images/goalie-sprite.png)
 
 ```blocks3
 when [left arrow v] key pressed
@@ -17,27 +17,27 @@ change x by (-10)
 
 --- task ---
 
-Press the left arrow to test your new code. Your goalie should move to the left.
+Naciśnij strzałkę w lewo, aby przetestować nowy kod. Twój bramkarz powinien przesunąć się w lewo.
 
-![screenshot](images/goalie-move-left-test.png)
+![zrzut ekranu](images/goalie-move-left-test.png)
 
 --- /task ---
 
 --- task ---
 
-Use blocks similar to the ones above to make the __Goalie__ move to the right `when the right arrow key is pressed`{:class="block3events"}.
+Użyj bloków podobnych do tych, wyżej, aby __Bramkarz__ przesuwał się w prawo `kiedy klawisz strzałka w prawo jest naciśnięty`{:class="block3events"}.
 
 --- hints ---
 
 --- hint ---
 
-Add blocks to your code so `when the right arrow key is pressed`{:class="block3events"}, the __Goalie's__ `x position is changed by 10`{:class="block3motion"}.
+Dodaj bloki do swojego kodu, aby `kiedy klawisz strzałka w prawo jest naciśnięty`{:class="block3events"}, __pozycja x zmienia się o 10__ dla duszka `bramkarza` {:class="block3motion"}.
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+Będziesz potrzebował tych bloków:
 
 ```blocks3
 change x by (10)
@@ -49,9 +49,9 @@ when [right arrow v] key pressed
 
 --- hint ---
 
-Your code should look like this:
+Twój kod powinien wyglądać tak:
 
-![goalie sprite](images/goalie-sprite.png)
+![duszek bramkarza](images/goalie-sprite.png)
 
 ```blocks3
 when [right arrow v] key pressed
