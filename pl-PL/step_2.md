@@ -1,30 +1,30 @@
-## Moving the football
+## Przenoszenie piłki
 
-Let's code the ball to move across the bottom of the stage.
+Zaprogramujmy piłkę, aby poruszała się po dolnej części sceny.
 
 --- task ---
 
-Open the 'Beat the Goalie' Scratch starter project.
+Otwórz startowy projekt 'Pokonaj bramkarza' w Scratch.
 
-**Online**: open the starter project at [rpf.io/beat-the-goalie-on](https://rpf.io/beat-the-goalie-on){:target="_blank"}.
+**Online**: otwórz startowy projekt [rpf.io/beat-the-goalie-on](https://rpf.io/beat-the-goalie-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Jeśli masz konto Scratch, możesz wykonać kopię klikając **Remiks**.
 
-**Offline**: open the [starter project](https://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} in the offline editor.
+**Offline**: otwórz [startowy projekt](https://rpf.io/p/en/beat-the-goalie-go){:target="_blank"} w edytorze offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Jeśli chcesz zainstalować edytor Scratch w wersji offline, możesz go pobrać ze strony [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a goal backdrop, a football and goalie sprite.
+W projekcie startowym powinieneś zobaczyć tło bramki, piłkę i duszka bramkarza.
 
-![starter projects](images/goalie-starter.png)
+![startowy projekt](images/goalie-starter.png)
 
 --- /task ---
 
 --- task ---
 
-Click on your football sprite. Add this code, so that the football moves along the bottom of the screen until the space bar is pressed.
+Kliknij na duszka piłkarza. Dodaj ten kod, aby piłka poruszała się wzdłuż dolnej części ekranu, aż do naciśnięcia klawisz spacji.
 
-![football sprite](images/football-sprite.png)
+![duszek piłki](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -38,17 +38,17 @@ end
 
 --- task ---
 
-Click the green flag to test your project. Your football should bounce along the bottom of the screen until the space bar is pressed.
+Kliknij zieloną flagę, aby przetestować swój project. Twoja piłka powinna odbijać się wzdłuż dołu ekranu, aż do naciśnięcia klawisz spacji.
 
-![screenshot](images/goalie-football-move-test.png)
+![zrzut ekranu](images/goalie-football-move-test.png)
 
 --- /task ---
 
 --- task ---
 
-Add this code to your football sprite, so that the football moves towards the goal after the space bar has been pressed.
+Dodaj ten kod do duszka bramkarza, aby piłka poruszała się w kierunku bramki po naciśnięciu klawisz spacji.
 
-![football sprite](images/football-sprite.png)
+![duszek piłki](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -65,27 +65,27 @@ end
 
 --- task ---
 
-Click the green flag to test your code. This time, press the space bar and your football should move towards the goal.
+Kliknij zieloną flagę, aby testować kod. Tym razem naciśnij klawisz spacji, a Twoja piłka powinna zmierzać do bramki.
 
-![screenshot](images/goalie-football-ypos-test.png)
+![zrzut ekranu](images/goalie-football-ypos-test.png)
 
 --- /task ---
 
 --- task ---
 
-Click the green flag to test your code. What happens if you click the flag a second time? Can you fix the problem?
+Kliknij zieloną flagę, aby testować kod. Co się stanie, jeśli klikniesz flagę po raz drugi? Czy możesz rozwiązać ten problem?
 
 --- hints ---
 
 --- hint ---
 
-After the `green flag is clicked`{:class="block3events"} the sprite will have to `go to`{:class="block3motion"} back to the start.
+Po `kliknięciu zielonej flag`{:class="block3events"} duszek będzie musiał `iść do`{:class="block3motion"} początku.
 
 --- /hint ---
 
 --- hint ---
 
-You will need this block:
+Będziesz potrzebował tego bloku:
 
 ```blocks3
 go to x:(-200) y:(-140)
@@ -95,9 +95,9 @@ go to x:(-200) y:(-140)
 
 --- hint ---
 
-Your code should look like this:
+Twój kod powinien wyglądać tak:
 
-![football sprite](images/football-sprite.png)
+![duszek piłki](images/football-sprite.png)
 
 ```blocks3
 when green flag clicked
