@@ -76,23 +76,6 @@ Click the green flag to test your code. This time, press the space bar and your 
 Click the green flag to test your code. What happens if you click the flag a second time? Can you fix the problem?
 
 --- hints ---
-
---- hint ---
-
-After the `green flag is clicked`{:class="block3events"} the sprite will have to `go to`{:class="block3motion"} back to the start.
-
---- /hint ---
-
---- hint ---
-
-You will need this block:
-
-```blocks3
-go to x:(-200) y:(-140)
-```
-
---- /hint ---
-
 --- hint ---
 
 Your code should look like this:
@@ -112,8 +95,8 @@ end
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 
 --- /task ---
 
