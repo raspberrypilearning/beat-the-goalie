@@ -28,25 +28,6 @@ Press the left arrow to test your new code. Your goalie should move to the left.
 Use blocks similar to the ones above to make the __Goalie__ move to the right `when the right arrow key is pressed`{:class="block3events"}.
 
 --- hints ---
-
---- hint ---
-
-Add blocks to your code so `when the right arrow key is pressed`{:class="block3events"}, the __Goalie's__ `x position is changed by 10`{:class="block3motion"}.
-
---- /hint ---
-
---- hint ---
-
-You will need these blocks:
-
-```blocks3
-change x by (10)
-
-when [right arrow v] key pressed
-```
-
---- /hint ---
-
 --- hint ---
 
 Your code should look like this:
@@ -59,7 +40,7 @@ change x by (10)
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 
 --- /task ---
